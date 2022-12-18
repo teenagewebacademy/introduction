@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../styles/Skill.module.css'
-import Image from 'next/dist/client/image';
+import Image from 'next/image';
 
 function Skill(props) {
 
@@ -32,7 +32,7 @@ function Skill(props) {
                     </li>
                 </ul>
             </div>
-            <img src={'/images/_book2.png'} alt='skill' width={100} height={100} />
+            <Image src={'/images/_book2.png'} alt='skill' width={100} height={100} />
 
         </section>
     )
