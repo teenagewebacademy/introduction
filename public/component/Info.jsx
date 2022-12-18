@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../styles/Info.module.css'
-import Image from 'next/dist/client/image';
+import Image from 'next/image';
 
 function Info(props) {
   const data = [
