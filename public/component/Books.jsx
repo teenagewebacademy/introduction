@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from '../../styles/Books.module.css'
-import Image from 'next/dist/client/image';
+import Image from 'next/image';
 
 function Books (props){
   
   return (
     <section className={styles.books}>
-        <img src={'/images/_book1.png'} alt='books' width={100} height={100}  />
+        <img src={'/images/_book1.png'} alt='books' />
         <div className={styles.desc}>
             <h2>کتاب های آموزشی دوره</h2>
             <ul className={styles.list}>

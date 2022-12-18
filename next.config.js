@@ -15,7 +15,7 @@ module.exports = {
   basePath: basePath,
   images: {
     loader: 'imgix',
-    path: 'https://teenagewebacademy.github.io/introduction/public',
+    path: 'https://teenagewebacademy.github.io/introduction',
   },
 }
 
