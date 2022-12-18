@@ -1,0 +1,41 @@
+.card_slider{
+    /* padding: 60px 10% 40px;
+    text-align: center;
+    color: #5c5c5c;
+    background-color: #f9f9f9;
+
+    background-image: url('/images/wrap2.png'),url('/images/bg1.png');;
+    background-repeat: no-repeat , repeat;
+    background-position: top ;
+    background-size: 100% ,auto; */
+}
+.slider{
+    display: flex;
+    height: 320px;
+    overflow-x: scroll;
+    gap: 15px;
+    margin-top: 88px;
+    margin-bottom: 100px;
+}
+.slider::-webkit-scrollbar{
+    height: 5px;
+}
+.slider::-webkit-scrollbar-thumb{ 
+    border-radius: 3px;
+    background-color: rgb(115, 114, 114);
+}
+.slider::-webkit-scrollbar-track{
+    background-color: rgb(176, 176, 176);
+    border-radius: 3px;
+}
+.slider img{
+    height: 300px;
+    max-width: 350px;
+    object-fit: contain;
+}
+
+@media (max-width:768px){
+    .card_slider{
+        padding: 40px 5% ;
+    }
+}

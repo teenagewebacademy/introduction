@@ -1,0 +1,51 @@
+.skill{
+    padding: 40px 10% 60px;
+    background-color: white;
+    color: #5c5c5c;
+    display: flex;
+    gap: 50px;
+}
+.skill img{
+    flex-grow: 1;
+    min-width: 40%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.desc{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.list{
+    padding: 0;
+    margin-top: 0;
+}
+.list li{
+    margin: 10px 0;
+    list-style: none;
+    list-style-position: inside;
+    
+}
+.list li i{
+    margin-left: 5px;
+    color: #e63f4d;
+}
+@media(max-width:768px){
+    .skill{
+        gap: 0px;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 40px 10% ;
+    }
+    .skill img{
+        height: auto;
+    }
+    .skill h2{
+        margin-bottom: 0;
+    }
+    .desc{
+        align-self: flex-start;
+    }
+}

@@ -1,0 +1,35 @@
+.carousel_wrapper{
+  direction: ltr;
+}
+
+.carousel_wrapper img{
+  height: 100vh;
+  object-fit: cover;
+}
+
+@media(max-width:768px){
+  .carousel_wrapper img{
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+/* .carousel_wrapper .carousel-slider{
+  background-color: red;
+  height: 300px;
+  direction: ltr;
+}
+.carousel_wrapper .carousel .slide img {
+        height: 330px;
+        width: auto;
+}
+
+.carousel_wrapper .carousel .slider-wrapper.axis-horizontal .slider {
+      -ms-box-orient: horizontal;
+      display: -moz-flex;
+      display: flex;
+      direction: ltr !important;
+  }
+  .carousel_wrapper .carousel .thumbs {
+      direction: ltr !important;
+  } */
