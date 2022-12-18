@@ -7,7 +7,6 @@ import Skill from '../public/component/Skill'
 import Result from '../public/component/Result'
 
 export default function Home() {
-  const prefix='/introduction';
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +14,7 @@ export default function Home() {
         <meta charSet='UTF-8' />
         <meta name='author' content='mina nastaran' />
         <meta name="description" content="Education and introduction" />
-        <link rel="icon" href={prefix+'/images/logo.JPG'} />
+        <link rel="icon" href={'/introduction/images/logo.JPG'} />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       </Head>
 
