@@ -3,10 +3,10 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  // images: {
-  //   loader: 'akamai',
-  //   path: '',
-  // },
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
   // assetPrefix: '/nextjs-pages',
   // basePath: '/nextjs-pages'
 };
