@@ -20,7 +20,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <Header_slider></Header_slider>
-        <Info></Info>
+        {/* <Info></Info> */}
         <Books></Books>
         <Skill></Skill>
         <Result></Result>
