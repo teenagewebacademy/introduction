@@ -5,7 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     loader: 'akamai',
-    path: '/introduction',
+    path: './',
   },
   basePath: '/introduction',
   assetPrefix: '/introduction',
