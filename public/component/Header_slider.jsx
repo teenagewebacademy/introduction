@@ -8,6 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 
 function Header_slider() {
+  const basePath = process.env.BASE_PATH || '';
 
   const data = [
     {image: '/IMG_20220820_190837.jpg', title: 'ترم اول - تابستان 1401'},
@@ -23,7 +24,7 @@ function Header_slider() {
       <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false} showStatus={false}>
         {data.map((item, index) => (
           <div key={index}>
-            <img src={`/images/class${item.image}`} />
+            <img src={`${basePath}/images/class${item.image}`} />
             <p className="legend">{item.title}</p>
           </div>
         ))}
