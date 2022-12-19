@@ -7,7 +7,7 @@ function Books (props){
     // const basePath = process.env.BASE_PATH || '';
   return (
     <section className={styles.books}>
-        <Image src={`${process.env.NEXT_PUBLIC_FAVICON}/images/_book1.png`} alt='books' width={100} height={100} />
+        <img src={`${process.env.NEXT_PUBLIC_FAVICON}/images/_book1.png`} alt='books' width={100} height={100} />
         <div className={styles.desc}>
             <h2>کتاب های آموزشی دوره</h2>
             <ul className={styles.list}>

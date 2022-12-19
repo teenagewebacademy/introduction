@@ -71,7 +71,7 @@ function Result(props) {
                     <div className={styles.students_list}>
                         {item.students.map((item, index) => (
                             <Link href={item.link} className={styles.student} key={index}>
-                                <Image src={item.image ? `/images/profile${item.image}` : '/images/avatar.JPG'} alt={item.name} width={'180'} height={'180'}
+                                <img src={item.image ? `${process.env.NEXT_PUBLIC_FAVICON}/images/profile${item.image}` : '/images/avatar.JPG'} alt={item.name} width={'180'} height={'180'}
                                     className={
                                         index % 2 == 0 ? styles.student_image_color_o : styles.student_image_color_e
                                     } />
