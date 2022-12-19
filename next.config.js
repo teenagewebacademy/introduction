@@ -14,10 +14,10 @@
 module.exports = {
   assetPrefix: '/introduction',
   basePath: '/introduction',
-  // images: {
-  //   loader: 'akamai',
+  images: {
+    loader: 'akamai',
   //   path: '',
-  // },
+  },
 }
 
 
