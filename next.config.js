@@ -16,7 +16,7 @@ module.exports = {
   basePath: '/introduction',
   images: {
     loader: 'akamai',
-    path: '',
+    path: 'https://teenagewebacademy.github.io/introduction/public',
   },
 }
 
