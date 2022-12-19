@@ -15,7 +15,7 @@ function Info(props) {
       <section className={styles.cover} >
         {data.map((item, index) =>
           <div className={styles.items} key={index}>
-            <Image src={`../images${item.img}`} alt='' width={100} height={100} />
+            <Image src={`/images${item.img}`} alt='' width={100} height={100} />
             <h5 className={styles.title}>{item.title}</h5>
             <p className={styles.desc}>{item.desc}</p>
             <span className={styles.goal}>

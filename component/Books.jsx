@@ -3,10 +3,12 @@ import styles from '../../styles/Books.module.css'
 import Image from 'next/image';
 
 function Books (props){
-  
+
+    const basePath = process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_BASE_PATH : '';
+
   return (
     <section className={styles.books}>
-        <Image src={`/images/_book1.png`} alt='books' width={100} height={100} />
+        <Image src={`${basePath}/images/_book1.png`} alt='books' width={100} height={100} />
         <div className={styles.desc}>
             <h2>کتاب های آموزشی دوره</h2>
             <ul className={styles.list}>
