@@ -23,7 +23,7 @@ function Header_slider() {
       <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false} showStatus={false}>
         {data.map((item, index) => (
           <div key={index}>
-            <img src={item.image} />
+            <img src={`${process.env.NEXT_PUBLIC_FAVICON}/item.image`} />
             <p className="legend">{item.title}</p>
           </div>
         ))}
