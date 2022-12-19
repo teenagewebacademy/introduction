@@ -6,7 +6,7 @@ function Books (props){
   
   return (
     <section className={styles.books}>
-        <Image src={`../public/images/_book1.png`} alt='books' width={100} height={100} />
+        <Image src={`../images/_book1.png`} alt='books' width={100} height={100} />
         <div className={styles.desc}>
             <h2>کتاب های آموزشی دوره</h2>
             <ul className={styles.list}>
