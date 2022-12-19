@@ -4,7 +4,7 @@
     color: #5c5c5c;
     background-color: #f9f9f9;
 
-    background-image: url('/images/wrap2.png'),url('/images/bg1.png');;
+    background-image: url('../public/images/wrap2.png'),url('../public/images/bg1.png');;
     background-repeat: no-repeat , repeat;
     background-position: top ;
     background-size: 100% ,auto;
