@@ -12,8 +12,8 @@
 
 
 module.exports = {
-  assetPrefix: '/introduction',
-  basePath: '/introduction',
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH,
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
   // images: {
   //   loader: 'akamai',
   //   path: 'https://teenagewebacademy.github.io/introduction/public',
