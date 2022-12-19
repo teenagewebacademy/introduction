@@ -14,10 +14,10 @@
 module.exports = {
   assetPrefix: '/introduction',
   basePath: '/introduction',
-  images: {
-    loader: 'akamai',
-    path: 'https://teenagewebacademy.github.io/introduction/public',
-  },
+  // images: {
+  //   loader: 'akamai',
+  //   path: 'https://teenagewebacademy.github.io/introduction/public',
+  // },
 }
 
 

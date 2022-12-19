@@ -23,7 +23,7 @@ function Header_slider() {
       <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false} showStatus={false}>
         {data.map((item, index) => (
           <div key={index}>
-            <img src={`../images/class${item}/${item.image}`} />
+            <img src={`/images/class${item.image}`} />
             <p className="legend">{item.title}</p>
           </div>
         ))}

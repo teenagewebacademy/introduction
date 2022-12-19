@@ -18,7 +18,7 @@ function Cards_slider() {
       <Carousel cols={3} rows={1} gap={10} loop scrollSnap autoplay={3000} >
         {data.map((item, index) =>
           <Carousel.Item key={index}>
-            <img width="100%" src={`../images${item}`} className={styles.cards} />
+            <img width="100%" src={`/images${item}`} className={styles.cards} />
           </Carousel.Item>
         )}
       </Carousel>
