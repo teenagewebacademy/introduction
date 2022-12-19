@@ -32,7 +32,7 @@ function Skill(props) {
                     </li>
                 </ul>
             </div>
-            <Image src={'/images/_book2.png'} alt='skill' width={100} height={100} />
+            <Image src={`${process.env.NEXT_PUBLIC_FAVICON}/images/_book2.png`} alt='skill' width={100} height={100} />
 
         </section>
     )
