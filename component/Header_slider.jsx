@@ -10,20 +10,20 @@ import { Carousel } from 'react-responsive-carousel';
 function Header_slider() {
 
   const data = [
-    {image: '/class/IMG_20220820_190837.jpg', title: 'ترم اول - تابستان 1401'},
-    {image: '/class/IMG_20221126_185522.jpg', title: 'ترم دوم - پاییز 1401'},
-    {image: '/class/IMG_20221205_202607.jpg', title: 'ترم اول - پاییز 1401'},
-    {image: '/class/classOnline.png', title: 'ترم اول (کلاس آنلاین) - پاییز 1401'},
-    {image: '/class/IMG_20220813_190903.jpg', title: 'ترم اول - تابستان 1401'},
-    {image: '/class/IMG_20221107_202725.jpg', title: 'ترم اول - پاییز 1401'},
-    {image: '/class/IMG_20220829_183038.jpg', title: 'ترم اول - تابستان 1401'},
+    {image: '/IMG_20220820_190837.jpg', title: 'ترم اول - تابستان 1401'},
+    {image: '/IMG_20221126_185522.jpg', title: 'ترم دوم - پاییز 1401'},
+    {image: '/IMG_20221205_202607.jpg', title: 'ترم اول - پاییز 1401'},
+    {image: '/classOnline.png', title: 'ترم اول (کلاس آنلاین) - پاییز 1401'},
+    {image: '/IMG_20220813_190903.jpg', title: 'ترم اول - تابستان 1401'},
+    {image: '/IMG_20221107_202725.jpg', title: 'ترم اول - پاییز 1401'},
+    {image: '/IMG_20220829_183038.jpg', title: 'ترم اول - تابستان 1401'},
   ]
   return (
     <div className={styles.carousel_wrapper}>
       <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false} showStatus={false}>
         {data.map((item, index) => (
           <div key={index}>
-            <img src={`../public/images${item}/${item.image}`} />
+            <img src={`../images/class${item}/${item.image}`} />
             <p className="legend">{item.title}</p>
           </div>
         ))}
