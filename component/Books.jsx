@@ -4,8 +4,7 @@ import Image from 'next/image';
 
 function Books (props){
 
-    const basePath = 'https://teenagewebacademy.github.io/introduction/public';
-
+    const basePath = process.env.BASE_PATH || '';
   return (
     <section className={styles.books}>
         <Image src={`${basePath}/images/_book1.png`} alt='books' width={100} height={100} />
