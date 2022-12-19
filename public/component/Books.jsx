@@ -4,9 +4,7 @@ import Image from 'next/image';
 
 function Books (props){
 
-    // const basePath = process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_BASE_PATH : '';
-    const basePath = '/introduction/public';
-    // alert(basePath)
+    const basePath = process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_BASE_PATH : '';
 
   return (
     <section className={styles.books}>
