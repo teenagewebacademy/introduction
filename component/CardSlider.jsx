@@ -22,7 +22,7 @@ function CardSlider(props) {
 
       <div className={styles.slider}>
         {data.map((item, index) => (
-          <img src={`/images${item}`} key={index} className={styles.cards} />
+          <img src={`${process.env.NEXT_PUBLIC_FAVICON}/images${item}`} key={index} className={styles.cards} />
         ))}
       </div>
     </section>
