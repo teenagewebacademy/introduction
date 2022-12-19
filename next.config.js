@@ -4,18 +4,19 @@
 // let basePath = '/'
 
 // if (isGithubActions) {
-//   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
+//   const repo = 'https://teenagewebacademy.github.io/introduction'
 
 //   assetPrefix = `/${repo}/`
 //   basePath = `/${repo}`
 // }
 
+
 module.exports = {
-  assetPrefix: process.env.NEXT_GITHUB_REP,
-  basePath: process.env.NEXT_GITHUB_REP,
+  assetPrefix: '/introduction',
+  basePath: '/introduction',
   images: {
     loader: 'akamai',
-    path: process.env.NEXT_GITHUB_REP,
+    path: 'https://teenagewebacademy.github.io/introduction',
   },
 }
 
