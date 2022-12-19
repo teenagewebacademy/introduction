@@ -4,6 +4,8 @@ import Image from 'next/image';
 
 function Skill(props) {
 
+    const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
+
     return (
         <section className={styles.skill}>
             <div className={styles.desc}>
@@ -32,7 +34,7 @@ function Skill(props) {
                     </li>
                 </ul>
             </div>
-            <img src={`${process.env.NEXT_PUBLIC_FAVICON}/images/_book2.png`} alt='skill' width={100} height={100} />
+            <img src={`${basePath}/images/_book2.png`} alt='skill' width={100} height={100} />
 
         </section>
     )

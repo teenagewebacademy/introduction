@@ -6,6 +6,9 @@ import CardSlider from './CardSlider';
 import Cards_slider from './Cards_slider';
 
 function Result(props) {
+
+  const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
+
     const data = [
         // {
         //     term: 'ترم اول بزرگسالان (آنلاین) - پاییز 1401',
@@ -71,7 +74,7 @@ function Result(props) {
                     <div className={styles.students_list}>
                         {item.students.map((item, index) => (
                             <Link href={item.link} className={styles.student} key={index}>
-                                <img src={item.image ? `${process.env.NEXT_PUBLIC_FAVICON}/images/profile${item.image}` : `${process.env.NEXT_PUBLIC_FAVICON}/images/avatar.JPG`} alt={item.name} width={'180'} height={'180'}
+                                <img src={item.image ? `${basePath}/images/profile${item.image}` : `${basePath}/images/avatar.JPG`} alt={item.name} width={'180'} height={'180'}
                                     className={
                                         index % 2 == 0 ? styles.student_image_color_o : styles.student_image_color_e
                                     } />

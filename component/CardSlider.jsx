@@ -3,6 +3,9 @@ import styles from '../../styles/CardSlider.module.css'
 import Image from 'next/dist/client/image';
 
 function CardSlider(props) {
+
+  const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
+
   const data = [
     '/sam_cards/mohamadamin.JPG',
     '/sam_cards/sajad1.png',
@@ -22,7 +25,7 @@ function CardSlider(props) {
 
       <div className={styles.slider}>
         {data.map((item, index) => (
-          <img src={`${process.env.NEXT_PUBLIC_FAVICON}/images${item}`} key={index} className={styles.cards} />
+          <img src={`${basePath}/images${item}`} key={index} className={styles.cards} />
         ))}
       </div>
     </section>
