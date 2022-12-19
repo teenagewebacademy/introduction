@@ -4,12 +4,10 @@ import Image from 'next/dist/client/image';
 
 function CardSlider(props) {
   const data = [
-    '/images/sam_cards/mohamadamin.JPG',
-    '/images/sam_cards/sajad.JPG',
-    '/images/sam_cards/mohamadamin.JPG',
-    '/images/sam_cards/sajad.JPG',
-    '/images/sam_cards/mohamadamin.JPG',
-    '/images/sam_cards/sajad.JPG',
+    '/sam_cards/mohamadamin.JPG',
+    '/sam_cards/sajad1.png',
+    '/sam_cards/sajad2.png',
+    '/sam_cards/sajad3.png',
   ]
 
   return (
@@ -24,7 +22,7 @@ function CardSlider(props) {
 
       <div className={styles.slider}>
         {data.map((item, index) => (
-          <img src={item} key={index} className={styles.cards} />
+          <img src={`../public/images${item}`} key={index} className={styles.cards} />
         ))}
       </div>
     </section>

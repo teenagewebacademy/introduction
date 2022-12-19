@@ -29,27 +29,27 @@ function Result(props) {
         {
             term: 'ترم دوم- پاییز 1401',
             students: [
-                { name: 'امیرعلی اسدی', age: '14', image: '/images/profile/amirali_asadi.jpg', link: '', active: false },
-                { name: 'امیرپویا زارعی', age: '17', image: '/images/profile/amirpouya_zaree.JFIF', link: '', active: false },
-                { name: 'آرشاک سعادتی', age: '15', image: '/images/profile/arshak_saadati.jpg', link: '', active: false }]
+                { name: 'امیرعلی اسدی', age: '14', image: '/profile/amirali_asadi.jpg', link: '', active: false },
+                { name: 'امیرپویا زارعی', age: '17', image: '/profile/amirpouya_zaree.JFIF', link: '', active: false },
+                { name: 'آرشاک سعادتی', age: '15', image: '/profile/arshak_saadati.jpg', link: '', active: false }]
         },
 
         {
             term: 'ترم اول- پاییز 1401',
             students: [
-                { name: 'سید بنیامین حسینی', age: '11', image: '/images/profile/benyamin_hosseyni.jpg', link: '', active: false },
-                { name: 'امیرحسین حسن پور', age: '12', image: '/images/profile/amirhossein_hasanpour.jpg', link: '', active: false },
-                { name: 'سارا خدری', age: '10', image: '/images/profile/sara_khedri.jpg', link: '', active: false }]
+                { name: 'سید بنیامین حسینی', age: '11', image: '/profile/benyamin_hosseyni.jpg', link: '', active: false },
+                { name: 'امیرحسین حسن پور', age: '12', image: '/profile/amirhossein_hasanpour.jpg', link: '', active: false },
+                { name: 'سارا خدری', age: '10', image: '/profile/sara_khedri.jpg', link: '', active: false }]
         },
 
         {
             term: 'ترم اول- تابستان 1401',
             students: [
-                { name: 'امیرعلی اسدی', age: '13', image: '/images/profile/amirali_asadi.jpg', link: '', active: false },
-                { name: 'فرزاد نخعی', age: '17', image: '/images/profile/farzad_nakhae.jpg', link: '', active: false },
-                { name: 'امیرپویا زارعی', age: '17', image: '/images/profile/amirpouya_zaree.JFIF', link: '', active: false },
-                { name: 'آرشاک سعادتی', age: '15', image: '/images/profile/arshak_saadati.jpg', link: '', active: false },
-                { name: 'سیده زهرا موسوی', age: '14', image: '/images/profile/ghazal_mousavi.jpg', link: '', active: false },
+                { name: 'امیرعلی اسدی', age: '13', image: '/profile/amirali_asadi.jpg', link: '', active: false },
+                { name: 'فرزاد نخعی', age: '17', image: '/profile/farzad_nakhae.jpg', link: '', active: false },
+                { name: 'امیرپویا زارعی', age: '17', image: '/profile/amirpouya_zaree.JFIF', link: '', active: false },
+                { name: 'آرشاک سعادتی', age: '15', image: '/profile/arshak_saadati.jpg', link: '', active: false },
+                { name: 'سیده زهرا موسوی', age: '14', image: '/profile/ghazal_mousavi.jpg', link: '', active: false },
             ]
         }]
 
@@ -71,7 +71,7 @@ function Result(props) {
                     <div className={styles.students_list}>
                         {item.students.map((item, index) => (
                             <Link href={item.link} className={styles.student} key={index}>
-                                <Image src={item.image ? item.image : '/images/avatar.JPG'} alt={item.name} width={'180'} height={'180'}
+                                <Image src={item.image ? `..public/images${item.image}` : '..public/images/avatar.JPG'} alt={item.name} width={'180'} height={'180'}
                                     className={
                                         index % 2 == 0 ? styles.student_image_color_o : styles.student_image_color_e
                                     } />

@@ -14,8 +14,7 @@ export default function Home() {
         <meta charSet='UTF-8' />
         <meta name='author' content='mina nastaran' />
         <meta name="description" content="Education and introduction" />
-        <link rel="icon" 
-        href={`${process.env.NEXT_PUBLIC_FAVICON}/images/logo.JPG`} />
+        <link rel="icon" href={`${process.env.NEXT_PUBLIC_FAVICON}/images/logo.JPG`} />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       </Head>
 
