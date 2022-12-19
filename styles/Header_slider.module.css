@@ -8,9 +8,16 @@
 }
 
 @media(max-width:768px){
+  .imageBox{
+    height: 100%;
+  }
+  .imageBox img{
+    height: 100%;
+    object-fit: cover;
+  }
   .carousel_wrapper img{
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    /* object-fit: contain; */
   }
 }
 
