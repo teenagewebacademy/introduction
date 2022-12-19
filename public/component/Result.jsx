@@ -30,7 +30,7 @@ function Result(props) {
             term: 'ترم دوم- پاییز 1401',
             students: [
                 { name: 'امیرعلی اسدی', age: '14', image: '/amirali_asadi.jpg', link: '', active: false },
-                { name: 'امیرپویا زارعی', age: '17', image: '/amirpouya_zaree.JFIF', link: '', active: false },
+                { name: 'امیرپویا زارعی', age: '17', image: '/amirpouya_zaree.PNG', link: '', active: false },
                 { name: 'آرشاک سعادتی', age: '15', image: '/arshak_saadati.jpg', link: '', active: false }]
         },
 
@@ -47,7 +47,7 @@ function Result(props) {
             students: [
                 { name: 'امیرعلی اسدی', age: '13', image: '/amirali_asadi.jpg', link: '', active: false },
                 { name: 'فرزاد نخعی', age: '17', image: '/farzad_nakhae.jpg', link: '', active: false },
-                { name: 'امیرپویا زارعی', age: '17', image: '/amirpouya_zaree.JFIF', link: '', active: false },
+                { name: 'امیرپویا زارعی', age: '17', image: '/amirpouya_zaree.PNG', link: '', active: false },
                 { name: 'آرشاک سعادتی', age: '15', image: '/arshak_saadati.jpg', link: '', active: false },
                 { name: 'سیده زهرا موسوی', age: '14', image: '/ghazal_mousavi.jpg', link: '', active: false },
             ]
@@ -71,7 +71,7 @@ function Result(props) {
                     <div className={styles.students_list}>
                         {item.students.map((item, index) => (
                             <Link href={item.link} className={styles.student} key={index}>
-                                <img src={item.image ? `${process.env.NEXT_PUBLIC_FAVICON}/images/profile${item.image}` : '/images/avatar.JPG'} alt={item.name} width={'180'} height={'180'}
+                                <img src={item.image ? `${process.env.NEXT_PUBLIC_FAVICON}/images/profile${item.image}` : `${process.env.NEXT_PUBLIC_FAVICON}/images/avatar.JPG`} alt={item.name} width={'180'} height={'180'}
                                     className={
                                         index % 2 == 0 ? styles.student_image_color_o : styles.student_image_color_e
                                     } />
