@@ -4,10 +4,11 @@ import Image from 'next/image';
 
 function Books (props){
 
-    // const basePath = process.env.BASE_PATH || '';
+    const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
+
   return (
     <section className={styles.books}>
-        <img src={`${process.env.NEXT_PUBLIC_FAVICON}/images/_book1.png`} alt='books' width={100} height={100} />
+        <img src={`${basePath}/images/_book1.png`} alt='books' width={100} height={100} />
         <div className={styles.desc}>
             <h2>کتاب های آموزشی دوره</h2>
             <ul className={styles.list}>

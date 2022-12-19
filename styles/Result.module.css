@@ -64,6 +64,7 @@
     object-fit: contain;
     transition: 0.3s linear;
     background-size: 120%;
+    background-color: #f0f0f0;
 }
 
 .student_image_color_o{
@@ -76,7 +77,8 @@
     display: block;
     margin-top: 5px;
 }
-.student:hover .student_image {
+.student:hover .student_image_color_o , 
+.student:hover .student_image_color_e {
     box-shadow: 0 2px 10px rgb(163, 163, 163);
 }
 .hidden{

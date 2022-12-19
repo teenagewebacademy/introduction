@@ -7,6 +7,9 @@ import Skill from '../public/component/Skill'
 import Result from '../public/component/Result'
 
 export default function Home() {
+
+  const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
+
   return (
     <div className={styles.container}>
       <Head>
@@ -14,7 +17,7 @@ export default function Home() {
         <meta charSet='UTF-8' />
         <meta name='author' content='mina nastaran' />
         <meta name="description" content="Education and introduction" />
-        <link rel="icon" href={`${process.env.NEXT_PUBLIC_FAVICON}/images/logo.JPG`} />
+        <link rel="icon" href={`${basePath}/images/logo.JPG`} />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       </Head>
 
