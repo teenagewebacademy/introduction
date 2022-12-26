@@ -23,7 +23,7 @@ function Result(props) {
             term: 'ترم اول (آنلاین) - پاییز 1401',
             students: [
                 { name: 'ایلیا مردانی', age: '14', image: '', link: '', active: false },
-                { name: 'محمدامین زارع', age: '14', image: '', link: '', active: false },
+                { name: 'محمدامین زارع', age: '14', image: '', link: "./students/mohamadamin_zaree/my_page.html", active: false },
                 { name: 'سجاد جمالی', age: '14', image: '', link: '', active: false },
                 { name: 'محمدرضا محمدی', age: '14', image: '', link: '', active: false },
                 { name: 'مصطفی عباسی', age: '14', image: '', link: '', active: false },
