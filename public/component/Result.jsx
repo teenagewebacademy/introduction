@@ -24,7 +24,7 @@ function Result(props) {
             students: [
                 { name: 'ایلیا مردانی', age: '14', image: '', link: '', active: false },
                 { name: 'محمدامین زارع', age: '14', image: '', link: "./students/mohamadamin_zaree/my_page.html", active: true },
-                { name: 'سجاد جمالی', age: '14', image: '', link: '', active: false },
+                { name: 'سجاد جمالی', age: '14', image: '', link: './students/sajad_jamali/my_page.html', active: true },
                 { name: 'محمدرضا محمدی', age: '14', image: '', link: '', active: false },
                 { name: 'مصطفی عباسی', age: '14', image: '', link: '', active: false },
             ]
