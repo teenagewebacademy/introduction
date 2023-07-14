@@ -10,15 +10,28 @@ function Result(props) {
   const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
 
     const data = [
-        // {
-        //     term: 'ترم اول بزرگسالان (آنلاین) - پاییز 1401',
-        //     students: [
-        //         { name: 'کاظم امیری', age: '30', image: '', link: '', active: false },
-        //         { name: 'ساناز قنبری', age: '30', image: '', link: '', active: false },
-        //         { name: 'عبدالامیر فرحناک', age: '30', image: '', link: '', active: false },
-        //         { name: 'زهرا مرادی', age: '30', image: '', link: '', active: false },
-        //     ]
-        // },
+        {
+            term: 'ترم اول بزرگسالان - تابستان 1402',
+            students: [
+                { name: 'سیدرضا موسوی', age: '17', image: '', link: '', active: false },
+                { name: 'علیرضا حیدری', age: '14', image: '', link: '', active: false },
+                { name: 'ابوالفضل دهداری', age: '17', image: '', link: '', active: false },
+                { name: 'حمیدرضا وحیدی', age: '12', image: '', link: '', active: false },
+                { name: 'سیروان بیگرضایی', age: '', image: '', link: '', active: false },
+                { name: 'مائده عیدی', age: '18', image: '', link: '', active: false },
+                { name: 'علیرضا علیزاده', age: '15', image: '', link: '', active: false },
+                { name: 'فاطمه خوشبخت', age: '16', image: '', link: '', active: false },
+            ]
+        },
+        {
+            term: 'ترم اول بزرگسالان (آنلاین) - پاییز 1401',
+            students: [
+                { name: 'کاظم امیری', age: '30', image: '', link: '', active: false },
+                { name: 'ساناز قنبری', age: '30', image: '', link: '', active: false },
+                { name: 'عبدالامیر فرحناک', age: '30', image: '', link: '', active: false },
+                { name: 'زهرا مرادی', age: '30', image: '', link: '', active: false },
+            ]
+        },
         {
             term: 'ترم اول (آنلاین) - پاییز 1401',
             students: [
