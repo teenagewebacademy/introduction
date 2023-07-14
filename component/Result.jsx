@@ -14,7 +14,7 @@ function Result(props) {
             term: 'ترم اول - تابستان 1402',
             students: [
                 { name: 'سیدرضا موسوی', age: '17', image: '', link: '', active: false },
-                { name: 'علیرضا حیدری', age: '14', image: '/alireza_heydari.jpg', link: '', active: false },
+                { name: 'علیرضا حیدری', age: '14', image: '/alireza_heydari.jpeg', link: '', active: false },
                 { name: 'ابوالفضل دهداری', age: '17', image: '/abolfazl_dehdari.jpg', link: '', active: false },
                 { name: 'حمیدرضا وحیدی', age: '12', image: '/haminreza_vahidi.jpg', link: '', active: false },
                 { name: 'سیروان بیگرضایی', age: '', image: '', link: '', active: false },
