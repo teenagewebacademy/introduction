@@ -19,7 +19,7 @@ function Result(props) {
                 { name: 'حمیدرضا وحیدی', age: '12', image: '/haminreza_vahidi.jpg', link: '', active: false },
                 { name: 'سیروان بیگرضایی', age: '', image: '', link: '', active: false },
                 { name: 'مائده عیدی', age: '18', image: '', link: '', active: false },
-                { name: 'علیرضا علیزاده', age: '15', image: '', link: '', active: false },
+                { name: 'علیرضا علیزاده', age: '15', image: '/alireza_alizadeh.jpg', link: '', active: false },
                 { name: 'فاطمه خوشبخت', age: '16', image: '', link: '', active: false },
             ]
         },
