@@ -4,22 +4,24 @@ import Image from 'next/dist/client/image';
 import Link from 'next/link';
 import CardSlider from './CardSlider';
 import Cards_slider from './Cards_slider';
+import { useRouter } from 'next/router';
 
 function Result(props) {
 
-  const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
+    const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
+    const default_page ='./students/default_page.html';
 
     const data = [
         {
-            term: 'ترم اول بزرگسالان - تابستان 1402',
+            term: 'ترم اول - تابستان 1402',
             students: [
                 { name: 'سیدرضا موسوی', age: '17', image: '', link: '', active: false },
-                { name: 'علیرضا حیدری', age: '14', image: '', link: '', active: false },
-                { name: 'ابوالفضل دهداری', age: '17', image: '', link: '', active: false },
-                { name: 'حمیدرضا وحیدی', age: '12', image: '', link: '', active: false },
+                { name: 'علیرضا حیدری', age: '14', image: '/alireza_heydari.jpeg', link: '', active: false },
+                { name: 'ابوالفضل دهداری', age: '17', image: '/abolfazl_dehdari.jpg', link: '', active: false },
+                { name: 'حمیدرضا وحیدی', age: '12', image: '/haminreza_vahidi.jpg', link: '', active: false },
                 { name: 'سیروان بیگرضایی', age: '', image: '', link: '', active: false },
                 { name: 'مائده عیدی', age: '18', image: '', link: '', active: false },
-                { name: 'علیرضا علیزاده', age: '15', image: '', link: '', active: false },
+                { name: 'علیرضا علیزاده', age: '15', image: '/alireza_alizadeh.jpg', link: '', active: false },
                 { name: 'فاطمه خوشبخت', age: '16', image: '', link: '', active: false },
             ]
         },
@@ -67,7 +69,7 @@ function Result(props) {
                 { name: 'آرشاک سعادتی', age: '15', image: '/arshak_saadati.jpg', link: '', active: false },
                 { name: 'سیده زهرا موسوی', age: '14', image: '/ghazal_mousavi.jpg', link: '', active: false },
             ]
-        }]
+        }];
 
     return (
         <section className={styles.Result}>
@@ -86,7 +88,8 @@ function Result(props) {
                     </h3>
                     <div className={styles.students_list}>
                         {item.students.map((item, index) => (
-                            <Link href={item.link} className={styles.student} key={index} target={'_blank'}>
+                            // <Link href={item.link} className={styles.student} key={index} target={'_blank'}>
+                            <Link href={item.link? item.link : default_page} className={styles.student} key={index} target={'_blank'}>
                                 <img src={item.image ? `${basePath}/images/profile${item.image}` : `${basePath}/images/avatar.JPG`} alt={item.name} width={'180'} height={'180'}
                                     className={
                                         index % 2 == 0 ? styles.student_image_color_o : styles.student_image_color_e
