@@ -14,11 +14,11 @@ function Books (props){
             <ul className={styles.list}>
                 <li>
                     <i className="material-icons">book</i>
-                    هر ترم شامل کتابچه آموزشی میباشد.
+                    هر ترم شامل یک کتابچه آموزشی میباشد.
                 </li>
                 <li>
                 <i className="material-icons">people</i>
-                    مطالب کتابچه ها بصورت کوتاه و مختصر بوده و عمده توضیحات بصورت عملی ، حین پروژه های کلاس درس بیان میشود.
+                    مطالب کتابچه ها بصورت کوتاه و مختصر بوده و عمده توضیحات بصورت عملی و در حین پروژه های کلاسی درس بیان میشود.
                 </li>
                 <li>
                 <i className="material-icons">laptop</i>
