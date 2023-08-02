@@ -13,16 +13,29 @@ function Result(props) {
 
     const data = [
         {
+            term: 'ترم اول 2 - تابستان 1402',
+            students: [
+                { name: 'باران وحدتی', age: '16', image: '', link: '', active: false },
+                { name: 'روژینا بهروزیان فرد', age: '16', image: '', link: '', active: false },
+                { name: 'پرنیان پناهی', age: '16', image: '', link: '', active: false },
+                { name: 'معین مظفری', age: '18', image: '', link: '', active: false },
+                { name: 'علیرضا جلوه نسب', age: '18', image: '', link: '', active: false },
+                { name: 'عرفان خادمی', age: '18', image: '', link: '', active: false },
+                { name: 'ابوالفضل موسوی', age: '16', image: '', link: '', active: false },
+                { name: 'رضا احمدی پور', age: '21', image: '', link: '', active: false }
+            ]
+        },
+        {
             term: 'ترم اول - تابستان 1402',
             students: [
                 { name: 'سیدرضا موسوی', age: '17', image: '/seyed_reza_mosavi.jpeg', link: '', active: false },
                 { name: 'علیرضا حیدری', age: '14', image: '/alireza_heydari.jpeg', link: '', active: false },
                 { name: 'ابوالفضل دهداری', age: '17', image: '/abolfazl_dehdari.jpg', link: '', active: false },
                 { name: 'حمیدرضا وحیدی', age: '12', image: '/haminreza_vahidi.jpg', link: '', active: false },
-                { name: 'سیروان بیگرضایی', age: '', image: '', link: '', active: false },
-                { name: 'مائده عیدی', age: '18', image: '', link: '', active: false },
+                { name: 'سیوان بیگرضایی', age: '15', image: '/sivan_beygrezaee.PNG', link: '', active: false },
+                { name: 'مائده عیدی', age: '18', image: '/maeede_eydi.PNG', link: '', active: false },
                 { name: 'علیرضا علیزاده', age: '15', image: '/alireza_alizadeh.jpg', link: '', active: false },
-                { name: 'فاطمه خوشبخت', age: '16', image: '', link: '', active: false },
+                { name: 'فاطمه خوشبخت', age: '16', image: '/fatemeh_khoshbakht.PNG', link: '', active: false },
             ]
         },
         {

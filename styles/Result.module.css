@@ -45,20 +45,23 @@
     margin-left: 5px;
 }
 .students_list{
-    display: flex;
-    gap: 40px;
+    gap: 16px;
+    /* display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
 }
 .student{
     height: auto;
     width: 180px;
+    margin: 0 auto;
     text-align: center;
     position: relative !important;
 }
 .student_image_color_o , .student_image_color_e{
-    min-width: 180px;
-    min-height: 180px;
+    max-width: 180px;
+    max-height: 180px;
     object-fit: cover !important;
     border-radius: 50%;
     object-fit: contain;
@@ -114,30 +117,59 @@
     background-color: rgba(0 ,0,0,0.6);
 } 
 
-@media(max-width:768px){
-    .Result{
-        padding: 32px 5% ;
-    }
-    .Result>div{
-        margin: 32px 0;
-    }
-    .Result>h3{
-        margin: 20px 0;
-    }
+@media (max-width:1320px){
     .students_list{
-        /* gap: 32px 8px; */
-        justify-content: center;
+        grid-template-columns: repeat(4,1fr);
     }
-    /* .student{
-        max-width: 150px;
+}
+@media (max-width:1140px){
+    .students_list{
+        grid-template-columns: repeat(3,1fr);
+    } 
+}
+@media (max-width:769px){
+    .students_list{
+        grid-template-columns: repeat(3,1fr);
+    } 
+    .student{
+        width: 150px;
     }
     .student_image_color_o , .student_image_color_e{
         max-width: 120px;
         max-height: 120px;
-    } */
+    }
     .student span  , .student strong{
         font-size: 14px;
     }
+    .Result{
+        padding: 32px 5% ;
+    }
+    .Result>div{
+        /* margin: 32px 0; */
+        margin: 0 auto;
+    }
+    .Result>h3{
+        margin: 20px 0;
+    }
+    
+    
+}
+@media(max-width:576px){
+    .students_list{
+        grid-template-columns: repeat(2,1fr);
+    } 
+    .student{
+        width: 180px;
+    }
+    .student_image_color_o , .student_image_color_e{
+        max-width: 150px;
+        max-height: 150px;
+    }
+}
+@media(max-width:430px){
+    .students_list{
+        grid-template-columns: repeat(1,1fr);
+    } 
 }
 
 /* .student{

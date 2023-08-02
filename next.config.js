@@ -10,17 +10,6 @@
 //   basePath = `/${repo}`
 // }
 
-
-module.exports = {
-  assetPrefix: '/introduction',
-  basePath: '/introduction',
-  images: {
-    loader: 'akamai',
-    path: '',
-  },
-}
-
-
 // /**   @type {import('next').NextConfig}*/
 // const nextConfig = {
 //   reactStrictMode: true,
@@ -35,12 +24,22 @@ module.exports = {
 // module.exports = nextConfig
 
 
+module.exports = {
+  assetPrefix: '/introduction',  
+  basePath: '/introduction',
+  images: {
+    loader: 'akamai',  
+    path: '',
+  },
+}
+
+
+
 
 
 // /** @type {import('next').NextConfig} */
 // const nextConfig = {
-//   reactStrictMode: true,
-//   // swcMinify: true,
+//   /* config options here */
 // }
-
+ 
 // module.exports = nextConfig
