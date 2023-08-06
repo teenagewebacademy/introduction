@@ -1,0 +1,99 @@
+body{
+    min-height: 100vh;
+direction: rtl;
+
+    background-image: url(images/banner7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#part1{
+    height: 80vh;
+}
+#part2{
+background-color:white;
+    min-height: 100px;
+     
+}
+#part3{
+    /* background-color: rgb(0, 255, 200); */
+    background-image: url(images/pattern3.jpg);
+    color: aliceblue;
+    /* background-image: */
+}
+    #part4{
+    background-color: aliceblue;
+}#part5{
+    background-color: rgba(139, 145, 141, 0.5);
+
+}
+.title-withe{
+    color: aliceblue;
+}
+.parts{
+    min-height: 300px;
+text-align: center;}
+.card{
+    width: 250px;
+    height: 380px;
+    text-align: center;
+background-color: blanchedalmond
+;margin: auto;
+justify-content: center;
+}
+.card-img{
+    width: 250px;
+max-height: 200px;
+    padding: 5px 0px 5px 0px;
+    justify-content: center;
+}
+.couch-card{
+    display: flex;
+}
+
+.GALLERY{
+    /* height: 100px; */
+    display: flex;
+    overflow-x: scroll;
+}
+.img_gallery{
+    width: 400px;
+    margin: 0 2px ;
+}
+.deask{
+    /* height: 250px
+    ;width: 350px; */
+    background-color: blanchedalmond;
+    display: flex;
+    margin: 10px 0;
+}
+.container{
+    padding: 50px 0
+    ;
+    margin: 0 8%;
+}
+.class_list{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+
+}
+.card5{
+    width: 300px
+    ;height: 200px;
+    float: left;
+}
+.alt{
+}
+.card2{
+width: 49%;
+}
+.menu{
+    color: aliceblue;
+    padding: 20px 8%;
+}
+.left_side{
+    float: left;
+}

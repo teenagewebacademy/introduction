@@ -1,0 +1,272 @@
+body {
+   min-height: 100vh;
+   background-image: url(./bc5.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   direction: rtl;
+   margin: 0;
+}
+
+#menu {
+   color: white;
+   background-color: rgba(244, 244, 242, 0.651);
+}
+
+.mini_title {
+   margin: 0 8px;
+}
+
+.left_title {
+   float: left;
+   color: rgb(10, 116, 135);
+}
+
+#info {
+   height: 30vh;
+   background-color: rgba(244, 244, 242, 0.651);
+   text-align: center;
+}
+
+.teal_title {
+   color: rgb(10, 116, 135);
+}
+.white_title{
+   color: white;
+}
+.pink_title{
+   color:rgb(228, 5, 146); ;
+}
+/* background-color: rgba(11, 129, 150, 0.858);} */
+#artists {
+   min-height: 300px;
+   background-color: rgba(244, 244, 242, 0.914);
+   text-align: center;
+}
+
+#artists_gallery {
+   overflow-x: scroll;
+   display: flex;
+   justify-content: start;
+}
+
+.artists {
+   width: 150px;
+   margin: 20px 10px;
+}
+/* =========================== */
+#vimyl_info{
+display: flex;
+background-color: rgb(229 230 229);
+
+}
+.vinyl_img{
+width: 30%;
+float: right;
+}
+.vinyl_text{
+   direction: rtl;
+   column-count: 3;
+   column-rule-style: dotted;
+   column-gap: 30px;
+   column-rule-color: rgb(255, 5, 163);
+   margin-bottom: 20px;
+
+}
+/* background-color: rgb(5 57 70)} */
+/* ====================================== */
+#new_albums {
+   height: auto;
+   min-height: 300px;
+   /* background-color: rgb(186 120 161 / 82%); */
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.351);
+   padding: 10px;
+   /* background-color: rgba(11, 129, 150, 0.858); */
+   /* background-color: rgba(195, 80, 153, 0.747); */
+}
+/* ====================استایل کارت ها==================== */
+#mother {
+   width: 260px;
+   height: 370px;
+   background-color: cadetblue;
+   text-align: center;
+   margin: 10px;
+}
+
+#img_part {
+   width: 200px;
+   margin: 30px;
+}
+
+#album_title {
+   margin: -25px 30px 5px 30px;
+}
+
+#format_title {
+   color: beige;
+}
+
+#button {
+   width: 200px;
+   height: 30px;
+   text-align: center;
+   margin: auto;
+   padding: 3px 0;
+   background-color: aliceblue;
+}
+
+#button_title {
+   color: teal;
+
+}
+
+#album_gallery {
+   display: flex;
+   justify-content: space-around;
+   overflow-x: scroll;
+   padding: 5px;
+}
+
+/* ====================================== */
+
+#format {
+   min-height: 300px;
+   /* background-color: rgba(10, 117, 135, 0.737); */
+background-image: url(./pattern2.avif);
+background-repeat: repeat-x;
+background-size: contain;
+   text-align: center;
+}
+#albums_format{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+/* ================استایل کارت فرمت=================== */
+.format{
+    min-height: 400px; 
+    width: 400px;
+    text-align: center;
+    direction: rtl;
+    margin: 10px;
+}
+.format_img{
+width: 350px;
+height: 350px;
+}
+/* ======================================== */
+#genres {
+   min-height: 320px;
+   /* background-image: url(./pattern1.avif); */
+   text-align: center;
+   background-color: rgb(10, 116, 135);
+
+}
+#geners_gallery{
+   display: flex;
+   /* justify-content: space-between; */
+   flex-wrap: wrap;
+   gap: 2%;
+}
+.card{
+    width: 49%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 15px;
+
+}
+.gener_img{
+    width: 30%;
+}
+.gener_info{
+    margin: 10px;
+}
+.gener_title{
+    margin: 3px 0 0;
+    color: rgb(255, 5, 163);
+}
+.gener_text{
+    color: teal;
+}
+
+/* ========================================= */
+
+
+#most_sold {
+   min-height: 300px;
+   background-color: rgba(0, 0, 0, 0.351);
+   text-align: center;
+
+}
+#most_sold_albums_cards{
+   overflow-x: scroll;
+   display: flex;
+   
+}
+.msa_card{
+   width: 230px;
+   height: 287.7px;
+   background-color: rgb(229 230 229);
+   text-align: center;
+   direction: rtl;
+   margin: 15px;
+   
+}
+.msa_img{
+   width: 180px;
+  padding: 20px 20px 15px;
+
+}
+.msa_title{
+   margin: 0;
+   color: rgb(10 116 135);
+}
+.artist_tiele{
+   margin: 10px;
+   color: rgb(228 5 146);
+   padding-bottom: 20px;
+}
+/* ================================================== */
+#why_us {
+   height: auto;
+   background-color: rgb(10, 116, 135);
+}
+#why_us_cards{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   padding: 50px 0; 
+}
+.service_card{
+   width: 20%;
+   height: auto;
+   text-align: center;
+   direction: rtl;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+}
+/* ================================================ */
+#contact_us {
+   min-height: 50px;
+   text-align: center;
+   background-color: rgba(244, 244, 242, 0.651);
+}
+
+.icons {
+
+   padding: 6px;
+   color: rgb(10, 116, 135);
+   margin-bottom: 20px;
+}
+
+.container {
+   margin:0 5%;
+   padding: 20px;
+}

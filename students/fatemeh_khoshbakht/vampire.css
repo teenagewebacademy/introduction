@@ -1,0 +1,155 @@
+body {
+    min-height: 100vh;
+    margin: 0px;
+    background-attachment: fixed;
+    direction: rtl;
+    /* background-image: url('./base/1a3afb424a6cbe325cf77a5184887a1a.jpg'); */
+    background-image: url('./base/a1bcd6f5c412cc869a24db7384c4c724.jpg');
+    background-size: cover;
+    color: azure;
+}
+
+.left_title {
+    float: right;   
+    padding: 5px;
+}
+
+#head_title {
+    margin-top: -70px;
+    color: rgb(246 66 46);
+
+}
+
+#title {
+    margin-bottom: 60px;
+    color: rgb(246 66 46);
+}
+
+.class_part {
+    /* margin: 100px; */
+    min-height: 100px;
+
+}
+
+.porodakt {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.continer {
+    margin: 0px 8%;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#heading {
+    /* background-color:  rgb(248, 82, 82); */
+}
+
+#types {
+    background-color: brown;
+}
+
+#offer {
+    background-color: rgb(248, 82, 82);
+}
+
+.offer_list {
+    display: flex;
+
+}
+
+.card_offer {
+    width: 300px;
+    /* height: 280px; */
+    background-color: brown;
+    margin: 5px;
+    display: flex;
+
+}
+
+.img_offer {
+    width: 30%;
+    /* height: 130px; */
+    background-color: brown;
+    padding: 10px;
+
+}
+
+.desc_offer {
+    width: 70%;
+    /* height: 150px; */
+    background-color: rgb(233, 57, 57);
+    direction: rtl;
+    padding: 15px;
+    text-align: center;
+}
+
+#sale {
+    background-color: #4f4f4f96;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+
+
+}
+
+#imported_products {
+    background-color: rgb(227, 165, 165);
+
+}
+
+.prodacts_img {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+
+.card {
+    width: 220px;
+    height: 280px;
+    background-color: brown;
+    margin: 50px;
+}
+
+.img {
+    width: 230px;
+    height: 130px;
+    background-color: brown;
+    padding: 10px;
+
+}
+
+.part2 {
+    width: 220px;
+    height: 150px;
+    background-color: rgb(233, 57, 57);
+    direction: rtl;
+    padding: 15px;
+    text-align: center;
+}
+
+#why_us {
+    background-color: rgb(248, 82, 82);
+}
+
+#part6 {
+    background-color: rgb(215, 158, 158);
+}
+
+#part7 {
+    background-color: rgb(232, 190, 190);
+}
+#footer_icon{
+    margin: 10px;
+    text-align: center;
+}
+.footer_icon{
+    margin: 5px;
+    
+}
