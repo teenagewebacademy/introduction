@@ -7,6 +7,8 @@ function Cards_slider() {
   const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
 
   const data = [
+    '/sam_cards/maede_info.JPG',
+    '/sam_cards/maede.JPG',
     '/sam_cards/mohamadamin.JPG',
     '/sam_cards/sajad1.png',
     '/sam_cards/sajad2.png',
