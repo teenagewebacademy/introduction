@@ -1,0 +1,384 @@
+body{
+  direction: rtl;
+   min-height: 100vh;
+   margin: 0;
+   background-image: url(./محتوا/16b2169bcb244ce635035c1d28438087.jpg);
+background-attachment: fixed;
+}
+#back-start{
+background-color: rgba(0, 0, 0, 0);
+height: 75px;
+color: white;
+margin: 10px;
+}
+#menu{
+   direction: ltr;
+   display: flex;
+   justify-content: space-around;
+}
+/* <!-- /* <===============================> */
+#back_portarafdar{
+   background-color:rgb(45, 112, 113) ;
+  min-height:330px ;
+   width: auto;
+}
+
+h3{
+   text-align: center;
+}
+#dark-book{
+   background-color: darkkhaki;
+   height: 247px;
+   width: 182px;
+   /* background-image: url(./محتوا/پرطرفدار/dark.jpg);
+   background-size: 30%;
+   background-repeat: no-repeat;
+   background-position: center top; */
+}
+#styel-matn{
+   text-align: right;
+   margin: 10px 0;
+}
+#Dark_book{
+   width: 106px;
+   height: 145px;
+   margin: 0 28px; 
+}
+.btn{
+   margin: 10px 60px;
+   background-color: cornflowerblue;
+}
+#demon_slayer{
+   background-color:darkkhaki;
+   height: 247px;
+   width: 182px; margin: 0 10px;
+}
+#portarafdar{
+   display: flex;
+    justify-content: space-between;
+    /* overflow-x: scroll; */
+}
+#demon_ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 40px;
+}
+#golestan{ background-color: darkkhaki;
+   height: 247px;
+   width: 182px;margin: 0 10px;
+}
+#golestan_ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#shahnameh{
+   background-color: darkkhaki;
+   height: 247px;
+   width: 182px; margin: 0 10px;
+}
+#shahnameh-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#tom7{
+   background-color: darkkhaki;
+   height: 247px;
+   width: 182px; margin: 0 10px;
+}
+#tom7-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#zabane-badan{
+   background-color: darkkhaki;
+   height: 247px;
+   width: 182px; margin: 0 10px;
+}
+#zabane-badan_ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#bostan{
+   background-color: darkkhaki;
+   height: 247px;
+   width: 182px; margin: 0 10px;
+}
+#bostan-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+  /* <===============================> */
+#back_takhfif{
+   background-color:rgb(30, 50, 50);
+   min-height:330px ;
+   width: auto;
+   /* margin-top: 10px;   */
+}
+#takhfif{
+   display: flex;
+   justify-content: space-between;
+overflow-x: scroll;
+padding: 5px;
+}
+#harry_pater{
+   background-color: cornflowerblue;
+   height: 247px;
+   width: 182px;
+}
+#harry_pater_ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px; margin: 0 10px;
+}
+.rang_red{
+   color: red;
+}
+.btn_takhfif{
+ background-color: darkgreen;  
+ margin: -16px 67px;
+}
+#ruls{
+   background-color: cornflowerblue;
+   height: 247px;
+   width: 182px; margin: 0 10px;
+}
+#ruls-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#excel{
+   background-color: cornflowerblue;
+   height: 247px;
+   width: 182px; margin: 0 10px;
+}
+#excel-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#frog{
+   background-color: cornflowerblue;
+   height: 247px;
+   width: 182px; margin: 0 10px;
+}
+#frog-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#karate{
+   background-color: cornflowerblue;
+   height: 247px;
+   width: 182px;  margin: 0 10px;
+}
+#karate-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#tom1{
+   background-color: cornflowerblue;
+   height: 247px;
+   width: 182px;  margin: 0 10px;
+}
+#tom1-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px; 
+}
+#karisma{
+   background-color: cornflowerblue;
+   height: 247px;
+   width: 182px;  margin: 0 10px;
+}
+#karisma-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;   
+}
+  /* <===============================> */
+
+#back_manga{
+   background-color: #4b4b4b;
+   min-height:330px ;
+   width: 100%;
+   /* margin-top: 10px;   */
+}
+#manga{
+ display: flex;
+ justify-content: space-between;  
+}
+#demon-m{
+   background-color:darkslategray;
+   height: 247px;
+   width: 182px;  margin: 0 10px;
+
+}
+#demon_m_ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px; 
+ 
+}
+.btn-manga{
+background-color: yellow;
+margin: 0 70px;
+}
+#attack{
+   background-color: darkslategray;
+   height: 247px;
+   width: 182px;  margin: 0 10px;
+
+}
+#attack-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;   
+}
+#naruto{
+   background-color: darkslategray;
+   height: 247px;
+   width: 182px;
+   margin: 0 10px;
+
+}
+#naruto-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#one-punch{
+   background-color: darkslategray;
+   height: 247px;
+   width: 182px;
+margin: 0 10px;
+}
+#one-punch-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#one-pice{
+   background-color: darkslategray;
+   height: 247px;
+   width: 182px; margin: 0 10px;
+
+}
+#one-pice-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#tokyo{
+   background-color: darkslategray;
+   height: 247px;
+   width: 182px;  margin: 0 10px;
+
+}
+#tokyo-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#jujutsu{
+   background-color: darkslategray;
+   height: 247px;
+   width: 182px; margin: 0 10px;
+
+}
+#jujutsu-ax{
+   width: 106px;
+   height: 145px;
+   margin: 0 38px;
+}
+#back_writers{
+   background-color: darkolivegreen;
+   min-height:330px ;
+   width: auto;
+}
+#writers{
+   display: flex;
+   flex-wrap: wrap;
+}
+.cards-n{
+   background-color: rgb(1, 91, 91);
+   height: auto;
+   width: 47%;
+   padding: 5px;
+   margin: 5px 10px;
+   display: flex;
+}
+.ax-n{
+   width: 59%;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+#soshal-back{
+   background-color: rgba(0, 0, 0, 0.783);
+   /* height: 100px; */
+   width: auto;
+color: white;
+}
+#soshal{
+   display: flex;
+justify-content: center;
+}
+.imgs{
+   height: 50px ;
+}
+#dis{
+   margin: 0 30px;
+}
+.container{
+   margin: 0 5%;
+   padding: 50px 0;
+
+}
+.mtn{
+   color: yellow;
+}
+.span-mtn{
+   color: white;
+}
+#search{
+   background-color: rgb(0, 0, 0);
+   width: 100px;
+   padding: 0 5px;
+}
+#menu{
+   border: black;
+
+}
+.carts{
+   background-color: bisque;
+    width: 182px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 10px;
+}
+#Shakespeare{
+   /* height: 500px; */
+width: 49%;   /* overflow-y: hidden; */
+   margin: 5px 10px;
+}
+#ax_shekspier{
+width: 70%;
+}
+#nashr-hpa{
+   background-color: #638475;
+   /* height: 200px; */
+}
+.nashr-hpacontent{
+   column-count: 2;
+   column-rule-style: dashed;
+   column-rule-color: #ffffff;
+
+}
