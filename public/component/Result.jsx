@@ -28,14 +28,14 @@ function Result(props) {
         {
             term: 'ترم اول - تابستان 1402',
             students: [
-                { name: 'سیدرضا موسوی', age: '17', image: '/seyed_reza_mosavi.jpeg', link: './students/seyedReza_mousavi/', active: false },
-                { name: 'علیرضا حیدری', age: '14', image: '/alireza_heydari.jpeg', link: './students/alireza_heydari/index.html', active: false },
+                { name: 'سیدرضا موسوی', age: '17', image: '/seyed_reza_mosavi.jpeg', link: './students/seyedReza_mousavi/', active: true },
+                { name: 'علیرضا حیدری', age: '14', image: '/alireza_heydari.jpeg', link: './students/alireza_heydari/index.html', active: true },
                 { name: 'ابوالفضل دهداری', age: '18', image: '/abolfazl_dehdari.jpg', link: '', active: false },
                 { name: 'حمیدرضا وحیدی', age: '12', image: '/haminreza_vahidi.jpg', link: '', active: false },
-                { name: 'سیوان بیگرضایی', age: '15', image: '/sivan_beygrezaee.PNG', link: './students/sivan_beygrezaee/index.html', active: false },
-                { name: 'مائده عیدی', age: '18', image: '/maeede_eydi.PNG', link: './students/maede_eydi/index.html', active: false },
-                { name: 'علیرضا علیزاده', age: '15', image: '/alireza_alizadeh.jpg', link: './students/alireza_alizadeh/index.html', active: false },
-                { name: 'فاطمه خوشبخت', age: '16', image: '/fatemeh_khoshbakht.PNG', link: './students/fatemeh_khoshbakht/index.html', active: false },
+                { name: 'سیوان بیگرضایی', age: '15', image: '/sivan_beygrezaee.PNG', link: './students/sivan_beygrezaee/index.html', active: true },
+                { name: 'مائده عیدی', age: '18', image: '/maeede_eydi.PNG', link: './students/maede_eydi/index.html', active: true },
+                { name: 'علیرضا علیزاده', age: '15', image: '/alireza_alizadeh.jpg', link: './students/alireza_alizadeh/index.html', active: true },
+                { name: 'فاطمه خوشبخت', age: '16', image: '/fatemeh_khoshbakht.PNG', link: './students/fatemeh_khoshbakht/index.html', active: true },
             ]
         },
         {
@@ -101,8 +101,8 @@ function Result(props) {
                     </h3>
                     <div className={styles.students_list}>
                         {item.students.map((item, index) => (
-                            <Link href={item.link} className={styles.student} key={index} target={'_blank'}>
-                            {/* <Link href={item.link? item.link : default_page} className={styles.student} key={index} target={'_blank'}> */}
+                            // <Link href={item.link} className={styles.student} key={index} target={'_blank'}>
+                            <Link href={item.link? item.link : default_page} className={styles.student} key={index} target={'_blank'}>
                                 <img src={item.image ? `${basePath}/images/profile${item.image}` : `${basePath}/images/avatar.JPG`} alt={item.name} width={'180'} height={'180'}
                                     className={
                                         index % 2 == 0 ? styles.student_image_color_o : styles.student_image_color_e
