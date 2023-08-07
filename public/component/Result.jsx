@@ -101,8 +101,8 @@ function Result(props) {
                     </h3>
                     <div className={styles.students_list}>
                         {item.students.map((item, index) => (
-                            // <Link href={item.link} className={styles.student} key={index} target={'_blank'}>
-                            <Link href={item.link? item.link : default_page} className={styles.student} key={index} target={'_blank'}>
+                            <Link href={item.link} className={styles.student} key={index} target={'_blank'}>
+                            {/* <Link href={item.link? item.link : default_page} className={styles.student} key={index} target={'_blank'}> */}
                                 <img src={item.image ? `${basePath}/images/profile${item.image}` : `${basePath}/images/avatar.JPG`} alt={item.name} width={'180'} height={'180'}
                                     className={
                                         index % 2 == 0 ? styles.student_image_color_o : styles.student_image_color_e

@@ -151,7 +151,9 @@
     .Result>h3{
         margin: 20px 0;
     }
-    
+    .effect{
+        height: 150px;
+    }
     
 }
 @media(max-width:576px){
