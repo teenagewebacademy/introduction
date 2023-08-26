@@ -1,196 +1,229 @@
-body{
-    min-height: 100vh;
-    direction: rtl;
-    background-image: url(./img/IMG_20230805_012859_314.jpg);
-    background-repeat: no-repeat;
-background-attachment: fixed;
- background-position: center;
-background-size: cover;
-margin: 0% 0%;
+body {
+  min-height: 100vh;
+  direction: rtl;
+  background-image: url(./img/IMG_20230805_012859_314.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0% 0%;
 }
-#menu{
-    background-color: rgb(112 85 68);
-    height: 30px; margin: 0%;
+
+#menu {
+  background-color: rgb(112 85 68);
+  min-height: 30px;
+  margin: 0%;
+  padding: 24px 0;
 }
-#part{
-  height: 60vh;
- background-image: url(./caffee.png) ;
- background-repeat:repeat-x;
-    background-position:bottom;
-    background-size: 300px;
-   
+
+.menu-itemes {
+  color: white;
+  margin: 0 8px;
 }
-#part1{
-  height:70vh;
+
+.container {
+  margin: 0 8%;
+}
+
+#part {
+  min-height: 500px;
+  background-image: url(./caffee.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: 300px;
+  padding: 10px 0;
+}
+
+#part1 {
+  min-height: 50px;
   background-color: white;
   background-image: url(./Capture.PNG);
-    background-position: bottom left;
-    background-repeat: repeat;}
-.summer-colection{
-  background-color: white;
-    margin: 0;
-    text-align: center;
-    padding: 10;
+  background-position: bottom left;
+  background-repeat: repeat;
+  padding: 24px 0;
 }
- #part2{
+
+.summer-colection {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  padding: 10;
+}
+
+#part2 {
   /* height:130vh; */
   background-color: #ffffffba;
+
+  padding: 20PX 0;
+}
+
+.porfrosh-cart-sale-conteiner {
   display: flex;
-    flex-wrap: wrap; 
-    padding: 20PX 0;
- }
-   #part4{
-    height:30vh;
-   background-color: #ffffffad;
-   padding-top: 10PX;
-   }  
-   #part3{
+  flex-wrap: wrap;
+}
+
+#part4 {
+  min-height: 40px;
+  background-color: #ffffffad;
+  padding: 24PX 0;
+}
+
+#part3 {
   background-color: rgb(112 85 68);
   padding: 40PX 0;
 }
 
-#part5{height: 140PX;
-  background-image: url(./pattern/безшовная-предпосылка-с-одеждами-137493124.jpg);
-    background-repeat: repeat;
-    background-size:200px;
+#part5 {
+  min-height: 180px;
+  background-image: url(./pattern/paturn\ glad\ site.jpg);
+  background-repeat: repeat;
+  background-size: 200px;
 }
-#part6{
-  background-color: #a2806e; height: 25vh;
+
+#part6 {
+  background-color: #a2806e;
+  min-height: 50px;
 }
-#footer{background-color:   rgb(112 85 68); height: 60px;
-    padding: 10PX 0;
+
+#footer {
+  background-color: rgb(112 85 68);
+  min-height: 10px;
+  text-align: center;
+  padding: 10px 0;
 
 }
-.container{padding: 0 0;}
-.menu-itemes{
-color: white;
+
+.padding-product-name {
+  padding-top: 10px;
 }
-.prodact_container{
+
+.why-style {
+  text-align: center;
+}
+
+.prodact_container {
   min-height: 100px;
   background-color: #a2806e;
   margin: 10px 10px;
 }
-.container-mtn{
-  margin: 10px 10px;
-}
-.p-padding{
-    padding: 0 10px
-}
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold; text-align: center; margin-top: 0;
-}
-.foo-icon{
-  margin: 0 8px; 
-}
-.padding{
-  padding: 8px 8px;
-}
-.container2{
-  margin: 8px 8px; padding: 0 8px;
-}
-.menu-itemes{
+
+.foo-icon {
   margin: 0 8px;
 }
-.cart{
-            height: 150px; width:150px;
-            background-color: #a2806e;
-            padding-top: 10px;
-            padding-bottom:10px;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-        
-         
-         .category_container2{
-          display: flex; flex-direction: column-reverse;
-    gap: 8px;
-    overflow-x: scroll;
-    padding: 10px 10px}
-    .containerr{
-      margin: 0 8%;
-    }
-    .summer-colection-container{
-      background-color: rgb(253, 250, 57); 
-     
-    }
-    .part4-cart{
-      display: flex; justify-content: space-around; 
-    }
 
-    .prodact_cards {
+.cart {
+  height: 150px;
+  width: 150px;
+  background-color: #a2806e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
-width: 200px;
-height: 360px;
-background-color: #a2806e;
-text-align: right;
-color: black;
-padding: 10px 1%;
-margin: 8px 1%;
+
+.category_container2 {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 8px;
+  overflow-x: scroll;
+  padding: 10px 10px
+}
+
+.summer-colection-container {
+  background-color: rgb(253, 250, 57);
+
+}
+
+.part4-cart-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.prodact_cards {
+
+  min-width: 200px;
+  height: 395px;
+  background-color: #a2806e;
+  text-align: right;
+  color: black;
+  padding: 10px;
+  margin: 8px 1%;
 }
 
 .prodact_cards_desc {
-width: 100%;
-display: grid;
+  width: 100%;
+  display: grid;
 }
 
 .prodact_cards_img {
-width: 100%;
-height: 200px
+  width: 100%;
+  height: 200px
 }
 
 .prodact_cards_title {
-margin-bottom: 0;
+  margin-bottom: 0;
+}
+
+.porfrosh-style {
+  text-align: center;
 }
 
 .prodact_cards_matn {
-margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .prodact_cards_price {
-margin: 8px 0 16px;
+  margin: 8px 0 16px;
 }
+
 .prodact_sale_container {
-    display: flex;
-    gap: 2px;
-    overflow-x: scroll;
-    padding: 20px 20px; 
-  width: 60%;
-justify-content:space-evenly;}
+  display: flex;
+  gap: 2px;
+  overflow-x: scroll;
+  margin: 0 8%;
+  min-width: 60%;
+  justify-content: space-evenly;
+}
+
 .prodact_cards_btn {
-background-color: #714d37;
-color: aliceblue;
-width: 100%;
-padding: 10px 0;
-text-align: center;}
-.OFF-PART{
-    DISPLAY: FLEX;
-    JUSTIFY-CONTENT:center;
+  background-color: #714d37;
+  color: aliceblue;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
 }
-.MARJIN-OFF-PRODUCT{
-    margin: 0 6%;
+
+.OFF-PART {
+  DISPLAY: FLEX;
+  JUSTIFY-CONTENT: center;
 }
-.MATN-COLUMN{
-   column-gap: 10px; column-count: 3; float: left; COLUMN-RULE-STYLE: solid;
-    COLUMN-RULE-COLOR: BLACK; 
+
+.off-container {
+  display: flex;
+  justify-content: space-between;
 }
-.prodact_cards_desc2{
-    background-color:#a2806e ;
+
+.MATN-COLUMN {
+  column-gap: 10px;
+  column-count: 3;
+  float: left;
+  COLUMN-RULE-STYLE: solid;
+  COLUMN-RULE-COLOR: BLACK;
 }
-.prodact_cards_sale {
-    min-width: 220px;
-    background-color: #a2806e;
-    text-align: right;
-    color: #3d2513;
-    padding: 150px;}
- .prodact_sale_container {
-    display: flex;
-    gap: 8px;
-    overflow-x: scroll;
-    
-padding: 0 10;}
+
+.prodact_cards_desc2 {
+  background-color: #a2806e;
+}
+
+.porfrosh-conteiner {
+  margin: 0 8%;
+}
+
+.title-off-style {
+  text-align: center;
+}
+
+.p5-padding {
+  padding: 10px 0;
+}
