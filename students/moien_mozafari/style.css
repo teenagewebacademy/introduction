@@ -1,0 +1,159 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+    direction: rtl;
+    background-image: url(./img/سوسیس.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padding_tb {
+    padding: 10px 0;
+}
+.container {
+    margin: 0 8%;
+
+}
+#menu {
+    height: 20px;
+    background-color: #dcd2d493;
+    padding: 24px 0;
+
+}
+.menulist {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#header {
+    height: 80vh;
+}
+
+#items {
+    background-color: #527b93;
+    text-align: center;
+}
+
+.category_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.cards {
+    width: 250px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+.top {
+    height: 60%;
+    background-color: pink;
+}
+
+.bottom {
+    text-align: center;
+    color: rgb(59, 59, 59)
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+#part1 {
+    min-height: 60vh;
+    background-color: rgba(180, 229, 233, 0.5); /*#ffb7c35b;*/
+    text-align: center;
+}
+
+.img_info {
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: -5px 40px;
+}
+
+#part2 {
+    min-height: 60vh;
+    background-color: #527b93; /*#da1d3c;*/
+    text-align: center;
+
+}
+
+.off_container {
+    display: flex;
+    gap: 8px;
+    overflow-x: scroll;
+    padding: 10px 0 15px;
+}
+
+#title_margim {
+    margin: 4 0 -60 0;
+}
+
+.btn {
+    background-color: rgb(83, 58, 124);
+    color: aliceblue;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.cards2 {
+    min-width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    margin: -10px 0;
+}
+
+.top2 {
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+.bottom2 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#part3 {
+    background-color: rgba(180, 229, 233, 0.5);
+    text-align: center;
+}
+
+.rang {
+    column-count: 2;
+}
+
+#part4 {
+    background-color: #527b93;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.brands {
+    height: 200px;
+    width: 200px;
+}
+
+#brands {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: px;
+    text-align: center;
+}

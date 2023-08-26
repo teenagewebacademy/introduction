@@ -16,9 +16,9 @@ function Result(props) {
             term: 'ترم اول 2 - تابستان 1402',
             students: [
                 { name: 'باران وحدتی', age: '16', image: '/baran_vahdati.jpg', link: '', active: false },
-                { name: 'روژینا بهروزیان فرد', age: '16', image: '/rozhina_behroozianfard.jpg', link: '', active: false },
-                { name: 'پرنیان پناهی', age: '16', image: '/parnian_panahi.jpg', link: '', active: false },
-                { name: 'معین مظفری', age: '18', image: '/moein_mozafari.PNG', link: '', active: false },
+                { name: 'روژینا بهروزیان فرد', age: '16', image: '/rozhina_behroozianfard.jpg', link: './students/rozhina_behroozian/index.html', active: true },
+                { name: 'پرنیان پناهی', age: '16', image: '/parnian_panahi.jpg', link: './students/parniyan_panahi/index.html', active: true },
+                { name: 'معین مظفری', age: '18', image: '/moein_mozafari.PNG', link: './students/moien_mozafari/index.html', active: true },
                 { name: 'علیرضا جلوه نسب', age: '18', image: '/alireza_jelvehnasab.jpg', link: '', active: false },
                 { name: 'عرفان خادمی', age: '18', image: '/erfan_khademi.jpg', link: '', active: false },
                 { name: 'ابوالفضل موسوی', age: '16', image: '/abolfazl_mosavi.PNG', link: '', active: false },
