@@ -1,0 +1,196 @@
+body{
+    min-height: 100vh;
+    direction: rtl;
+    margin: 0;
+    background-image: url(./images/24288.jpg); 
+    background-attachment: fixed;
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.padding_tb{
+    padding: 25px 0;
+
+}
+.container{
+    margin: 0 15px 0 15px;
+    display: flex;
+}
+#menu{
+    background-color: rgba(247, 217, 97, 0.861);
+    flex-wrap: nowrap;
+    text-align: left;
+    direction: ltr;
+    columns: auto;
+    column-gap: 20px;
+
+}
+#messi{
+    background-color: rgba(48, 48, 48, 0.589);
+    min-height: 100px;
+
+}
+#maradona{ 
+    background-color: rgba(48, 48, 48, 0.589);
+    min-height: 100px;
+
+}
+#CR7{  background-color: rgba(48, 48, 48, 0.589);
+    min-height: 100px;
+
+}
+#pele{ background-color: rgba(48, 48, 48, 0.589);
+    min-height: 100px;
+}
+#zidane{ background-color: rgba(48, 48, 48, 0.589);
+    min-height: 100px;
+
+}
+#footer{
+    background-color:rgba(48, 48, 48, 0.589) ;
+    width: 100%;
+    /* height: 400px; */
+    
+}
+#bakmeesi{
+    background-color: white;
+    height: 700px;
+    width: 90%;
+    padding: 15px 15px 15px 252px;
+}
+.img-messi{
+    width: auto;
+    height: 730px;
+    margin-right: -250px;
+}
+#bak-cr7{
+    background-color: white;
+    height: 700px;
+    width: 90%;
+    padding: 15px 15px 15px 292px;
+}
+.img-cr7{
+    width: auto;
+    height: 730px;
+    margin-right: -289px;
+
+}
+#bakmaradona{
+    background-color: white;
+    height: 700px;
+    width: 90%;
+    padding: 15px 15px 15px 305px;
+}
+.img-maradona{
+    width: auto;
+    height: 730px;
+    margin-right: -303px;
+    
+}
+#bak-zidane{
+    background-color: white;
+    height: 700px;
+    width: 90%;
+    padding: 15px 15px 15px 258px;
+    
+}
+.img-zidane{
+    width: auto;
+    height: 730px;
+    margin-right: -313px;
+
+}
+#bak-pele{
+    background-color: white;
+    height: 700px;
+    width: 90%;
+    padding: 15px 15px 15px 384px;
+}
+.img-pele{
+    width: auto;
+    height: 730px;
+    margin-right: -384px;
+
+
+}
+#efmessi{
+    width: auto;
+    height: 30%;
+    float:left;
+    padding: 25px;
+
+}
+#efmaradona{
+    width: auto;
+    height: 30%;
+    float:left;
+    padding: 25px;
+}
+.part1{background-image: url(./images/kisspng-ballon-d-or-2017-2014-fifa-ballon-d-or-ballon-d-or-balon-5ac2f121a2d373.893728001522725153667.png);
+background-repeat: repeat-y;
+background-size: 47PX;
+    background-color: rgb(247 217 97 / 72%);
+min-height: auto;
+width:400px;
+justify-content: center;
+padding: 25px;
+}
+.part2{
+    width: 25px;
+    height: 25px;
+}
+.part{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+.big{
+    color: gold;
+}
+.texx{
+    color: white;
+}
+.texxx{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+#moghadame{
+    background-color: rgba(48, 48, 48, 0.589);
+    min-height: 100px;
+    color: white;
+    font-size:15px;
+text-align: justify;
+padding: 20px;
+}
+#eft{
+    display: flex;
+    /* flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap; */
+    overflow-x:scroll;
+    /* width: 40%; */
+    width: 600px;
+}
+.imgb{
+    width:100px;
+    height: 100px;
+}
+#grr{
+    background-image: url(./images/green-grass-background-football-field_41969-2262.avif);
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    height: 200px;
+    /* margin-right: 10%; */
+    text-align: center;
+    color: aliceblue;
+}
+#bal{
+    width: auto;
+    height: 75px;
+}
+#texm{
+    padding: 0 20px;
+}
+
