@@ -19,10 +19,10 @@ function Result(props) {
                 { name: 'روژینا بهروزیان فرد', age: '16', image: '/rozhina_behroozianfard.jpg', link: './students/rozhina_behroozian/index.html', active: true },
                 { name: 'پرنیان پناهی', age: '16', image: '/parnian_panahi.jpg', link: './students/parniyan_panahi/index.html', active: true },
                 { name: 'معین مظفری', age: '18', image: '/moein_mozafari.PNG', link: './students/moien_mozafari/index.html', active: true },
-                { name: 'علیرضا جلوه نسب', age: '18', image: '/alireza_jelvehnasab.jpg', link: '', active: false },
-                { name: 'عرفان خادمی', age: '18', image: '/erfan_khademi.jpg', link: '', active: false },
+                { name: 'علیرضا جلوه نسب', age: '18', image: '/alireza_jelvehnasab.jpg', link: './students/alireza_jelvehnasab/index.html', active: true },
+                { name: 'عرفان خادمی', age: '18', image: '/erfan_khademi.jpg', link: './students/erfan_khademi/index.html', active: true },
                 { name: 'ابوالفضل موسوی', age: '16', image: '/abolfazl_mosavi.PNG', link: '', active: false },
-                { name: 'رضا احمدی پور', age: '21', image: '/reza_ahmadipour.jpg', link: '', active: false }
+                { name: 'رضا احمدی پور', age: '21', image: '/reza_ahmadipour.jpg', link: './students/reza_ahmadipour/index.html', active: true }
             ]
         },
         {
