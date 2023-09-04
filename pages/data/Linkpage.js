@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import styles from '../styles/Linkpage.module.css'
+import React from 'react'
+import styles from '../../styles/Linkpage.module.css'
 
 export default function Linkpage() {
   const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
