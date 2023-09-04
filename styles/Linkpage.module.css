@@ -1,0 +1,30 @@
+
+.lightmode{
+    padding: 50px 0;
+    text-align: center;
+}
+.darkmode{
+    padding: 50px 0;
+    text-align: center;
+    background-color: #433f52;
+    color: white;
+}
+.image{
+    width: 400px;
+}
+.btn{
+    background-color: #f5ac32;
+    color: black;
+    width: 100px;
+    padding: 12px 0;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+
+
+@media(max-width:600px){
+    .image{
+        width: 200px;
+    }
+}
