@@ -17,4 +17,4 @@ module.exports = {
 //   /* config options here */
 // }
  
-// module.exports = nextConfig
+module.exports = nextConfig
