@@ -13,20 +13,40 @@ function Result(props) {
 
     const data = [
         {
+            term: 'ترم اول 3 - تابستان 1402',
+            students: [
+                { name: 'پوریا طارمی', age: '16', image: '', link: '', active: false },
+                { name: 'بهنیا حیدری', age: '15', image: '', link: '', active: false },
+                { name: 'ابوالفضل هنربین', age: '16', image: '', link: '', active: false },
+                { name: 'آذین طلاب', age: '15', image: '', link: '', active: false },
+
+            ]
+        },
+        {
+            term: 'دوره طراحی سایت HTML & CSS - تابستان و پاییز 1402',
+            students: [
+                { name: 'نسترن سالمی', age: '18', image: '', link: '', active: false },
+                { name: 'امیررضا آذروند', age: '25', image: '', link: '', active: false },
+                { name: 'امیرعلی زنگنه', age: '13', image: '', link: '', active: false },
+                { name: 'سینا غلامی', age: '18', image: '', link: '', active: false },
+
+            ]
+        },
+        {
             term: 'ترم دوم 2 - تابستان 1402',
             students: [
                 { name: 'روژینا بهروزیان فرد', age: '16', image: '/rozhina_behroozianfard.jpg', link: '', active: false },
                 { name: 'پرنیان پناهی', age: '18', image: '/parnian_panahi.jpg', link: '', active: false },
                 { name: 'معین مظفری', age: '18', image: '/moein_mozafari.PNG', link: '', active: false },
                 { name: 'علیرضا جلوه نسب', age: '18', image: '/alireza_jelvehnasab.jpg', link: '', active: false },
-                { name: 'عرفان خادمی', age: '18', image: '/erfan_khademi.jpg', link: '', active: false },
+                { name: 'عرفان خادمی', age: '18', image: '/erfan_khademi.jpg', link: 'https://erfankhademi.github.io/model/', active: true },
                 { name: 'رضا احمدی پور', age: '21', image: '/reza_ahmadipour.jpg', link: '', active: false }
             ]
         },
         {
             term: 'ترم دوم - تابستان 1402',
             students: [
-                { name: 'سیدرضا موسوی', age: '17', image: '/seyed_reza_mosavi.jpeg', link: '', active: false },
+                { name: 'سیدرضا موسوی', age: '17', image: '/seyed_reza_mosavi.jpeg', link: 'https://1000reza777.github.io/cocvc/', active: true },
                 { name: 'علیرضا حیدری', age: '14', image: '/alireza_heydari.jpeg', link: '', active: false },
                 { name: 'سیوان بیگرضایی', age: '15', image: '/sivan_beygrezaee.PNG', link: '', active: false },
                 { name: 'مائده عیدی', age: '18', image: '/maeede_eydi.PNG', link: '', active: false },
