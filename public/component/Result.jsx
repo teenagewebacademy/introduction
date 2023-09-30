@@ -19,7 +19,6 @@ function Result(props) {
                 { name: 'بهنیا حیدری', age: '15', image: '', link: '', active: false },
                 { name: 'ابوالفضل هنربین', age: '16', image: '', link: '', active: false },
                 { name: 'آذین طلاب', age: '15', image: '', link: '', active: false },
-
             ]
         },
         {
