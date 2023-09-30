@@ -1,14 +1,13 @@
 
+
 module.exports = {
   assetPrefix: '/introduction',  
   basePath: '/introduction',
   images: {
     loader: 'akamai',  
-    // path: '',
+    path: '',
   },
 }
-
-
 
 
 
@@ -17,4 +16,4 @@ module.exports = {
 //   /* config options here */
 // }
  
-module.exports = nextConfig
+//module.exports = nextConfig
