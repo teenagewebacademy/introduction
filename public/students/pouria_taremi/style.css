@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+
+}
+
+
+/* ======================================== scroll buttom ======================================================== */
+
+
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(162, 0, 255);
+
+}
+
+/* ======================================== banner ======================================================== */
+
+.banner-top {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.part-yellow {
+    height: 5px;
+    background-color: yellow;
+}
+
+/* ======================================== body ======================================================== */
+
+.container {
+    margin: 0 8%;
+}
+
+.padding_tb {
+    padding: 50px 0;
+}
+
+/* ========================================  parts  =========================================== */
+.parts {
+    min-height: 100px;
+}
+
+#part1 {
+    background-image: url(./img/banner\ mehdi\ remove\ bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 650px;
+    background-color: rgb(255, 255, 255);
+}
+
+#part2 {
+    /* height: 180px; */
+    background-color: rgb(149, 0, 255);
+    text-align: center;
+}
+
+#part3 {
+    /* height: 700px; */
+    background-color: rgb(48, 48, 48);
+}
+
+#part4 {
+    /* height: 648px; */
+    background-color: rgb(64, 0, 101);
+}
+
+#part5 {
+    /* height: 5px; */
+    background-color: yellow;
+}
+
+#part6 {
+    height: 650px;
+    background-color: aliceblue;
+    background-attachment: fixed;
+    background-image: url(./img/banner\ porto\ fix\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#part7 {
+    /* height: 5px; */
+    background-color: yellow;
+}
+
+#part8 {
+    /* height: 400px; */
+    background-color: rgb(149, 0, 255);
+
+}
+
+#part9 {
+    /* height: 600px; */
+    background-color: rgb(0, 132, 255);
+
+
+}
+
+#part10 {
+    height: 5px;
+    background-color: yellow;
+}
+
+#part11 {
+    height: 5px;
+    background-color: yellow;
+}
+
+#part12 {
+    padding: 16px 0;
+    height: 25px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+/* ======================================== footer ======================================================== */
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    direction: ltr;
+    flex-direction: row-reverse;
+}
+
+.footer-2 {
+    font-size: small;
+    font-style: normal;
+}
+
+/* ======================================== buttom ======================================================== */
+
+
+.buy-bt {
+    padding: 10px 23px;
+    background-color: rgb(23, 81, 189);
+    /* height: 100px; */
+    width: 80px;
+
+
+}
+
+.fix-bt {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+/* ======================================== icon ======================================================== */
+.icon-style {
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    margin: 40px;
+}
+
+/* ======================================== card ======================================================== */
+.prod_card {
+    height: 548px;
+    min-width: 292px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #002e77;
+}
+
+.image_card {
+    height: 60%;
+    width: 100%;
+    background-color: blue;
+}
+
+.desc_card {
+    width: 100%;
+    height: 40%;
+    background-color: #002e77;
+}
+
+.Red_color {
+    color: red;
+}
+
+/* ======================================== card list ======================================================== */
+.card_list {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.card_list::-webkit-scrollbar {
+    height: 10px;
+}
+
+.card_list::-webkit-scrollbar-track {
+    background-color: blueviolet;
+}
+
+.card_list::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+.text-align-1 {
+    text-align: center;
+    color: white;
+}
+
+.text-align-2 {
+    text-align: left;
+}
+
+/* ======================================== text color ======================================================== */
+.icolor {
+    color: white;
+}
+
+.yellow-color {
+    color: yellow;
+}
+
+/* =======================================  padding  ============================================ */
+.padding110 {
+    padding-left: 147px;
+}
+
+/* ======================================== part 8 ======================================================== */
+.titel2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.padding2 {
+    padding: 27px 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.column2 {
+    column-count: 3;
+    column-rule-style: dotted;
+}
+
+/* ======================================== part 8 ======================================================== */
+.taremi-skill {
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.skill-text{
+    text-align: justify;
+}
+
+.direction{
+    direction: ltr;
+}

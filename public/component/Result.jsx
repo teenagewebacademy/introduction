@@ -10,15 +10,20 @@ function Result(props) {
 
     const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
     const default_page ='./students/default_page.html';
+    // { name: '', age: '', image: '', link: '', active: false },
 
     const data = [
         {
             term: 'ترم اول 3 - تابستان 1402',
             students: [
-                { name: 'پوریا طارمی', age: '16', image: '', link: '', active: false },
-                { name: 'بهنیا حیدری', age: '15', image: '', link: '', active: false },
+                { name: 'پوریا طارمی', age: '16', image: '/pouria_taremi.jpg', link: './students/pouria_taremi/index.html', active: true },
+                { name: 'بهنیا حیدری', age: '15', image: '/behnia_heydari.jpg', link: '', active: false },
                 { name: 'ابوالفضل هنربین', age: '16', image: '', link: '', active: false },
                 { name: 'آذین طلاب', age: '15', image: '', link: '', active: false },
+                { name: 'رسول شماخی', age: '32', image: '', link: '', active: false },
+                { name: 'یونس جمور', age: '34', image: '', link: '', active: false },
+                { name: 'جابر اردستانی', age: '', image: '', link: '', active: false },
+                { name: 'امیرمهدی رام', age: '15', image: '', link: '', active: false },
             ]
         },
         {
@@ -34,7 +39,7 @@ function Result(props) {
         {
             term: 'ترم دوم 2 - تابستان 1402',
             students: [
-                { name: 'روژینا بهروزیان فرد', age: '16', image: '/rozhina_behroozianfard.jpg', link: '', active: false },
+                { name: 'روژینا بهروزیان فرد', age: '16', image: '/rozhina_behroozianfard.jpg', link: 'https://rozhinabehroozian.github.io/Rozhiina/', active: true },
                 { name: 'پرنیان پناهی', age: '18', image: '/parnian_panahi.jpg', link: '', active: false },
                 { name: 'معین مظفری', age: '18', image: '/moein_mozafari.PNG', link: '', active: false },
                 { name: 'علیرضا جلوه نسب', age: '18', image: '/alireza_jelvehnasab.jpg', link: '', active: false },
