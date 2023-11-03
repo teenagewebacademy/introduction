@@ -10,31 +10,69 @@ function Result(props) {
 
     const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
     const default_page ='./students/default_page.html';
+    // { name: '', age: '', image: '', link: '', active: false },
 
     const data = [
         {
+            term: 'دوره طراحی سایت HTML & CSS - پاییز 1402',
+            students: [
+                { name: 'سارا محمدی', age: '16', image: '/sara_mohamadi.PNG', link: '', active: false },
+                { name: 'غزاله نعمتی زاده', age: '20', image: '', link: '', active: false },
+                { name: 'حمیدرضا میرزا', age: '18', image: '', link: '', active: false },
+                { name: 'امیرحسین عبدل نسب', age: '19', image: '/amirhosein_andolnasab.jfif', link: '', active: false },
+                { name: 'ابوالفضل زیارتی', age: '20', image: '', link: '', active: false },
+                { name: 'علی ترک زاده', age: '15', image: '', link: '', active: false },
+                { name: 'حسین علی خواه', age: '37', image: '', link: '', active: false },
+                { name: 'آوا صابری', age: '18', image: '', link: '', active: false },
+
+            ]
+        },
+        {
+            term: 'ترم سوم - پاییز 1402',
+            students: [
+                { name: 'روژینا بهروزیان فرد', age: '16', image: '/rozhina_behroozianfard.jpg', link: '', active: false },
+                { name: 'علیرضا جلوه نسب', age: '18', image: '/alireza_jelvehnasab.jpg', link: '', active: false },
+                { name: 'عرفان خادمی', age: '18', image: '/erfan_khademi.jpg', link: '', active: false },
+                { name: 'رضا احمدی پور', age: '21', image: '/reza_ahmadipour.jpg', link: '', active: false },
+                { name: 'علیرضا حیدری', age: '14', image: '/alireza_heydari.jpeg', link: '', active: false },
+                { name: 'سیوان بیگرضایی', age: '15', image: '/sivan_beygrezaee.PNG', link: '', active: false },
+                { name: 'مائده عیدی', age: '18', image: '/maeede_eydi.PNG', link: '', active: false },
+            ]
+        },
+        {
+            term: 'ترم اول (خصوصی) - پاییز 1402',
+            students: [
+                { name: 'حدیث کمالی', age: '18', image: '', link: '', active: false },
+                { name: 'طاها گداعلی', age: '12', image: '', link: '', active: false },
+            ]
+        },
+        {
             term: 'ترم اول 3 - تابستان 1402',
             students: [
-                { name: 'پوریا طارمی', age: '16', image: '', link: '', active: false },
-                { name: 'بهنیا حیدری', age: '15', image: '', link: '', active: false },
+                { name: 'پوریا طارمی', age: '16', image: '/pouria_taremi.jpg', link: './students/pouria_taremi/index.html', active: true },
+                { name: 'بهنیا حیدری', age: '15', image: '/behnia_heydari.jpg', link: '', active: false },
                 { name: 'ابوالفضل هنربین', age: '16', image: '', link: '', active: false },
-                { name: 'آذین طلاب', age: '15', image: '', link: '', active: false },
+                { name: 'آذین طلاب', age: '15', image: '/azin_tolab.jfif', link: '', active: false },
+                { name: 'رسول شماخی', age: '32', image: '', link: './students/rasoul_shamakhi/index.html', active: true },
+                { name: 'یونس جمور', age: '34', image: '', link: '', active: false },
+                { name: 'جابر اردستانی', age: '', image: '', link: '', active: false },
+                { name: 'امیرمهدی رام', age: '15', image: '', link: '', active: false },
             ]
         },
         {
             term: 'دوره طراحی سایت HTML & CSS - تابستان و پاییز 1402',
             students: [
-                { name: 'نسترن سالمی', age: '18', image: '', link: '', active: false },
-                { name: 'امیررضا آذروند', age: '25', image: '', link: '', active: false },
-                { name: 'امیرعلی زنگنه', age: '13', image: '', link: '', active: false },
-                { name: 'سینا غلامی', age: '18', image: '', link: '', active: false },
+                { name: 'نسترن سالمی', age: '18', image: '/nastaran_salemi.PNG', link: '', active: false },
+                { name: 'امیررضا آذروند', age: '25', image: '/amirreza_azarvand.PNG', link: '', active: false },
+                { name: 'علیرضا زنگنه', age: '13', image: '/alireza_zangeneh.PNG', link: '', active: false },
+                { name: 'سینا غلامی', age: '18', image: '/sina_gholami.PNG', link: '', active: false },
 
             ]
         },
         {
             term: 'ترم دوم 2 - تابستان 1402',
             students: [
-                { name: 'روژینا بهروزیان فرد', age: '16', image: '/rozhina_behroozianfard.jpg', link: '', active: false },
+                { name: 'روژینا بهروزیان فرد', age: '16', image: '/rozhina_behroozianfard.jpg', link: 'https://rozhinabehroozian.github.io/Rozhiina/', active: true },
                 { name: 'پرنیان پناهی', age: '18', image: '/parnian_panahi.jpg', link: '', active: false },
                 { name: 'معین مظفری', age: '18', image: '/moein_mozafari.PNG', link: '', active: false },
                 { name: 'علیرضا جلوه نسب', age: '18', image: '/alireza_jelvehnasab.jpg', link: '', active: false },
@@ -43,7 +81,7 @@ function Result(props) {
             ]
         },
         {
-            term: 'ترم دوم - تابستان 1402',
+            term: 'ترم دوم 1 - تابستان 1402',
             students: [
                 { name: 'سیدرضا موسوی', age: '17', image: '/seyed_reza_mosavi.jpeg', link: 'https://1000reza777.github.io/cocvc/', active: true },
                 { name: 'علیرضا حیدری', age: '14', image: '/alireza_heydari.jpeg', link: '', active: false },
