@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+</head>
+
+<body>
+    <style>
+        body {
+            min-height: 105vh;
+            margin: 0;
+            background-size: 230px;
+
+        }
+
+        .social_club {
+            display: flex;
+            margin: 0 auto 0 auto;
+        }
+
+        .container {
+            height: 500px;
+            margin: 5px auto 0 auto;
+
+
+        }
+
+        .rockstar {
+            margin-top: 30px;
+        }
+
+        .roles {
+            font-size: small;
+            direction: ltr;
+            margin-top: 15px;
+        }
+
+        .check {
+            cursor: pointer;
+        }
+
+    </style>
+
+    <img class="social_club" src="./images/Untitled.png" alt="">
+
+    <div class="container">
+        <h3 class="log">
+            Sign in with Social Club
+        </h3>
+        <form>
+
+            <label for="name">User Name</label>
+            <input type="text" placeholder="name" required>
+            <label for="password">password</label>
+            <input type="password" required>
+            <label for="email">Email or Gmail</label>
+            <input type="email" required>
+            <label for="name">Birth Date</label>
+            <input type="date" required>
+            <label for="name">Age</label>
+            <input type="number" required>
+
+
+
+
+
+            <fieldset class="Gender">
+                <legend>sex</legend>
+                <label for="male">Man</label>
+                <input type="radio" name="Gender" id="male" value="male">
+                <!-- <legend>sex</legend> -->
+                <label for="female">Woman</label>
+                <input type="radio" name="Gender" id="female" value="female">
+                <label for="Other">Other</label>
+                <input type="radio" name="Gender" id="Other" value="Other" checked>
+                <br>
+                <b>Chosing other is more recommended </b>
+
+            </fieldset>
+            <div class="roles">
+                <input class="check" type="checkbox" required>
+                <label for="name"> I have Read and agree the roles</label>
+            </div>
+            <div>
+                <img class="ps4" src="./images/ps4.png" alt="">
+                <img class="xbox" src="./images/img - Copy.png" alt="">
+            </div>
+            <div class="forgot">
+                <label for="Sign in"></label>
+                <input class="sign_in" type="submit" name="Sign in" id="Sign in" value="Log in">
+            </div>
+        </form>
+
+        <div>
+            <img class="rockstar" src="./images/Rockstar.png" alt="">
+        </div>
+
+
+
+
+    </div>
+    <footer class="footer">
+        <span class="info"> © 2023 ROCKSTAR GAMES</span>
+        <span class="info_new"> PRIVACY POLICY</span>
+        <span class="info_new"> TERMS OF SERVICE</span>
+        <span class="info_new"> COOKIE SETTINGS</span>
+    </footer>
+
+</body>
+
+</html>
