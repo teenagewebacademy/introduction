@@ -1,0 +1,178 @@
+body {
+    min-height: 105vh;
+    margin: 0;
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url(./images/rdr2\ online22.png), url(./images/gta\ online22.png), url(./images/main\ background22.png);
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 230px;
+    background-position-x: left, right;
+    background-position-y: bottom, bottom;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.social_club {
+    width: 457px;
+    height: 100px;
+    margin: 0 auto 0 auto;
+    display: block;
+
+}
+
+label {
+    text-align: center;
+}
+
+.log {
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    margin: 5px auto 0 auto;
+    width: 300px;
+    height: 450px;
+    /* text-align: center; */
+    border: 10px solid whitesmoke;
+    /* box-shadow: 0 0 16px 8px whitesmoke ; */
+    border-radius: 5px;
+    background-attachment: fixed;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
+    margin-bottom: 10px;
+    /* text-align: center; */
+    background-attachment: fixed;
+}
+
+.Gender {
+    text-align: center;
+    padding: 2px;
+
+}
+
+.Gender input {
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+}
+
+.keep {
+    direction: ltr;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.keep input {
+    cursor: pointer;
+}
+
+.forgot {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sign_in {
+    background-color: orange;
+    border: orange;
+    width: 100px;
+    height: 35px;
+    font-size: medium;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    margin-left: 160px;
+    border-radius: 4px;
+    margin-top: 1px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.ps4 {
+    width: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.xbox {
+    width: 40px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.account {
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-small;
+
+
+
+}
+
+.create {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+.create_new {
+    color: orange;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.create_new:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rockstar {
+    width: 50px;
+    margin-left: 120px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 300px;
+    gap: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.footer span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.info {
+    color: #999;
+    padding-right: 5px;
+}
+
+.info_new {
+    padding-right: 5px;
+}
