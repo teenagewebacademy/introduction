@@ -1,0 +1,205 @@
+body{
+    direction: rtl;
+    margin: 0;
+    background-image: url(./music/header.png);
+    /* height: 500vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parts{
+}
+svg{
+    margin-left: 5px;
+}
+.padding_tb{
+    padding: 50px 0;
+
+}
+.container{
+    margin: 0 8%;
+    
+}
+.parts{
+    min-height:100px;
+}
+#menu{
+    height: 50px;
+    background-color: rgb(09, 00, 57);
+}
+.container_menu{
+    color: white;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    height: 100%;
+}
+
+#baner{
+    /* background-image:url(./music/pattern_gray.png); */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+color: rgb(57, 21, 61);
+
+}
+
+
+#baner2,#baner{
+    background-color: rgba(219, 203, 235, 0.555);
+}
+.container_title{
+    text-align: center;
+}
+#baner5{
+    background-image: url(./music/key_sol.png) ,url(./music/key_sol.png);
+    /* height: 200px; */
+    background-repeat:repeat-x;
+    background-size: 100px;
+    background-color: white;
+    background-position: top , bottom;
+}
+.title_parts{
+    text-align:center;
+    color: rgb(253, 251, 253);
+}
+.text_rak{
+    margin-bottom: 50px;
+    column-count: 4;
+    text-align: justify;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color: rgb(66, 7, 66);
+    overflow: auto;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img_rak{
+    width: 200px;
+    height: 200px;
+}
+.title_rak{
+    color: rgb(66, 7, 66);
+    display: flex;
+    justify-content: center;
+}
+/* ==================================================== */
+
+
+#baner4{
+    background-color: rgb(57, 00, 73);
+}
+/* ==================================================== */
+
+#baner8{
+    background-color: rgb(253, 252, 253);
+    background-image: url(./music/music.jpg);
+    background-repeat: no-repeat;
+    background-size: 450px;
+    
+}
+/* ==================================================== */
+
+#baner6{
+    background-color: rgb(57 0 73 / 79%);
+}
+.title_align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ==================================================== */
+
+#baner7{
+    background-image:url(./music/pattern2_gray.png) ;
+    background-repeat: repeat;
+    background-size:300px; ;
+}
+.product_iist{
+    display: flex;
+    gap: 17px;
+    overflow-x: scroll;
+}
+.BOX{
+    width: 200px;
+    background-color: rgb(215 215 215);
+}
+.top{
+    /* width: 300px; */
+    width:200px;
+    /* HEIGHT:160px; */
+    height: 200px;
+    background-color: rgb(221, 32, 32);
+}
+.bottom{
+    /* width: 300px; */
+    width: 160px;
+    padding: 20px;
+
+
+    /* HEIGHT:240px; */
+    height: 200px;
+}
+.btn{
+
+    height: 30px;
+    padding: 0 20px;
+    margin: 30px 0;
+    background-color: #390049;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+
+}
+/* ==================================================== */
+
+#baner3{
+    background-color: white;
+
+}
+.product_list{
+   
+    display: flex;
+   overflow-x: scroll;
+   gap: 30px;
+   
+  
+}
+    
+
+
+    .card{
+        width: 200px;
+        height: 400PX;
+        background-color: rgb(180, 171, 171);
+        
+    
+        
+    }
+    .top{
+        /* width: 300px; */
+        width:200px;
+        /* HEIGHT:160px; */
+        height: 200px;
+        background-color: rgb(221, 32, 32);
+    }
+    .bottom{
+        /* width: 300px; */
+        width: 160px;
+        padding: 20px;
+    
+
+        /* HEIGHT:240px; */
+        height: 200px;
+        background-color:#999592
+        
+    }
+
+#baner9{
+    background-color: rgb(57, 00, 73);
+    color: white;
+}
+/* ==================================================== */
+
