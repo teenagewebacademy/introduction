@@ -17,6 +17,7 @@ body {
 
 .material-icons {
     margin-right: 25px;
+    vertical-align: middle;
 }
 
 .text_bar {

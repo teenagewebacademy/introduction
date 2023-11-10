@@ -16,7 +16,7 @@ function Result(props) {
         {
             term: 'دوره طراحی سایت HTML & CSS - پاییز 1402',
             students: [
-                { name: 'سارا محمدی', age: '16', image: '/sara_mohamadi.PNG', link: '', active: false },
+                { name: 'سارا محمدی', age: '16', image: '', link: '', active: false },
                 { name: 'غزاله نعمتی زاده', age: '20', image: '', link: '', active: false },
                 { name: 'حمیدرضا میرزا', age: '18', image: '', link: '', active: false },
                 { name: 'امیرحسین عبدل نسب', age: '19', image: '/amirhosein_andolnasab.jfif', link: '', active: false },
@@ -42,7 +42,7 @@ function Result(props) {
         {
             term: 'ترم اول (خصوصی) - پاییز 1402',
             students: [
-                { name: 'حدیث کمالی', age: '18', image: '', link: '', active: false },
+                { name: 'حدیث کمالی', age: '18', image: '/hadis_kamali.jpg', link: './students/hadis_kamali/index.html', active: true },
                 { name: 'طاها گداعلی', age: '12', image: '', link: '', active: false },
             ]
         },
@@ -54,7 +54,7 @@ function Result(props) {
                 { name: 'ابوالفضل هنربین', age: '16', image: '', link: '', active: false },
                 { name: 'آذین طلاب', age: '15', image: '/azin_tolab.jfif', link: '', active: false },
                 { name: 'رسول شماخی', age: '32', image: '', link: './students/rasoul_shamakhi/index.html', active: true },
-                { name: 'یونس جمور', age: '34', image: '', link: '', active: false },
+                { name: 'یونس جمور', age: '34', image: '', link: './students/younes_jomor/index.html', active: true },
                 { name: 'جابر اردستانی', age: '', image: '', link: '', active: false },
                 { name: 'امیرمهدی رام', age: '15', image: '', link: '', active: false },
             ]
@@ -62,10 +62,10 @@ function Result(props) {
         {
             term: 'دوره طراحی سایت HTML & CSS - تابستان و پاییز 1402',
             students: [
-                { name: 'نسترن سالمی', age: '18', image: '/nastaran_salemi.PNG', link: '', active: false },
+                { name: 'نسترن سالمی', age: '20', image: '/nastaran_salemi.PNG', link: './students/nastaran_salemi/index.html', active: true },
                 { name: 'امیررضا آذروند', age: '25', image: '/amirreza_azarvand.PNG', link: '', active: false },
-                { name: 'علیرضا زنگنه', age: '13', image: '/alireza_zangeneh.PNG', link: '', active: false },
-                { name: 'سینا غلامی', age: '18', image: '/sina_gholami.PNG', link: '', active: false },
+                { name: 'علیرضا زنگنه', age: '13', image: '/alireza_zangeneh.PNG', link: './students/alireza_zangeneh/index.html', active: true },
+                { name: 'سینا غلامی', age: '18', image: '/sina_gholami.PNG', link: './students/sina_gholami/index.html', active: true },
 
             ]
         },
