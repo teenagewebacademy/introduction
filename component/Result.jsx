@@ -55,7 +55,7 @@ function Result(props) {
                 { name: 'آذین طلاب', age: '15', image: '/azin_tolab.jfif', link: '', active: false },
                 { name: 'رسول شماخی', age: '32', image: '', link: './students/rasoul_shamakhi/index.html', active: true },
                 { name: 'یونس جمور', age: '34', image: '', link: './students/younes_jomor/index.html', active: true },
-                { name: 'جابر اردستانی', age: '', image: '', link: '', active: false },
+                { name: 'جابر اردستانی', age: '', image: '.jaber_ardestani.jfif', link: '', active: false },
                 { name: 'امیرمهدی رام', age: '15', image: '', link: '', active: false },
             ]
         },
