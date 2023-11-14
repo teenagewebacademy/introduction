@@ -45,6 +45,32 @@
     margin: 10px 0;
 }
 
-@media(max-width:768px){
-  
+@media(max-width:800px){
+    .container{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0;
+        gap: 50px;
+    }
+    .rightSilde a{
+        display: grid;
+    }
+    .image{
+        width: 40%;
+        margin: 80px auto 0;
+    }
+    .link{
+        padding: 0;
+        margin-top: 10px;
+    }
+    .leftSilde{
+        padding: 30px 20px 40px;
+        width: 80%;
+    }
+}
+@media (max-width:500px) {
+    .leftSilde{
+        padding: 30px 20px 40px;
+        width: 97%;
+    }
 }
