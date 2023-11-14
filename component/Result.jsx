@@ -6,17 +6,21 @@ import CardSlider from './CardSlider';
 import Cards_slider from './Cards_slider';
 import { useRouter } from 'next/router';
 
+import Router, { withRouter } from 'next/router'
+
+
 function Result(props) {
 
-    const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
-    const default_page ='./students/default_page.html';
+    const router=useRouter()
+    const basePath = process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_FAVICON : '';
+    const default_page = './students/default_page.html';
     // { name: '', age: '', image: '', link: '', active: false },
 
     const data = [
         {
             term: 'دوره طراحی سایت HTML & CSS - پاییز 1402',
             students: [
-                { name: 'سارا محمدی', age: '16', image: '', link: '', active: false },
+                { name: 'سارا محمدی', age: '16', image: '/sara_mohamadi.PNG', link: '', active: false },
                 { name: 'غزاله نعمتی زاده', age: '20', image: '', link: '', active: false },
                 { name: 'حمیدرضا میرزا', age: '18', image: '', link: '', active: false },
                 { name: 'امیرحسین عبدل نسب', age: '19', image: '/amirhosein_andolnasab.jfif', link: '', active: false },
@@ -55,7 +59,7 @@ function Result(props) {
                 { name: 'آذین طلاب', age: '15', image: '/azin_tolab.jfif', link: '', active: false },
                 { name: 'رسول شماخی', age: '32', image: '', link: './students/rasoul_shamakhi/index.html', active: true },
                 { name: 'یونس جمور', age: '34', image: '', link: './students/younes_jomor/index.html', active: true },
-                { name: 'جابر اردستانی', age: '', image: '.jaber_ardestani.jfif', link: '', active: false },
+                { name: 'جابر اردستانی', age: '33', image: '/jaber_ardestani.jfif', link: '', active: false },
                 { name: 'امیرمهدی رام', age: '15', image: '', link: '', active: false },
             ]
         },
@@ -65,7 +69,14 @@ function Result(props) {
                 { name: 'نسترن سالمی', age: '20', image: '/nastaran_salemi.PNG', link: './students/nastaran_salemi/index.html', active: true },
                 { name: 'امیررضا آذروند', age: '25', image: '/amirreza_azarvand.PNG', link: '', active: false },
                 { name: 'علیرضا زنگنه', age: '13', image: '/alireza_zangeneh.PNG', link: './students/alireza_zangeneh/index.html', active: true },
-                { name: 'سینا غلامی', age: '18', image: '/sina_gholami.PNG', link: './students/sina_gholami/index.html', active: true },
+                {
+                    name: 'سینا غلامی', age: '18', image: '/sina_gholami.PNG', link: './students/sina_gholami/index.html', active: true,
+                    moreLink_state: true,
+                    more_project: [ 
+                        { title: 'پروژه پایانی من', link: './students/sina_gholami/index.html' },
+                        { title: 'سایت ساخته شده حین آموزش', link: './students/sina_gholami/sina/Best Open World Games.html' },
+                    ],
+                },
 
             ]
         },
@@ -162,6 +173,19 @@ function Result(props) {
             ]
         }];
 
+        const projects_page=(data)=>{
+            router.push({
+                pathname: '/Project',
+                query: { 
+                    name: data.name,
+                    image: data.image,
+                    final: data.link,
+                    projects:JSON.stringify(data.more_project),
+                    test:data.test
+                 },
+              })
+        }
+
     return (
         <section className={styles.Result}>
             <h2>تحلیل و ساخت</h2>
@@ -180,18 +204,45 @@ function Result(props) {
                     <div className={styles.students_list}>
                         {item.students.map((item, index) => (
                             // <Link href={item.link} className={styles.student} key={index} target={'_blank'}>
-                            <Link href={item.link? item.link : default_page} className={styles.student} key={index} target={'_blank'}>
-                                <img src={item.image ? `${basePath}/images/profile${item.image}` : `${basePath}/images/avatar.JPG`} alt={item.name} width={'180'} height={'180'}
-                                    className={
-                                        index % 2 == 0 ? styles.student_image_color_o : styles.student_image_color_e
-                                    } />
+                            <div key={index} className={styles.student}>
+                                <Link href={item.link ? item.link : default_page}
+                                    key={index}
+                                    target={'_blank'}>
+
+                                    <img src={item.image ? `${basePath}/images/profile${item.image}` : `${basePath}/images/avatar.JPG`} alt={item.name} width={'180'} height={'180'}
+                                        className={
+                                            index % 2 == 0 ? styles.student_image_color_o : styles.student_image_color_e
+                                        } />
+                                </Link>
                                 <p className={item.active ? styles.hidden : styles.effect}>
                                     <i className="material-icons">error_outline</i>
                                     محتوایی وجود ندارد!
                                 </p>
-                                <strong>{item.name}</strong>
+
+                                {item.moreLink_state ?                                    
+                                    <strong className={styles.projectlink} onClick={()=>projects_page(item)}>
+                                        {item.moreLink_state ? '👑' : null}
+                                        {item.name}
+                                    </strong>
+                                    :
+                                    <strong>{item.name}</strong>
+                                }
                                 <span>{item.age} ساله</span>
-                            </Link>
+                            </div>
+
+
+                            //    <Link href={item.link? item.link : default_page} className={styles.student} key={index} target={'_blank'}>
+                            //         <img src={item.image ? `${basePath}/images/profile${item.image}` : `${basePath}/images/avatar.JPG`} alt={item.name} width={'180'} height={'180'}
+                            //             className={
+                            //                 index % 2 == 0 ? styles.student_image_color_o : styles.student_image_color_e
+                            //             } />
+                            //         <p className={item.active ? styles.hidden : styles.effect}>
+                            //             <i className="material-icons">error_outline</i>
+                            //             محتوایی وجود ندارد!
+                            //         </p>
+                            //         <strong>{item.name}</strong>
+                            //         <span>{item.age} ساله</span>
+                            //     </Link>
                         ))}
                     </div>
                 </div>
