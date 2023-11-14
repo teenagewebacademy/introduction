@@ -74,7 +74,7 @@ function Result(props) {
                     moreLink_state: true,
                     more_project: [ 
                         { title: 'پروژه پایانی من', link: './students/sina_gholami/index.html' },
-                        { title: 'سایت ساخته شده حین آموزش', link: './students/sina_gholami/sina/Best Open World Games.html' },
+                        { title: 'سایت ساخته شده حین آموزش', link: './students/sina_gholami/sina/index.html' },
                     ],
                 },
 
