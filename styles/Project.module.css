@@ -1,12 +1,12 @@
 
 
 .container{
+    background-color: white;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
-    margin: 0 7%;
 }
 .leftSilde{
     text-align: right;
@@ -19,7 +19,7 @@
 }
 .rightSilde{
     text-align: center;
-    width: 500px;
+    /* width: 500px; */
 }
 .image{
     width: 100%;
@@ -54,10 +54,11 @@
     }
     .rightSilde a{
         display: grid;
+        width: auto !important;
     }
     .image{
-        width: 40%;
-        margin: 80px auto 0;
+        width: 50%;
+        margin: 100px auto 0;
     }
     .link{
         padding: 0;
@@ -67,10 +68,24 @@
         padding: 30px 20px 40px;
         width: 80%;
     }
+
 }
 @media (max-width:500px) {
+    .main{
+        background-color: white;
+    }
+    .rightSilde a{
+        width: auto !important;
+    }
     .leftSilde{
         padding: 30px 20px 40px;
         width: 97%;
+    }
+}
+
+@media (min-width:800px) {
+
+    .rightSilde{
+        width: 500px !important;
     }
 }

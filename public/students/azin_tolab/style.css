@@ -1,0 +1,103 @@
+/* AEC3AE */
+.body {
+    background-image: url('./images/Vincenzo_TV_series.jpg');
+    background-attachment: fixed;
+    min-height: 100px;
+}
+:root{
+    --main:183D3D;
+    --desing:5C8374;
+}
+
+
+.padding_tb {
+    padding: 50px 0 50px 0;
+}
+
+.container {
+    margin: 0 10% 0 10%;
+}
+.film{
+    display: flex ; 
+    /* flex-direction: row; */
+    gap: 10px;
+    overflow-x: scroll;   
+}
+
+.parts {
+    min-height: 100PX;
+
+}
+
+#part1 {
+    /* background-color: #435334; */
+    background-color: var(--main);
+    min-height: 100px;
+    text-align: center;
+    
+}
+#part2 {
+    background-color: #b1ca96;
+    background-image: url('./images/Vincenzo_TV_series.jpg');
+    background-attachment: fixed;
+    min-height: 300PX;
+}
+
+#part3 {
+    background-color: #9eb384;
+    padding: 50px 50px 50px 50px;
+}
+
+#part4 {
+    background-color: rgba(22, 36, 9, 0.5);
+    background-blend-mode: overlay;
+    background-image: url('./images/Vincenzo_TV_series.jpg');
+    background-attachment: fixed;
+    min-height: 300PX;
+    background-color: #324122;
+}
+
+#part5 {
+    background-color: #9eb384;
+    background-image: url(../FILM_PNG2-removebg-preview.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 50px 300px 50px 50px;
+}
+
+#part6 {
+    background-color: #263319;
+    background-image: url(./StrongWomanDoBong-soon_\(Main_poster\).jpg);
+    background-attachment: fixed;
+    min-height: 300px;
+    background-blend-mode: overlay;
+}
+
+#part7 {
+    background-color: #9eb384;
+    column-count: 3;
+    column-width:200px;
+    gap: 50PX;
+    column-rule-style: dotted;
+}
+
+#part8 {
+    background-color:rgba(22, 36, 9, 0.5);
+    min-height: 50px;
+    text-align: left;
+   padding: 60px;
+   background-attachment: fixed;
+   background-image: url(../azin_tollab/images/He_Is_Psychometric.jpg);
+    background-blend-mode: overlay;
+    -webkit-text-fill-color: aliceblue;
+}
+
+
+.img_card{
+    height: 300px;
+    width: 200px;
+}
+.img_card2{
+    height: 300px;
+    width: 200px;
+}

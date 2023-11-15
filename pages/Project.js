@@ -52,7 +52,8 @@ const Project = () => {
     console.log(typeof Projects)
 
     return (
-        <section className={styles.container}>
+        <main className={styles.main}>
+            <section className={styles.container}>
             <div className={styles.rightSilde}>
                 <a href={Final}>
                     <img src={`${basePath}/images/project.png`} className={styles.image} />
@@ -69,6 +70,7 @@ const Project = () => {
                 </ul>
             </div>
         </section>
+        </main>
     )
 }
 export default Project;

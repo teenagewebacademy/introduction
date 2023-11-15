@@ -18,6 +18,19 @@ function Result(props) {
 
     const data = [
         {
+            term: 'ترم دوم - پاییز 1402',
+            students: [
+                { name: 'حدیث کمالی', age: '18', image: '/hadis_kamali.jpg', link: '', active: false },
+                { name: 'پوریا طارمی', age: '16', image: '/pouria_taremi.jpg', link: '', active: false },
+                { name: 'بهنیا حیدری', age: '15', image: '/behnia_heydari.jpg', link: '', active: false },
+                { name: 'آذین طلاب', age: '15', image: '/azin_tolab.jfif', link: '', active: false },
+                { name: 'رسول شماخی', age: '32', image: '', link: '', active: false },
+                { name: 'یونس جمور', age: '34', image: '', link: '', active: false },
+                { name: 'جابر اردستانی', age: '33', image: '/jaber_ardestani.jfif', link: '', active: false },
+                { name: 'امیرمهدی رام', age: '15', image: '', link: '', active: false },
+            ]
+        },
+        {
             term: 'دوره طراحی سایت HTML & CSS - پاییز 1402',
             students: [
                 { name: 'سارا محمدی', age: '16', image: '/sara_mohamadi.PNG', link: '', active: false },
@@ -54,9 +67,9 @@ function Result(props) {
             term: 'ترم اول 3 - تابستان 1402',
             students: [
                 { name: 'پوریا طارمی', age: '16', image: '/pouria_taremi.jpg', link: './students/pouria_taremi/index.html', active: true },
-                { name: 'بهنیا حیدری', age: '15', image: '/behnia_heydari.jpg', link: '', active: false },
+                { name: 'بهنیا حیدری', age: '15', image: '/behnia_heydari.jpg', link: './students/benia_heydari/index.html', active: true },
                 { name: 'ابوالفضل هنربین', age: '16', image: '', link: '', active: false },
-                { name: 'آذین طلاب', age: '15', image: '/azin_tolab.jfif', link: '', active: false },
+                { name: 'آذین طلاب', age: '15', image: '/azin_tolab.jfif', link: './students/azin_tolab/index.html', active: true },
                 { name: 'رسول شماخی', age: '32', image: '', link: './students/rasoul_shamakhi/index.html', active: true },
                 { name: 'یونس جمور', age: '34', image: '', link: './students/younes_jomor/index.html', active: true },
                 { name: 'جابر اردستانی', age: '33', image: '/jaber_ardestani.jfif', link: '', active: false },
@@ -208,7 +221,6 @@ function Result(props) {
                                 <Link href={item.link ? item.link : default_page}
                                     key={index}
                                     target={'_blank'}>
-
                                     <img src={item.image ? `${basePath}/images/profile${item.image}` : `${basePath}/images/avatar.JPG`} alt={item.name} width={'180'} height={'180'}
                                         className={
                                             index % 2 == 0 ? styles.student_image_color_o : styles.student_image_color_e
