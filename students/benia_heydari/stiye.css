@@ -1,0 +1,114 @@
+
+body{
+    direction: rtl;
+    margin: 0;
+    
+    
+    background-image: url(./images2/MOD\ GTA\ 2.png);
+    background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+
+    }
+ .pading_tb{
+    padding: 50px 0 50px 0;
+ } 
+    
+.container{
+    margin: 0 7%;
+}
+.parts{
+    min-height: 300px;
+    background-color: white;
+}
+
+#part1{
+  height: 60px;
+  background-color: rgb(197, 197, 197);
+  
+}
+#part2{
+    height: 80vh;
+}
+#part3{
+/* background-color: rgb(255, 0, 0); */
+}
+.game_list{
+    display: flex;
+overflow-x:scroll ;
+background: position x 10px; ;
+
+}
+.card_mahsol{
+    height: 400px;
+    width: 300px;
+    background-color: #ffffff;
+    margin: 10px;
+    float: left;
+}
+
+    .card_img{
+        height: 50%;
+        width:100%;
+        background-color: #ffffff;
+    }
+    
+    .card_desk{
+        height: 50%;
+        width: 100%;
+        background-color: #ffffff;
+    }
+    
+    
+    #part6{
+    
+    }
+    
+#part4{
+    background-color: 
+    background-image: url(./images/gun1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+  background-position-x:left;
+
+
+ 
+}
+#part7{
+    background-color: rgba(255, 255, 255,0.9);
+    background-image:url(./images2/pattern.png) ;
+
+}
+#part5{
+  background-image: url(./images/Frank.png);
+  background-repeat:no-repeat ;
+ background-size: 200PX;
+ /* background-color:  */
+}
+.img2{
+height: 100px;
+width: 100px;
+display: flex;
+justify-content: center;
+}
+#part8{
+    background-image:url(./images2/pattern.png) ;
+}
+.titel{
+text-align: center;
+column-span:all ;
+}
+
+.matns{
+    column-count: 3;
+    column-rule-style:initial ;
+    column-gap: 32px;
+    column-rule-style: groove;
+    column-rule-width: 32px;
+}
+
+img{
+    width: 100%;
+}
+ 
