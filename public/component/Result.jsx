@@ -99,7 +99,7 @@ function Result(props) {
                 { name: 'روژینا بهروزیان فرد', age: '16', image: '/rozhina_behroozianfard.jpg', link: 'https://rozhinabehroozian.github.io/Rozhiina/', active: true },
                 { name: 'پرنیان پناهی', age: '18', image: '/parnian_panahi.jpg', link: '', active: false },
                 { name: 'معین مظفری', age: '18', image: '/moein_mozafari.PNG', link: '', active: false },
-                { name: 'علیرضا جلوه نسب', age: '18', image: '/alireza_jelvehnasab.jpg', link: '', active: false },
+                { name: 'علیرضا جلوه نسب', age: '18', image: '/alireza_jelvehnasab.jpg', link: './students/alireza_jelvehnasab/web2/index.html', active: true },
                 { name: 'عرفان خادمی', age: '18', image: '/erfan_khademi.jpg', link: 'https://erfankhademi.github.io/model/', active: true },
                 { name: 'رضا احمدی پور', age: '21', image: '/reza_ahmadipour.jpg', link: '', active: false }
             ]
@@ -110,7 +110,7 @@ function Result(props) {
                 { name: 'سیدرضا موسوی', age: '17', image: '/seyed_reza_mosavi.jpeg', link: 'https://1000reza777.github.io/cocvc/', active: true },
                 { name: 'علیرضا حیدری', age: '14', image: '/alireza_heydari.jpeg', link: '', active: false },
                 { name: 'سیوان بیگرضایی', age: '15', image: '/sivan_beygrezaee.PNG', link: '', active: false },
-                { name: 'مائده عیدی', age: '18', image: '/maeede_eydi.PNG', link: '', active: false },
+                { name: 'مائده عیدی', age: '18', image: '/maeede_eydi.PNG', link: './students/maede_eydi/web2/index.html', active: true },
                 { name: 'فاطمه خوشبخت', age: '16', image: '/fatemeh_khoshbakht.PNG', link: '', active: false },
             ]
         },
