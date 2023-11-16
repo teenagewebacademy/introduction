@@ -64,7 +64,7 @@ const Project = () => {
 
                 <ul className={styles.list}>
                     {Projects.map((item, index) => (
-                        <li key={index} className={styles.list_item}><a href={item.link} target='_blank'>{item.title}</a></li>
+                        <li key={index} className={styles.list_item}><Link href={item.link} target={'_blank'}>{item.title}</Link></li>
                     ))}
                 </ul>
             </div>
