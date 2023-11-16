@@ -1,0 +1,428 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+.baysi8{
+    
+    padding-top: 10%;
+    padding-right: 10%;
+    
+    
+}
+/* ----------------------------------------------------------- */
+.backol{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.spannn{
+    font-size: 50px;
+    padding-left: 10%;
+}
+/* ----------------------------------- menu ------------------------ */
+
+.meno{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    /* margin:0 15px;
+    border-radius: 10px; */
+    background-color:#1d1d1f;
+    display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items:center;
+flex-wrap: nowrap;
+
+}
+.ing{
+    width: 69px;
+    filter: invert(1);
+    height: auto;
+    padding-top: 6px;
+}
+
+.spann{
+    padding-top: 19px;
+   font-size: 20.5px;
+   padding-right: 25px;
+    /* font-size:16px; */
+    color: #fff;
+    margin-bottom: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* ----------------------------------- banner ------------------------ */
+
+
+.material-icons{
+    padding-top:14px ;
+    color: white;
+    margin:0 10px;
+}
+
+.rengo{
+    position: absolute;
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-color: #ff000080;
+    border-radius: 50%;
+    text-align: center;
+    top: -4px;
+    right: -4px;
+    font-size: 15px;
+}
+
+#rengoo{
+    position: relative;
+}
+
+
+.part1{
+    background-color: rgba(128, 128, 128, 0.572);
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./imag/Mercedes-Logo.svg.png);
+    background-repeat: no-repeat;
+
+}
+.part2{
+    background-color: rgba(128, 128, 128, 0.572);
+    /* display: flex;
+    flex-direction: row; */
+
+}
+.part3{
+
+}
+    .card_2{
+        grid-gap: 10px;
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        grid-template-rows:repeat(4,1fr);
+    padding: 20px;
+        background-color:  #bbaa87;
+        /* border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px; */
+        height: 400px;
+    }
+    
+    .vanm5{
+        position: relative;
+    background-color: white;
+    grid-column:1/3;
+    grid-row:1/3;
+    border-radius: 10px;
+    background-image: url(imag/Blog\ Pic1\ .png);
+    background-position: top;
+    background-size: cover;
+    background-position: center;
+    }
+    
+    
+    .vanm6{
+        position: relative;
+        background-image: url(imag/Gucci-Shoes-for-Mens-Gucci-Sneakers-9999926430_365x420.jpg);
+        background-size: cover;
+        background-position: center;
+        background-color: white;
+        grid-row:3/5;
+        border-radius: 10px;
+    }
+    
+    .vanm7{
+        background-image: url(imag/5e9d1b9b-14f4-4d55-bb36-2e29c1ffa75d_Untitled+Design.webp);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-color: white;
+        grid-row:3/5;
+        border-radius: 10px;
+    }
+    
+    .vanm8{
+    position: relative;
+        background-image: url(imag/PromoComponent_63670910O0G9022_001_Default.webp);
+        background-size: cover;
+        background-color: white;
+        grid-column:3/5;
+        grid-row:1/5;
+        border-radius: 10px;
+        
+    
+    }
+    
+    
+    .bagg{
+        color: white;
+        font-size: 50px;
+        text-shadow: 2px 2px rgb(255 255 255 / 30%);
+        position: absolute;
+        right: 39%;
+        bottom: 47%;
+        background-color:  #000000e3;
+        border-radius: 22%;
+        
+    }
+    .ba1g{
+        color: white;
+        font-size: 40px;
+        text-shadow: 2px 2px rgb(255 255 255 / 30%);
+        position: absolute;
+        left: 11%;
+        bottom: 74px;
+        background-color: #000000e3;
+        border-radius: 22%;
+    }
+    
+    .ba2g{
+        color: white;
+        font-size: 43px;
+        text-shadow: 2px 2px rgb(255 255 255 / 30%);
+        position: absolute;
+        bottom: 6px;
+        background-color: #000000e3;
+        border-radius: 22%;
+        left: 62px;
+    }
+    
+    .ba3g{
+        color: white;
+        font-size: 41px;
+        text-shadow: 2px 2px rgb(255 255 255 / 30%);
+        position: absolute;
+        bottom: 6px;
+        background-color: #000000e3;
+        border-radius: 22%;
+        /* left: 62px; */
+        right: 15%;
+    }
+    
+
+    .card_4{
+        display: flex;
+        flex-direction:row;
+        justify-content:space-evenly;
+        flex-wrap: nowrap;
+        align-items: center;
+        background-color: #404040;
+        /* border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px; */
+        height:200px;
+        padding-top: 10px;
+    }
+    
+    
+    
+    .flex_1{
+    background-color: rgba(252, 252, 252, 0.863);
+    height:200px;
+    width:23%;
+    border-radius: 5%;
+    }
+    
+    
+    .flex_2{
+        background-color: rgba(252, 252, 252, 0.863);
+        height:200px;
+        width:23%;
+        border-radius: 5%;
+    }
+    
+    
+    
+    .flex_3{
+        background-color:  rgba(252, 252, 252, 0.863);
+        height:200px;
+        width:23%;
+        border-radius: 5%;
+    }
+    
+    
+    
+    .flex_4{
+        background-color:  rgba(252, 252, 252, 0.863);
+        height:200px;
+        width:23%;
+        border-radius: 5%;
+    }
+    
+.part6{
+
+}
+.part7{
+
+}
+footer{
+    position: relative;
+    color: #fff;
+    background-color: #1d1d1f;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+.fo1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+.foo2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:20px;
+
+}
+
+.img55{
+    width: 69px;
+    filter: invert(1);
+    height: auto;
+}
+
+.fo2{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.span1{
+    margin-bottom:34px;
+    font-size: 21px;
+    font-weight: 700;
+    font-style: inherit;
+}
+a{
+    font-size:16px;
+    color: #fff;
+    margin-bottom: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fo3{
+
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.fo4{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.fo5{
+
+    display: flex;
+    flex-direction: column;
+   
+}
+.baysi{
+    background-color: rgb(127, 127, 127);
+    width: 250px;
+    height: 300px;
+    border-top-left-radius: 125px;
+    border-top-right-radius: 125px;
+    position: relative;  
+
+}
+
+.baysi:hover .mash{
+    filter: drop-shadow(2px 4px 6px rgb(0, 0, 0));
+
+}
+
+.mash{
+    width: 360px;
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+    left: -35px;
+}
+
+.com{
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #1d1d1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.acsc{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+
+}
+.acsc:hover .acsj{
+    filter: drop-shadow(0px 0px 60px rgb(209, 202, 0));
+}
+.newacs:hover{
+    width: 140%;
+    height: auto;
+    transition: 0.5s; 
+}
+.acsj{
+    height: 112px;
+    width: 200-px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 40px;
+}
+.newacs{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+}
+.newmatn{
+    height: 150px;
+    width: 200px;
+    
+}
+.bakmash{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+.bakmash:hover{
+    object-fit: contain;
+
+}
+#bakcll{
+    background-color: white;
+}
+.otagh{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media(max-width:768px){
+    .part1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
