@@ -14,6 +14,7 @@ const Project = () => {
     const [Final, setFinal] = useState('')
     const [Projects, setProjects] = useState([])
 
+    const default_page = '/students/default_page.html';
 
     const basePath = process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_FAVICON : '';
 
@@ -54,7 +55,7 @@ const Project = () => {
         <main className={styles.main}>
             <section className={styles.container}>
             <div className={styles.rightSilde}>
-                <a href={Final}>
+                <a href={Final ? Final : default_page}>
                     <img src={`${basePath}/images/project.png`} className={styles.image} />
                     <strong className={styles.link}>پروژه پایانی {Name}</strong>
                 </a>
