@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello</title>
+    <link rel="shortcut icon" href="../images/atlassia.png" type="image/x-icon">
+</head>
+<style>
+    body{
+        min-width: 100vh;
+        background-color: rgb(249, 250, 252);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    .part{
+        display: flex;
+    }
+    .part1{
+        min-height: 700px;
+        background-image: url(../images/left_side.PNG);
+        background-position-x: left;
+        background-position-y: bottom;
+        background-size: 358px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 33%;
+    }
+    .part2{
+        min-height: 700px;
+        width: 34%;
+        padding: 3%;
+    }
+    .part3{
+        min-height: 700px;
+        background-image: url(../images/right_side.PNG);
+        background-position-x: right;
+        background-position-y: bottom;
+        background-size: 358px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 33%;
+    }
+    .part2-1{
+        min-height: 700px;
+        width: 100%;
+        border: 1px solid rgb(208, 208, 208);
+        border-radius: 0.2rem;
+        padding: 5%;
+        margin-top: 30px;
+        align-items: center;
+        background-color: white;
+    }
+    .part2_1_1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .part2_1_2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .part2_1_3{
+        background-color: rgb(238, 238, 238);
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        border: 1px solid rgb(147, 147, 147);
+        border-radius: 0.2rem;
+        padding-left: 5%;
+    }
+    .part2_1_4{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        font-size: small;
+    }
+    .part2_1_5{
+        background-color: rgb(38, 0, 255);
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgb(38, 0, 255);
+        border-radius: 0.2rem;
+        color: white;
+    }
+    .part2_1_6{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        font-size: larger;
+        color: rgb(221, 221, 221);
+    }
+    .part2_1_7{
+        background-color: white;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid rgb(147, 147, 147);
+        border-radius: 0.2rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 10px 0;
+    }
+    .part2_1_8{
+        background-color: white;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid rgb(147, 147, 147);
+        border-radius: 0.2rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 10px 0;
+    }
+    .part2_1_9{
+        background-color: white;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid rgb(147, 147, 147);
+        border-radius: 0.2rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 10px 0;
+    }
+    .part2_1_10{
+        background-color: white;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid rgb(147, 147, 147);
+        border-radius: 0.2rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 10px 0;
+    }
+    .part2_1_11{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        font-size: medium;
+        color: blue;
+    }
+    .part2_1_12{
+        width: 100%;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: solid;
+        border-color: rgb(218, 218, 218);
+        margin: 10px 0;
+    }
+    .part2_1_13{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .part2_1_14{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: small;
+    }
+    .image{
+        height: 20px;
+    }
+    .image1{
+        height: 23px;
+        margin-right: 8px;
+    }
+
+
+</style>
+<body>
+    <div class="part">
+        <div class="part1"></div>
+        <div class="part2">
+            <div class="part2-1">
+                <div class="part2_1_1">
+                    <img class="image1" src="../images/trello.PNG" alt="logo">
+                    <h1>Trello</h1>
+                </div>
+                <div class="part2_1_2">
+                    <p>Sign up to continue</p>
+                </div>
+                <div class="part2_1_3">
+                    <p>Enter your email</p>
+                </div>
+                <div class="part2_1_4">
+                    <p>By signing up, I accept the Atlassian Cloud Terms of Service and acknowledge the Privacy Policy.</p>
+                </div>
+                <div class="part2_1_5">
+                    <p>Sign up</p>
+                </div>
+                <div class="part2_1_6">
+                    <p>OR</p>
+                </div>
+                <div class="part2_1_7">
+                    <img src="../images/google.PNG" alt="google" class="image">
+                    <p>Continue with Google</p>
+                    <p></p>
+                </div>
+                <div class="part2_1_8">
+                    <img src="../images/mc.PNG" alt="microsoft" class="image">
+                    <p>Continue with Microsoft</p>
+                    <p></p>
+                </div>
+                <div class="part2_1_9">
+                    <img src="../images/apple.PNG" alt="apple" class="image">
+                    <p>Continue with Apple</p>
+                    <p></p>
+                </div>
+                <div class="part2_1_10">
+                    <img src="../images/slack.PNG" alt="apple" class="image">
+                    <p>Continue with Slack</p>
+                    <p></p>
+                </div>
+                <div class="part2_1_11">
+                    <p>Already have an Atlassian account? Log in</p>
+                </div>
+                <div class="part2_1_12"></div>
+                <div class="part2_1_13">
+                    <img src="../images/atlassian.png" alt="logo" class="image">
+                </div>
+                <div class="part2_1_14">
+                    <p>One account for Trello, Jira, Confluence and more.</p>
+                    <p>This page is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
+                </div>
+            </div>
+        </div>
+        <div class="part3"></div>
+    </div>
+
+
+</body>
+</html>
