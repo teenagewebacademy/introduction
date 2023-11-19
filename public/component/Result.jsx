@@ -11,7 +11,7 @@ import Router, { withRouter } from 'next/router'
 
 function Result(props) {
 
-    const router=useRouter()
+    const router = useRouter()
     const basePath = process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_FAVICON : '';
     const default_page = './students/default_page.html';
     // { name: '', age: '', image: '', link: '', active: false },
@@ -23,7 +23,7 @@ function Result(props) {
                 { name: 'نسترن سالمی', age: '20', image: '/nastaran_salemi.PNG', link: '', active: false },
                 { name: 'امیررضا آذروند', age: '25', image: '/amirreza_azarvand.PNG', link: '', active: false },
                 { name: 'علیرضا زنگنه', age: '13', image: '/alireza_zangeneh.PNG', link: '', active: false },
-                {name: 'سینا غلامی', age: '18', image: '/sina_gholami.PNG', link: '', active: false,},
+                { name: 'سینا غلامی', age: '18', image: '/sina_gholami.PNG', link: '', active: false, },
 
             ]
         },
@@ -31,13 +31,27 @@ function Result(props) {
             term: 'ترم دوم - پاییز 1402',
             students: [
                 { name: 'حدیث کمالی', age: '18', image: '/hadis_kamali.jpg', link: '', active: false },
-                { name: 'پوریا طارمی', age: '16', image: '/pouria_taremi.jpg', link: '', active: false },
+                {
+                    name: 'پوریا طارمی', age: '16', image: '/pouria_taremi.jpg', link: '', active: false,
+                    moreLink_state: true,
+                    more_project: [
+                        { title: 'Trello', link: './students/Term2/pouria_taremi/Trello.html' },
+                        // { title: '', link: '' },
+                    ]
+                },
                 { name: 'بهنیا حیدری', age: '15', image: '/behnia_heydari.jpg', link: '', active: false },
                 { name: 'آذین طلاب', age: '15', image: '/azin_tolab.jfif', link: '', active: false },
-                { name: 'رسول شماخی', age: '32', image: '', link: '', active: false },
+                {
+                    name: 'رسول شماخی', age: '32', image: '', link: '', active: false,
+                    moreLink_state: true,
+                    more_project: [
+                        { title: 'Trello', link: './students/Term2/rasoul_shamakhi/Trello.html' },
+                        { title: 'Pazzle & Icon', link: './students/Term2/rasoul_shamakhi/Pazzle.html' },
+                    ]
+                },
                 { name: 'یونس جمور', age: '34', image: '', link: '', active: false },
                 { name: 'جابر اردستانی', age: '33', image: '/jaber_ardestani.jfif', link: '', active: false },
-                { name: 'امیرمهدی رام', age: '15', image: '', link: '', active: false },
+                { name: 'امیرمهدی رام', age: '15', image: '/amirmehdi_ram.jpg', link: '', active: false },
             ]
         },
         {
@@ -83,7 +97,7 @@ function Result(props) {
                 { name: 'رسول شماخی', age: '32', image: '', link: './students/rasoul_shamakhi/index.html', active: true },
                 { name: 'یونس جمور', age: '34', image: '', link: './students/younes_jomor/index.html', active: true },
                 { name: 'جابر اردستانی', age: '33', image: '/jaber_ardestani.jfif', link: '', active: false },
-                { name: 'امیرمهدی رام', age: '15', image: '', link: './students/amirmehdi_ram/index.html', active: true },
+                { name: 'امیرمهدی رام', age: '15', image: '/amirmehdi_ram.jpg', link: './students/amirmehdi_ram/index.html', active: true },
             ]
         },
         {
@@ -95,7 +109,7 @@ function Result(props) {
                 {
                     name: 'سینا غلامی', age: '18', image: '/sina_gholami.PNG', link: './students/sina_gholami/index.html', active: true,
                     moreLink_state: true,
-                    more_project: [ 
+                    more_project: [
                         { title: 'پروژه پایانی من', link: './students/sina_gholami/index.html' },
                         { title: 'سایت ساخته شده حین آموزش', link: './students/sina_gholami/Sina/index.html' },
                     ],
@@ -196,18 +210,18 @@ function Result(props) {
             ]
         }];
 
-        const projects_page=(data)=>{
-            router.push({
-                pathname: '/Project',
-                query: { 
-                    name: data.name,
-                    image: data.image,
-                    final: data.link,
-                    projects:JSON.stringify(data.more_project),
-                    test:data.test
-                 },
-              })
-        }
+    const projects_page = (data) => {
+        router.push({
+            pathname: '/Project',
+            query: {
+                name: data.name,
+                image: data.image,
+                final: data.link,
+                projects: JSON.stringify(data.more_project),
+                test: data.test
+            },
+        })
+    }
 
     return (
         <section className={styles.Result}>
@@ -241,8 +255,8 @@ function Result(props) {
                                     محتوایی وجود ندارد!
                                 </p>
 
-                                {item.moreLink_state ?                                    
-                                    <strong className={styles.projectlink} onClick={()=>projects_page(item)}>
+                                {item.moreLink_state ?
+                                    <strong className={styles.projectlink} onClick={() => projects_page(item)}>
                                         {item.moreLink_state ? '👑' : null}
                                         {item.name}
                                     </strong>
