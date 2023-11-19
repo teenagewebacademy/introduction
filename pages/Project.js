@@ -14,26 +14,14 @@ const Project = () => {
     const [Final, setFinal] = useState('')
     const [Projects, setProjects] = useState([])
 
-    const default_page = '/students/default_page.html';
+    const default_page = './students/default_page.html';
 
     const basePath = process.env.NODE_ENV === 'production' ? process.env.NEXT_PUBLIC_FAVICON : '';
 
     const router = useRouter()
 
+
     useEffect(() => {
-        // console.log(router.query.name);
-        // console.log(router.query.image);
-        // console.log(router.query.final);
-        // console.log(router.query.projects);
-        // console.table(router.query.projects);
-        // console.log(router.query.test);
-
-        // console.log(typeof router.query.name);
-        // console.log(typeof router.query.image);
-        // console.log(typeof router.query.final);
-        // console.log(typeof router.query.projects);
-        // console.log(typeof router.query.test);
-
 
         console.log(router.pathname)
         const name = router.query.name;
@@ -55,7 +43,7 @@ const Project = () => {
         <main className={styles.main}>
             <section className={styles.container}>
             <div className={styles.rightSilde}>
-                <a href={Final ? Final : default_page}>
+                <a href={Final ? Final : `${basePath}/students/default_page.html`}>
                     <img src={`${basePath}/images/project.png`} className={styles.image} />
                     <strong className={styles.link}>پروژه پایانی {Name}</strong>
                 </a>
