@@ -18,6 +18,16 @@ function Result(props) {
 
     const data = [
         {
+            term: 'Web2( bootstrap & responsive ) - پاییز 1402 ',
+            students: [
+                { name: 'نسترن سالمی', age: '20', image: '/nastaran_salemi.PNG', link: '', active: false },
+                { name: 'امیررضا آذروند', age: '25', image: '/amirreza_azarvand.PNG', link: '', active: false },
+                { name: 'علیرضا زنگنه', age: '13', image: '/alireza_zangeneh.PNG', link: '', active: false },
+                {name: 'سینا غلامی', age: '18', image: '/sina_gholami.PNG', link: '', active: false,},
+
+            ]
+        },
+        {
             term: 'ترم دوم - پاییز 1402',
             students: [
                 { name: 'حدیث کمالی', age: '18', image: '/hadis_kamali.jpg', link: '', active: false },
@@ -73,14 +83,14 @@ function Result(props) {
                 { name: 'رسول شماخی', age: '32', image: '', link: './students/rasoul_shamakhi/index.html', active: true },
                 { name: 'یونس جمور', age: '34', image: '', link: './students/younes_jomor/index.html', active: true },
                 { name: 'جابر اردستانی', age: '33', image: '/jaber_ardestani.jfif', link: '', active: false },
-                { name: 'امیرمهدی رام', age: '15', image: '', link: '', active: false },
+                { name: 'امیرمهدی رام', age: '15', image: '', link: './students/amirmehdi_ram/index.html', active: true },
             ]
         },
         {
             term: 'دوره طراحی سایت HTML & CSS - تابستان و پاییز 1402',
             students: [
                 { name: 'نسترن سالمی', age: '20', image: '/nastaran_salemi.PNG', link: './students/nastaran_salemi/index.html', active: true },
-                { name: 'امیررضا آذروند', age: '25', image: '/amirreza_azarvand.PNG', link: '', active: false },
+                { name: 'امیررضا آذروند', age: '25', image: '/amirreza_azarvand.PNG', link: './students/amirreza_azarvand/index.html', active: true },
                 { name: 'علیرضا زنگنه', age: '13', image: '/alireza_zangeneh.PNG', link: './students/alireza_zangeneh/index.html', active: true },
                 {
                     name: 'سینا غلامی', age: '18', image: '/sina_gholami.PNG', link: './students/sina_gholami/index.html', active: true,

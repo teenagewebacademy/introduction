@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(209, 209, 209);
+    height: 70vh;
+    margin: 0;
+    background-image: url(./photo1698070468.jpeg);
+    background-position: center;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* )))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
+
+.container {
+    margin: 0 8%;
+}
+
+.pading_tb {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: right;
+
+}
+
+.porduct_list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.prod_banner {
+    background-color: rgb(235, 85, 15);
+    min-height: 50px;
+    text-align: center;
+}
+
+.product_card {
+    padding: 10px;
+    height: 350px;
+    width: 200px;
+    background-color: rgb(255, 255, 255)
+}
+
+.product_card2 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.img_cord {
+    height: 200px;
+    width: 200px;
+}
+
+.desc_covd {}
+
+/* )))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
+.sipa1 {
+    height: 50px;
+    background-color: rgba(88, 84, 84, 0.726);
+}
+
+/* )))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
+.saipa_img {
+    height: 70vh;
+}
+
+/* )))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
+.part {
+
+    background-color: rgb(235, 226, 226);
+    columns: auto;
+
+}
+
+/* )))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))) */
+
+#part4 {
+    background-color: rgba(190, 188, 180, 0.26);
+    height: 70px;
+    text-align: center;
+
+}
+
+#part3 {
+    /* background-image: url(./photo1698070468.jpeg); */
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-align: left;
+    background-position: right;
+    text-align: center;
+
+}
+
+.background_text {
+    background-color: rgb(235, 226, 226);
+    background-size: 10px 0 20px;
+}
+
+#part1 {
+    text-align: center;
+}
+
+#part8 {
+    background-color: rgb(71, 71, 71);
+}
+
+#part57 {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    flex-wrap: wrap;
+}
