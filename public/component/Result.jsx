@@ -46,7 +46,7 @@ function Result(props) {
                     moreLink_state: true,
                     more_project: [
                         { title: 'Trello', link: './students/Term2/rasoul_shamakhi/Trello.html' },
-                        { title: 'Pazzle & Icon', link: './students/Term2/rasoul_shamakhi/Pazzle.html' },
+                        { title: 'Pazzle & Icon', link: './students/Term2/rasoul_shamakhi/pazzle.html' },
                     ]
                 },
                 { name: 'یونس جمور', age: '34', image: '', link: '', active: false },
