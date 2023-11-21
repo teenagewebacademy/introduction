@@ -15,7 +15,7 @@
     -webkit-box-pack: justify;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: flex-start;
     font-size: 14px;
     background-image: url(../images/left_side.PNG) , url(../images/right_side.PNG);
     background-repeat: no-repeat;
