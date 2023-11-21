@@ -165,7 +165,7 @@
         grid-template-columns: repeat(2,1fr);
     } 
     .student{
-        width: 180px;
+        width: 150px;
     }
     .student_image_color_o , .student_image_color_e{
         max-width: 150px;
