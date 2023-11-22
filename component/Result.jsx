@@ -36,7 +36,7 @@ function Result(props) {
                     moreLink_state: true,
                     more_project: [
                         { title: 'Trello', link: './students/Term2/pouria_taremi/Trello.html' },
-                        // { title: '', link: '' },
+                        { title: 'Pazzle', link: './students/Term2/pouria_taremi/puzzle.html' },
                     ]
                 },
                 { name: 'بهنیا حیدری', age: '15', image: '/behnia_heydari.jpg', link: '', active: false },
