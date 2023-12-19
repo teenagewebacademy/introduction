@@ -1,0 +1,189 @@
+body {
+    margin: 0px;
+    direction: rtl;
+/*==============================================*/
+
+    background-image:url(./images/header.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: top;
+}
+/*==============================================*/
+.onvan_ha {
+    text-align: center;
+    color: rgb(204, 2, 2);
+}
+/*==============================================*/
+.menu {
+    height: 50px;
+    background-color: rgb(204, 2, 2);
+    text-align: center;
+}
+/*==============================================*/
+.parts {
+    padding: 50px 7%;
+    min-height: 300px;
+}
+
+/* ============================================================================= */
+.moarefi {
+    height: 500px;
+    /* background-color: rgb(255, 255, 255); */
+    background-image: url(./images/tell2.PNG);
+    background-repeat: no-repeat;
+    background-position: top bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ============================================================================= */
+.mahsolat {
+   
+    background-color: #ffffff;
+    background-image: url(./images/tell.PNG), url(./images/tell2.PNG),url(./images/pattern.png);
+    background-repeat: no-repeat , no-repeat , repeat;
+    background-position-y: top, bottom;
+    background-position-x: top, right;
+}
+/*==============================================*/
+.mahsolat_list {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 15px;
+
+
+}
+/*==============================================*/
+.box {
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+}
+/*==============================================*/
+.img_box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+/*==============================================*/
+.txt_box {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+/*==============================================*/
+.txt_box {
+    width: 200px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*==============================================*/
+.dokme {
+    background-color: rgb(204, 2, 2);
+    color: white;
+    margin: 12px 0 0 0;
+    padding: 7px 0;
+}
+
+.icon_kharid {
+    vertical-align: middle;
+}
+
+/* =============================================================================== */
+.tozihat {
+    background-color: #ffffff;
+}
+.img_tozihat{
+    background-image: url(./images/pattern.png);
+    background-size: 400px;
+    background-repeat: repeat;
+    width: 400px;
+    height: 200px;
+}
+.tozihat_company{
+    display:flex;
+    align-items: center;
+}
+.rang{
+    color: red;
+}
+/* ============================================================================= */
+.jashnvareh {
+    background-color:rgb(255 255 255 / 72%);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dokme2{
+    padding: 7px 32px;
+    display: inline-block;
+}
+.matn_jashnvare{
+    font-size: 28px;
+}
+/* ============================================================================= */
+.takhfifat {
+    background-image: url(./images/pattern.png);
+    background-size: 400px;
+    background-repeat: repeat;
+}
+
+/* ============================================================================= */
+.matn {
+     
+    background-color: #ffffff;
+    background-image: url(./images/tell.PNG), url(./images/tell2.PNG), url(./images/pattern.png);
+    background-repeat: no-repeat , no-repeat , repeat;
+    background-position-y: top, bottom;
+    background-position-x: top, right;
+}
+
+/* ============================================================================= */
+.footer {
+    height: 100px;
+    background-color: #cc0202;
+    color: #ffffff;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+}
+.img_photo{
+
+
+}
+
+.about{
+    background-color: #ffffff;
+    column-count: 4;
+    gap: 25px;
+    column-rule-style: double;
+    column-rule-color: #cc0202;
+    column-rule-width: 8px;
+}
+.about_img{
+    width: 100%;
+
+}
+
+.footer_icon{
+    margin: 0 10px;
+}
+
+ /*======================================================= */
+ .uu{
+
+     color: blueviolet;
+ }
+ .pp{
+    background-color: #ffffff99;
+    color:  #cc0202;
+ }
