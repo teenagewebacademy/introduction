@@ -84,7 +84,7 @@ function Result(props) {
             term: 'ترم اول (خصوصی) - پاییز 1402',
             students: [
                 { name: 'حدیث کمالی', age: '18', image: '/hadis_kamali.jpg', link: './students/hadis_kamali/index.html', active: true },
-                { name: 'طاها گداعلی', age: '12', image: '', link: '', active: false },
+                { name: 'طاها گداعلی', age: '12', image: '', link: './students/taha/index.html', active: true },
             ]
         },
         {
