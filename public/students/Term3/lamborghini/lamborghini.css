@@ -1,0 +1,568 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.conteiner {
+    margin: 0 8%;
+}
+
+#baz-hover:hover .baz-ul {
+    display: block;
+    transition: 5s;
+}
+
+/* ================================================================= */
+#baz-hover1:hover .baz-ul1 {
+    display: block;
+    transition: 5s;
+}
+
+/* ================================================================= */
+
+#baz-hover2:hover .baz-ul2 {
+    display: block;
+    transition: 5s;
+}
+
+/* ================================================================= */
+.head {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* ================================================================= */
+* {
+    box-sizing: border-box;
+}
+
+/* ================================================================= */
+.asli1 {
+    display: flex;
+    align-items: center;
+    background-color: #181818;
+    position: relative;
+    z-index: 3;
+    padding: 15px 45px;
+    transition: height 0.3s ease-out, padding 0.3s ease-out;
+    height: 94px;
+}
+
+/* ================================================================= */
+#lego {
+    height: fit-content;
+    margin-right: 52px;
+    width: 60px;
+}
+
+/* ================================================================= */
+#img1-lego {
+    transition: width 0.3s ease-in-out;
+    width: 60px;
+    height: auto;
+}
+
+/* ================================================================= */
+#ul-meno1 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+/* ================================================================= */
+.meno-link {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+#tex-meno {
+    transition: font-size 0.3s ease-in-out;
+    font-size: 17px;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 10px;
+    font-family: system-ui;
+    text-align: center;
+}
+
+/* ================================================================= */
+#ul-meno2 {
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+}
+
+/* ================================================================= */
+
+.meno-icon {
+    margin-left: 52px;
+}
+
+.material-icons {
+    color: white;
+    font-size: 26px;
+    margin: 10px;
+}
+
+/* ================================================================= */
+.baz-ul {
+    width: 100%;
+    background-color: #181818;
+    display: none;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    list-style: none;
+}
+
+/* ================================================================= */
+#tex-center {
+    position: relative;
+    line-height: 53px;
+    left: 165px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(111, 111, 111);
+}
+
+/* ================================================================= */
+#tex-center1 {
+    position: relative;
+    line-height: 53px;
+    left: 331px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(111, 111, 111);
+}
+
+/* ================================================================= */
+#tex-center2 {
+    position: relative;
+    line-height: 53px;
+    left: 445px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(111, 111, 111);
+}
+
+/* ================================================================= */
+.baz-ul1 {
+    width: 100%;
+    background-color: #181818;
+    display: none;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    list-style: none;
+}
+
+/* ================================================================= */
+.baz-ul2 {
+    width: 100%;
+    background-color: #181818;
+    display: none;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    list-style: none;
+}
+
+/* ================================================================= */
+#baz-hover {
+    /* position: relative; */
+}
+
+.but1 {
+    position: absolute;
+    width: 15%;
+    height: 11%;
+    top: 60px;
+    right: 160px;
+}
+
+.input1 {
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    clip-path: polygon(0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%, 0% 25%);
+}
+
+.input2 {
+    margin-left: 65px;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    clip-path: polygon(0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%, 0% 25%);
+}
+
+.bac1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.lomb1 {
+    background-color: black;
+    left: 0;
+    width: 355px;
+    height: 500px;
+    position: absolute;
+    clip-path: polygon(100% 0%, 70% 100%, 0% 100%, 0% 0%);
+
+}
+
+.lomb2 {
+    left: 248px;
+    width: 444px;
+    height: 500px;
+    position: absolute;
+    clip-path: polygon(100% 0%, 80% 100%, 0% 100%, 23% 0%);
+}
+
+.lomb3 {
+    overflow: hidden;
+    right: 0px;
+    width: 768px;
+    height: 500px;
+    position: absolute;
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 12% 0%);
+}
+
+.img1 {
+    filter: brightness(0.2);
+    position: absolute;
+    width: 892px;
+    height: auto;
+    right: -167px;
+    top: 0px;
+}
+
+.img2 {
+    filter: brightness(0.2);
+    position: absolute;
+    width: 1000px;
+    height: auto;
+    right: -46%;
+    top: -63px;
+}
+
+.img3 {
+    position: absolute;
+    width: 1250px;
+    height: auto;
+    right: -37%;
+    top: -161px;
+}
+
+input1:checked~.lomb2 {
+    left: 400px;
+
+}
+
+#input1:checked~.img3 {
+    left: 400px;
+
+}
+
+/* ============================== */
+video {
+    filter: brightness(0.5);
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+}
+
+#video_part {
+    top: 40%;
+
+}
+
+/* ========================== */
+.titles {
+    position: absolute;
+    z-index: 4;
+}
+
+.white_title {
+    color: white;
+}
+
+.small_title {
+    font-size: 33px;
+    margin: 24px 0; 
+}
+
+.large_title {
+    font-size: 98px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.video_input {
+    width: 10%;
+    height: 10%;
+    clip-path: polygon(0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%, 0% 25%);
+}
+
+.medium_title {
+    font-size: 72px;
+    /* margin: 0; */
+}
+
+/* ============================== */
+#upon_text {
+    position: absolute;
+    top: 21%;
+    width: 60%;
+    z-index: 4;
+}
+
+#orange_car {
+    position: relative;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#orange_car img {
+    width: 65%;
+    position: absolute;
+    bottom: 8%;
+    right: 0;
+    z-index: 5;
+}
+
+#gray_text {
+    color: #e8e8e8;
+    position: absolute;
+    font-size: 260px;
+    height: 30%;
+    z-index: 2;
+    margin: 0 3%;
+    top: 20%;
+    font-weight: bolder;
+}
+
+.next_btn {
+    border: 10px solid black;
+    background-color: rgba(102, 51, 153, 0);
+    cursor: pointer;
+    position: absolute;
+    top: 57%;
+    z-index: 3;
+    text-align: center;
+    padding: 0;
+    width: 3%;
+    height: 6%;
+    clip-path: polygon(0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%, 0% 25%);
+}
+
+.daste {
+    position: absolute;
+    top: 70%;
+    text-align: left;
+    display: flex;
+}
+
+.space {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.daste_text {
+    padding-right: 72px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.space:hover {
+    border-bottom: 3px solid;
+}
+
+/* ==================================== */
+#golden_car {
+    background-image: url(./img/golden-car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: calc(100vh - 94px);
+    filter: brightness(0.86);
+    display: flex;
+    align-items: center;
+}
+
+#golden_car h1 {
+    margin: 16px 0;
+}
+
+.next_btn_gc {
+    border: 10px solid white;
+    background-color: rgba(102, 51, 153, 0);
+    cursor: pointer;
+    text-align: center;
+    padding: 0;
+    width: 6.5%;
+    height: 48px;
+    color: white;
+    clip-path: polygon(0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%, 0% 25%);
+}
+/* ==================================== */
+#news{
+    background-color: white;
+}
+#news_part{
+    padding: 3.5% 0 20% 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#news_cover{
+    padding-bottom: 3%;
+}
+#event{
+    position: relative;
+}
+.events_btn{
+    background-color: #f8f8f7;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+.events_btn:hover{
+    background-color: black;
+    color: white;
+    
+}
+.read_btn{
+    padding: 16px 54px;
+    border: 2px solid #dededd;
+    text-decoration: none;
+    color: #181818;
+    position: absolute;
+}
+#read_btn1{
+    right: 0;
+    top: 36%;
+}
+.read_btn:hover{
+    color: white;
+    background-color: black;
+}
+.news_card{
+    display: flex;
+    margin-top: 5%;
+}
+.news_card img{
+    width: 50%;
+    padding: 0;
+}
+.news_text{
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.cards_btn{
+    display:inline;
+}
+.btns{
+    margin-top: 6%;
+}
+.card_read_btns{
+    left: 0;
+    bottom: 0;
+}
+.see_all{
+    padding: 16px 72px;
+    text-decoration: none;
+    background-color: #181818;
+    color: white;
+    position: absolute;
+    align-self: center;
+    bottom: 7%;
+}
+.see_all:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid;
+}
+/* ===================================== */
+#sticky_text{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.92);
+    color: white;
+    position: fixed;
+    z-index: 2000000;
+}
+#sticky_text p{
+    padding: 6px 0;
+}
+footer{
+    background-color: #181818;
+    color: white;
+    padding: 3% 0;
+}
+.footer_part{
+    margin: 0 4%;
+}
+.top_footer ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+}
+.top_footer ul li{
+    padding-right: 32px;
+}
+.top_footer ul li:hover{
+    border-bottom: 1px solid white;
+}
+.top_footer{
+    display: flex;
+    position: relative;
+}
+#contact_us{
+    margin-top: 16px;
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+}
+#contact_us i{
+    margin: 0 8px;
+}
+.top_text{
+    padding-left: 12px;
+    list-style-type: '* ';
+    margin: 24px 0 40px;
+}
+.bottom_text{
+    list-style-type: none;
+    padding: 0;
+}
+.bottom_text li{
+    margin: 10px 0;
+}

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+body{
+    min-height: 100vh;
+    border: 0;
+    direction: rtl;
+    background-image: url(./images/Background/bg6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 860px;
+    margin: 0 auto;
+}
+.login-box{
+    height: 600px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 0 6px;
+    overflow: hidden;
+}
+.login-logo{
+    margin-bottom: 20px;
+}
+.login-logo img{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.login-form{
+    float: right;
+    width: 50%;
+    padding: 100px;
+}
+.login-img{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.login-img img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+.form-control{
+    width: 200px;
+    margin: 0 auto 15px auto;
+}
+.form-control label{
+    display: block;
+    margin-bottom: 7px;
+    font-size: 18px;
+    color: rgb(43, 43, 43);
+}
+.form-control input{
+    border: 1px solid rgb(202, 201, 201);
+    padding: 7px;
+    border-radius: 10px;
+    display: block;
+    font-family: inherit;
+    width: 100%;
+}
+.form-control input::placeholder{
+    color: rgb(192, 192, 176);
+    font-size: 14px;
+}
+.form-control input:focus{
+    border-color: rgb(197, 61, 255);
+    box-shadow: rgba(43, 43, 43, 0.2)0 0 0 4px;
+    transition: 2s all linear;
+    outline: none;
+}
+.login-btn a {
+    font-family: inherit;
+    display: block;
+    border-radius: 100px;
+    border: none;
+    width: 87%;
+    padding: 7px;
+    background-color: rgb(160, 4, 228);
+    color: white;
+    margin: 30px auto 20px auto;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.login-btn a:hover {
+    background-color: rgb(84, 10, 116);
+    transition: 2s all;
+}
+
+.forget-password{
+    text-align: center;
+    margin-top: 40px;
+}
+.forget-password a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+.forget-password a:hover{
+    text-decoration: underline;
+    color: rgb(41, 41, 41);
+}
