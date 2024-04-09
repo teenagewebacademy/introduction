@@ -18,6 +18,36 @@ function Result(props) {
 
     const data = [
         {
+            term: 'پاییز 1402 - کلاس نهم',
+            age:'none',
+            students: [
+                { name: 'کیانا و مبینا و روژینا', age: 'سیارات 🪐', image: '', link: 'https://ehsannajafi1402.github.io/school/galaxy/index.html', active: true },
+                { name: 'پونا و آنیسا و یسنا', age: 'موسیقی 🎷', image: '', link: 'https://ehsannajafi1402.github.io/school/music2/index.html', active: true },
+            ]
+        },
+        {
+            term: 'پاییز 1402 - کلاس هشتم',
+            age:'none',
+            students: [
+                { name: 'آوا و آنیسا و تینا', age: 'فیلم 🎞', image: '', link: 'https://ehsannajafi1402.github.io/school/Avina_Movie_Website/Aniva%20Movie%20Website%20(Indecesive)/Website%20Codes/index.html', active: true },
+                { name: 'لیدا و آنوشا و ساینا', age: 'نوبت دهی بزشکان 👩‍⚕️', image: '', link: 'https://ehsannajafi1402.github.io/school/doctor/index.html', active: true },
+                { name: 'آیناز و آوا و درسا', age: 'آنلاین شاب 🛍', image: '', link: 'https://ehsannajafi1402.github.io/school/onlineshop/index.html', active: true },
+                { name: 'ستایش و مریم و یلدا', age: 'فروشگاه نوشت افزار 📚', image: '', link: 'https://ehsannajafi1402.github.io/school/panda/index.html', active: true },
+                { name: 'یانا و تینا و سارینا', age: 'ماشین 🚗', image: '', link: 'https://ehsannajafi1402.github.io/school/yana/index.html', active: true },
+            ]
+        },
+        {
+            term: 'پاییز 1402 - کلاس هفتم',
+            age:'none',
+            students: [
+                { name: 'فاطمه و پویه', age: 'کافی شاپ ☕', image: '', link: 'https://ehsannajafi1402.github.io/school/CAFE%20A.M/index.html', active: true },
+                { name: 'فرناز و آرمینا و یاس', age: 'پت شاپ 😻', image: '', link: 'https://ehsannajafi1402.github.io/school/cat_space/index.html', active: true },
+                { name: 'هلسا و ویانا و ملیسا', age: 'موسیقی 🎤', image: '', link: 'https://ehsannajafi1402.github.io/school/music/index.html', active: true },
+                { name: 'پرنیا و آوا و آویسا', age: 'باله 🩰', image: '', link: 'https://ehsannajafi1402.github.io/school/classic_life/index.html', active: true },
+                { name: 'آیه و بهار', age: 'کبابی 🍡', image: '', link: 'https://ehsannajafi1402.github.io/school/kebab/index.html', active: true },
+            ]
+        },
+        {
             term: 'Web2( bootstrap & responsive - mft ) - زمستان 1402 ',
             students: [
                 { name: 'حمیدرضا میرزا', age: '18', image: '', link: '', active: false },
@@ -28,7 +58,6 @@ function Result(props) {
             term: 'ترم سوم - زمستان 1402',
             students: [
                 { name: 'حدیث کمالی', age: '18', image: '/hadis_kamali.jpg', link: '', active: false },
-                { name: 'آذین طلاب', age: '15', image: '/azin_tolab.jfif', link: '', active: false },
                 { name: 'پوریا طارمی', age: '16', image: '/pouria_taremi.jpg', link: '', active: false, },
                 { name: 'امیرمهدی رام', age: '15', image: '/amirmehdi_ram.jpg', link: '', active: false },
             ]
@@ -54,7 +83,7 @@ function Result(props) {
                     more_project: [
                         { title: 'Trello', link: './students/Term2/pouria_taremi/Trello.html' },
                         { title: 'Pazzle', link: './students/Term2/pouria_taremi/puzzle.html' },
-                        { title: 'google', link: './students/Term2/pouria_taremi/google.html' },
+                        { title: 'google', link: './students/Term2/pouria_taremi/Google.html' },
                         { title: 'about as page', link: './students/Term2/pouria_taremi/aboutas.html' },
                     ]
                 },
@@ -262,14 +291,14 @@ return (
             <b>برای بررسی سایت کارآموزان بر روی مشخصات آنها کلیک کنید</b>
         </h5>
         <Cards_slider></Cards_slider>
-        {data.map((item, index) => (
+        {data.map((main_item, index) => (
             <div key={index}>
                 <h3 key={index} className={styles.term}>
                     {/* <i className="material-icons">school</i> */}
-                    {item.term}
+                    {main_item.term}
                 </h3>
                 <div className={styles.students_list}>
-                    {item.students.map((item, index) => (
+                    {main_item.students.map((item, index) => (
                         // <Link href={item.link} className={styles.student} key={index} target={'_blank'}>
                         <div key={index} className={styles.student}>
                             <Link href={item.link ? item.link : default_page}
@@ -293,7 +322,8 @@ return (
                                 :
                                 <strong>{item.name}</strong>
                             }
-                            <span>{item.age} ساله</span>
+                             <span>{item.age} {main_item.age=='none'?'' :'ساله'}</span>
+                            
                         </div>
 
 
