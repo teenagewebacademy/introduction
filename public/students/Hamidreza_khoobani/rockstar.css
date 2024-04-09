@@ -59,66 +59,7 @@ nav {
     width: 60px;
     background-color: white;
 }
-/* .menu_item2{
-    position: relative;
-    left: 300px;
-    color: lightgrey;
-}
-.menu_item2:hover{
-    cursor: pointer;
-    color: white;
-    height:3px;
-    width: 60px;
-    background-color: white;
-}
-.menu_item3{
-    position: relative;
-    left: 350px;
-    color: lightgrey;
-}
-.menu_item3:hover{
-    cursor: pointer;
-    color: white;
-    height:3px;
-    width: 60px;
-    background-color: white;
-}
-.menu_item4{
-    position: relative;
-    left: 400px;
-    color: lightgrey;
-}
-.menu_item4:hover{
-    cursor: pointer;
-    color: white;
-    height:3px;
-    width: 60px;
-    background-color: white;
-}
-.menu_item5{
-    position: relative;
-    left:450px;
-    color: lightgrey;
-}
-.menu_item5:hover{
-    cursor: pointer;
-    color: white;
-    height:3px;
-    width: 60px;
-    background-color: white;
-}
-.menu_item6{
-    position: relative;
-    left:500px;
-    color: lightgrey;
-}
-.menu_item6:hover{
-    cursor: pointer;
-    color: white;
-    height:3px;
-    width: 60px;
-    background-color: white;
-} */
+
 .GET{
     width:140px;
     height:37px;
