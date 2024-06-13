@@ -21,7 +21,7 @@ function Result(props) {
             term: 'Web1( javascript - mft ) - زمستان 1402 ',
             students: [
                 { name: 'کامیاب ابراهیم زاده', age: '21', image: '', link: '', active: false },
-                { name: 'مینا احمدی', age: '25', image: '22', link: '', active: false },
+                { name: 'مینا احمدی', age: '22', image: '', link: '', active: false },
                 { name: 'ندا عسگری رمق', age: '40', image: '', link: '', active: false },
             ]
         },
@@ -78,6 +78,7 @@ function Result(props) {
             term: 'Web2( bootstrap & responsive - mft ) - زمستان 1402 ',
             students: [
                 { name: 'حمیدرضا میرزا', age: '18', image: '', link: './students/bootstrap/hamidreza_khoobani/BeanMachine/index.html', active: true ,
+                moreLink_state: true,
                 more_project: [
                     { title: 'Game ', link: './students/bootstrap/hamidreza_khoobani/BeanMachine/index.html' },
                     { title: 'bootstrap ', link: './students/bootstrap/hamidreza_khoobani/bootstrap/bootstrap.html' },
