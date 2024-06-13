@@ -18,11 +18,36 @@ function Result(props) {
 
     const data = [
         {
+            term: 'Web1( javascript - mft ) - زمستان 1402 ',
+            students: [
+                { name: 'کامیاب ابراهیم زاده', age: '21', image: '', link: '', active: false },
+                { name: 'مینا احمدی', age: '25', image: '22', link: '', active: false },
+                { name: 'ندا عسگری رمق', age: '40', image: '', link: '', active: false },
+            ]
+        },
+        {
+            term: 'Web3( javascript - mft ) - زمستان 1402 ',
+            students: [
+                { name: 'نسترن سالمی', age: '20', image: '/nastaran_salemi.PNG', link: '', active: false },
+                { name: 'امیررضا آذروند', age: '25', image: '/amirreza_azarvand.PNG', link: '', active: false },
+                { name: 'علیرضا زنگنه', age: '13', image: '/alireza_zangeneh.PNG', link: '', active: false },
+                {
+                    name: 'سینا غلامی', age: '18', image: '/sina_gholami.PNG', link: '', active: false,
+                    // moreLink_state: true,
+                    // more_project: []
+                },
+                { name: 'حمیدرضا میرزا', age: '18', image: '', link: '', active: false },
+                { name: 'امیرحسین عبدل نسب', age: '19', image: '/amirhosein_andolnasab.jfif', link: '', active: false },
+            ]
+        },
+        {
             term: 'پاییز 1402 - کلاس نهم',
             age:'none',
             students: [
                 { name: 'کیانا و مبینا و روژینا', age: 'سیارات 🪐', image: '', link: 'https://ehsannajafi1402.github.io/school/galaxy/index.html', active: true },
                 { name: 'پونا و آنیسا و یسنا', age: 'موسیقی 🎷', image: '', link: 'https://ehsannajafi1402.github.io/school/music2/index.html', active: true },
+                { name: ' سانلی و ملینا و بیتا و آیسا' , age: 'میسا شاپ🔮 🎷', image: '', link: 'https://ehsannajafi1402.github.io/school/misashop/index.html', active: true },
+                { name: 'یگانه و گلسا  ' , age: 'بزرگان موسیقی 🎩', image: '', link: 'https://ehsannajafi1402.github.io/school/yeganeh/index.html', active: true },
             ]
         },
         {
@@ -34,6 +59,7 @@ function Result(props) {
                 { name: 'آیناز و آوا و درسا', age: 'آنلاین شاب 🛍', image: '', link: 'https://ehsannajafi1402.github.io/school/onlineshop/index.html', active: true },
                 { name: 'ستایش و مریم و یلدا', age: 'فروشگاه نوشت افزار 📚', image: '', link: 'https://ehsannajafi1402.github.io/school/panda/index.html', active: true },
                 { name: 'یانا و تینا و سارینا', age: 'ماشین 🚗', image: '', link: 'https://ehsannajafi1402.github.io/school/yana/index.html', active: true },
+                { name: 'آوا و نیایش و یسنا', age: 'اسکین کر 💕', image: '', link: 'https://ehsannajafi1402.github.io/school/skincare/index.html', active: true },
             ]
         },
         {
@@ -45,12 +71,19 @@ function Result(props) {
                 { name: 'هلسا و ویانا و ملیسا', age: 'موسیقی 🎤', image: '', link: 'https://ehsannajafi1402.github.io/school/music/index.html', active: true },
                 { name: 'پرنیا و آوا و آویسا', age: 'باله 🩰', image: '', link: 'https://ehsannajafi1402.github.io/school/classic_life/index.html', active: true },
                 { name: 'آیه و بهار', age: 'کبابی 🍡', image: '', link: 'https://ehsannajafi1402.github.io/school/kebab/index.html', active: true },
+                { name: 'هلنا و نازی و آریانا', age: 'موسیقی 🎷 ', image: '', link: 'https://ehsannajafi1402.github.io/school/music3/index.html', active: true },
             ]
         },
         {
             term: 'Web2( bootstrap & responsive - mft ) - زمستان 1402 ',
             students: [
-                { name: 'حمیدرضا میرزا', age: '18', image: '', link: '', active: false },
+                { name: 'حمیدرضا میرزا', age: '18', image: '', link: './students/bootstrap/hamidreza_khoobani/BeanMachine/index.html', active: true ,
+                more_project: [
+                    { title: 'Game ', link: './students/bootstrap/hamidreza_khoobani/BeanMachine/index.html' },
+                    { title: 'bootstrap ', link: './students/bootstrap/hamidreza_khoobani/bootstrap/bootstrap.html' },
+                    { title: 'Portfolio', link: './students/bootstrap/hamidreza_khoobani/Portfolio/index.html' },
+                ]
+            },
                 { name: 'امیرحسین عبدل نسب', age: '19', image: '/amirhosein_andolnasab.jfif', link: '', active: false },
             ]
         },
@@ -67,7 +100,13 @@ function Result(props) {
             students: [
                 { name: 'نسترن سالمی', age: '20', image: '/nastaran_salemi.PNG', link: '', active: false },
                 { name: 'امیررضا آذروند', age: '25', image: '/amirreza_azarvand.PNG', link: '', active: false },
-                { name: 'علیرضا زنگنه', age: '13', image: '/alireza_zangeneh.PNG', link: '', active: false },
+                { name: 'علیرضا زنگنه', age: '13', image: '/alireza_zangeneh.PNG', link: './students/bootstrap/alireza_zangeneh/apple/Apple.html', active: true,
+                moreLink_state: true,
+                more_project: [
+                    { title: 'Apple ', link: './students/bootstrap/alireza_zangeneh/apple/Apple.html' },
+                    { title: 'resum ', link: './students/bootstrap/alireza_zangeneh/resum/MyWebSite.html' },
+                ]
+            },
                 { name: 'سینا غلامی', age: '18', image: '/sina_gholami.PNG', link: '', active: false, },
 
             ]

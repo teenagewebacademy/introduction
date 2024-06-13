@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Post One</title>
+  </head>
+
+  <body id="post">
+    <header class="hero blog">
+      <div id="navbar" class="navbar top">
+        <h1 class="logo">
+          <span class="text-primary"><i class="fas fa-mug-hot"></i>Bean</span
+          >Machine
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./index.html#cases">Cases</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./index.html#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="post bg-primary">
+        <div class="meta-header">
+          <h2>Check out our updated price list!</h2>
+          <a href="./blog.html" class="btn btn-dark">
+            <i class="fas fa-chevron-left"></i>
+            Back to Blog Page
+          </a>
+        </div>
+        <p class="meta">
+          <i class="fas fa-user"></i> Posted By
+          <strong>Matthew Reynolds</strong> | April 19 2023
+        </p>
+        <p>
+          We've recently refreshed our pricing to offer you even more value.
+          Below, you'll find an updated list of our products with their new
+          prices. Thank you for choosing us for your coffee needs, and we hope
+          you continue to enjoy our exceptional offerings!
+        </p>
+        <div class="row bg-light">
+          <img src="./images/drinks/drink-1.jpg" alt="dr_1" />
+          <img src="./images/drinks/drink-2.jpg" alt="dr_2" />
+          <img src="./images/drinks/drink-3.jpg" alt="dr_3" />
+          <img src="./images/drinks/drink-4.jpg" alt="dr_4" />
+          <img src="./images/drinks/drink-5.jpg" alt="dr_5" />
+          <img src="./images/drinks/drink-6.jpg" alt="dr_6" />
+          <img src="./images/drinks/drink-7.jpg" alt="dr_7" />
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="social">
+        <a href="#footer" class="fab fa-facebook fa-2x"></a>
+        <a href="#footer" class="fab fa-twitter fa-2x"></a>
+        <a href="#footer" class="fab fa-youtube fa-2x"></a>
+        <a href="#footer" class="fab fa-linkedin fa-2x"></a>
+      </div>
+      <p>Copyright &copy; 2023 - Bean Machine - Los Santos Coffee Company</p>
+      <p>Created By Berkcan Küçükoğlu - //*For training purposes only*//</p>
+    </footer>
+
+    <script>
+      const navbar = document.getElementById("navbar");
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+          if (!scrolled) {
+            navbar.style.transform = "translateY(-70px)";
+          }
+          setTimeout(function () {
+            navbar.style.transform = "translateY(0)";
+            scrolled = true;
+          }, 50);
+        } else {
+          navbar.classList.add("top");
+          scrolled = false;
+        }
+      };
+    </script>
+  </body>
+</html>
