@@ -1,0 +1,535 @@
+@import url(../WebFonts/css/style.css);
+
+BODY {
+    direction: rtl;
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: IRANSans;
+
+}
+
+:root {
+    --part1: #21aa58;
+    --part2: #fff;
+}
+
+/* ...............................nav............................... */
+.navstyle {
+    height: 80px;
+    padding-right: 12%;
+    padding-left: 12%;
+    background-color: var(--part2);
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgray;
+    display: flex;
+    position: relative;
+    text-align: center;
+    line-height: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.ulmenuestyle>li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 14px;
+
+
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.listyle {
+    position: relative;
+}
+
+.submenue {
+    background-color: var(--part2);
+    position: absolute;
+    top: 100%;
+    padding: 0;
+    display: none;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+a:hover {
+    color: black;
+}
+
+.submenue>li {
+    padding: 5px;
+    list-style: none;
+    width: 120px;
+    background-color: var(--part2);
+    font-size: 12px;
+}
+
+.submenue>li:hover {
+    color: var(--part1);
+}
+
+
+
+.listyle:hover .submenue {
+    display: block;
+}
+
+.snaplogo {
+    width: 76px;
+    cursor: pointer;
+    position: absolute;
+    right: 150px;
+    top: 25px;
+}
+
+/* ..............................header............................... */
+.section1 {
+    width: 100%;
+    height: 420px;
+    display: flex;
+}
+
+.section1right {
+    width: 50%;
+    height: 420px;
+    background-color: var(--part1);
+    padding-left: 32px;
+    padding-right: 135px;
+    text-align: right;
+    line-height: 1.5;
+    padding-top: 60px;
+    position: relative;
+}
+
+.headpic {
+    width: 50%;
+    height: 420px;
+    transform: scaleX(-1);
+    padding-top: 60px;
+}
+
+.greentext {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--part2);
+    padding-top: 32px;
+    text-align: justify;
+}
+
+.greeninput {
+    display: flex;
+    gap: 15px;
+}
+
+.greenp {
+    color: var(--part2);
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.sendstyle {
+    width: 130px;
+    height: 40px;
+    background-color: var(--part2);
+    font-size: 15px;
+
+    color: var(--part1);
+    padding: 0 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+
+}
+
+.buttongreen {
+    width: 250px;
+    height: 40px;
+    background-color: var(--part1);
+    color: var(--part2);
+    border: 1px solid var(--part2);
+    padding: 0px 8px;
+    border-radius: 6px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 25px;
+}
+
+.input1 {
+    border: none;
+    outline: none;
+    width: 250px;
+    color: var(--part2);
+    direction: rtl;
+    background-color: var(--part1);
+}
+
+.inputdesign {
+    border-bottom: 1px solid var(--part2);
+    width: 250px;
+    height: 35px;
+}
+
+/* .............................section1.................................. */
+
+.section2 {
+    width: 100%;
+    height: 118px;
+    display: flex;
+    padding: 3px;
+    justify-content: center;
+}
+
+.section2div {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.smallpic {
+    width: 140px;
+    height: 42px;
+}
+
+/* ...............................section2............................. */
+
+
+.section3 {
+    width: 100%;
+    
+    background-color: #0000000a;
+    padding: 0 140px 30px;
+    align-content: center;
+}
+
+.bigtext {
+    text-align: center;
+    padding: 40px;
+    font-size: 34px;
+    line-height: 52px;
+    margin: 0;
+    color: #3f3f3f;
+}
+
+.mainsmallcards {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 15px;
+}
+
+.smallcards {
+    width: 300px;
+    height: 80px;
+    background-color: var(--part2);
+    border-radius: 18px;
+    margin-top: 0;
+    display: flex;
+    gap: 3px;
+}
+
+.smallcardpic {
+    width: 70px;
+    height: 70px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.smallcardstitle {
+    font-size: 13px;
+    padding-top: 5px;
+    margin-top: 8px;
+    color: #3f3f3f;
+}
+
+.smalcardp {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #a3a3a3;
+}
+
+/* .................................section3............................. */
+.sectionaction {
+    height: 400px;
+    
+    
+}
+
+.divbigimgg {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.drawer {
+    width: 1000px;
+    height: 250px;
+
+}
+
+.mainstyleee {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    
+    scroll-behavior: smooth;
+  
+
+}
+
+.severalpic {
+    display: flex;
+    width: 1690px;
+    height: 470px;
+}
+
+#section10 {
+
+    height: 300px;
+    width: 1000px;
+    border-radius: 20px;
+
+
+}
+
+#section20 {
+
+    height: 300px;
+    width: 1000px;
+    border-radius: 20px;
+
+}
+
+#section30 {
+
+    height: 300px;
+    width: 1000px;
+    border-radius: 20px;
+
+
+}
+
+#section40 {
+
+    height: 300px;
+    width: 1000px;
+    border-radius: 20px;
+
+
+}
+
+.liststyleee {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.childd {
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+   
+    background-color: rgb(247, 243, 243);
+
+}
+
+ 
+
+
+.divaction {
+     background-color: rgba(255, 255, 255, 0.432); 
+    border-radius: 100px;
+    position: absolute;
+    margin-top:265px;
+    padding: 8px;
+   
+    
+
+}
+
+
+/* ..............................section4............................... */
+
+.section4 {
+    height: 320px;
+    display: flex;
+}
+
+.secondpic {
+    width: 50%;
+    height: 350px;
+}
+
+.section4left {
+    width: 50%;
+    height: 420px;
+    padding-left: 130px;
+    padding-top: 15px;
+    padding-right: 42px;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.whitetext {
+    color: rgb(48, 47, 47);
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 12px;
+}
+
+.whitep {
+    font-size: 11px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: inherit;
+}
+
+/* .......................................section5............................... */
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: right;
+}
+
+.dcard {
+    width: 18%;
+    position: relative;
+    top: -25px;
+}
+
+.dcardimg {
+    background-color: var(--part2);
+    width: 240px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.img3card {
+    width: 70%;
+}
+
+.title3card {
+    font-size: 15px;
+}
+
+.p3card {
+    font-size: 10px;
+    padding: 3px;
+}
+
+/* ...................................section6.................................. */
+.section6 {
+    background-color: #0000000a;
+    text-align: center;
+    padding-right: max(140px, 10%);
+    padding-left: max(140px, 10%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 1.8;
+}
+
+.hstylesection6 {
+    font-size: 30px;
+    line-height: 60px;
+    color: rgb(87, 87, 87);
+}
+
+.lastbutton {
+    background-color: var(--part1);
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: var(--part2);
+    border-radius: 8%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 3px solid var(--part1);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.moviestyle {
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+.lastcards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.lastsmallcard {
+    height: 160px;
+    background-color: var(--part2);
+    text-align: right;
+    display: flex;
+    padding-left: 26px;
+    padding-right: 26px;
+    border-radius: 12px;
+    align-items: center;
+    width: 49%;
+}
+
+.lastcardpic {
+    width: 100px;
+    height: 55px;
+}
+
+.lastcardp {
+    font-size: 14px;
+}
+
+.titlelastcar {
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    font-weight: 100px;
+}
+
+/* .................................footer.............................. */
+.footerstyle {
+    min-height: 300px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#footericon {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.logostyle {
+    width: 100px;
+}
+
+.divfooter {
+    margin-top: 20px;
+}

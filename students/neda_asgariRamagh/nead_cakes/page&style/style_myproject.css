@@ -1,0 +1,636 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: cursive;
+}
+
+/* 
+ .maincontainer{
+    margin: 0 7%;
+}  */
+:root {
+    --part1: #f9a5aa;
+    --part2: #fdfdfc;
+    --part3: #f8bcbb;
+    --part4: red;
+}
+
+.bodycontainer::-webkit-scrollbar {
+    width: 12px;
+    height: 5px;
+}
+
+.bodycontainer::-webkit-scrollbar-track {
+    /* height: 5px; */
+    background-color: var(--part2);
+
+}
+
+.bodycontainer::-webkit-scrollbar-thumb {
+    width: 1px;
+    height: 5px;
+    background-color: var(--part4);
+    border-radius: 10px;
+
+}
+
+
+
+/* .....................header.................... */
+
+
+.header {
+    height: 600px;
+    background-color: var(--part1);
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/dalbor1.jpg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 40px;
+
+
+}
+
+
+.mwnuestyle {
+    display: grid;
+    grid-template-columns: repeat(2, 440px);
+
+}
+
+.cupcakestyle {
+    height: 600px;
+    width: 500px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+}
+
+.logostyle {
+    width: 250px;
+    transition: all 3s;
+}
+
+.logostyle:hover {
+    transform: rotatey(1turn);
+}
+
+.item1 {
+    text-align: left;
+    padding-top: 30px;
+}
+
+.item4 {
+    background-image: url(../images/lesscuocake.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 370px;
+
+}
+
+.pheaderstyle {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.buttonheadstyle {
+    background-color: var(--part2);
+    color: var(--part1);
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    padding: 3px 23px 3px 23px;
+}
+
+.leftsidetext {
+    padding-top: 50px;
+    color: var(--part2);
+    font-size: 20px;
+}
+
+.berrystyle {
+    width: 300px;
+
+}
+
+.berrydiv {
+    text-align: center;
+}
+
+.item2 {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    padding-top: 70px;
+}
+
+.ulstyle {
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 35px;
+    color: var(--part1);
+
+}
+
+.ulstyle>li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 13px;
+    transition: all;
+    transition-duration: 2000ms;
+}
+
+/* :-webkit-any()
+:-moz-any()
+-MS-
+-O- */
+.btmstyle>li {
+    padding: 15px;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+    gap: 5p;
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: var(--part1);
+    font-size: 18px;
+
+}
+
+li:hover {
+    color: var(--part4);
+    transform: scale(1.1);
+
+}
+
+li :hover {
+    color: var(--part4);
+
+}
+
+/* ............................SECTION1......................... */
+.secgridstyle {
+
+    background-image: url(../images/dalborgrid.png), linear-gradient(#fdfdfc, #fd8c93);
+    background-size: 30px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 650px;
+    text-align: center;
+    align-content: center;
+    padding: 0 10%;
+    overflow: hidden;
+
+
+}
+
+.divshow {
+    position: relative;
+    z-index: 3;
+    margin-bottom: 25px;
+}
+
+.hstylegrid {
+    color: var(--part1);
+
+    font-size: 25px;
+    margin-bottom: 40px;
+
+}
+
+.secgridstyle>i {
+    color: var(--part1);
+    font-size: 40px;
+}
+
+.gridscontainer {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 350PX 175PX 175PX 350PX auto;
+    grid-template-rows: 175PX 175PX auto;
+    margin-bottom: 10px;
+    justify-content: center;
+
+}
+
+.icongrid:hover {
+    color: var(--part4);
+}
+
+.icongridd:hover {
+    color: yellow;
+}
+
+.icongriddd:hover {
+    color: aqua;
+}
+
+.item11 {
+    grid-row: 1/3;
+    border-radius: 16px 0 0 16px;
+}
+
+.item44 {
+    grid-column: 4/5;
+    border-radius: 0 16px 0 0;
+}
+
+.item55 {
+    grid-column: 2/4;
+}
+
+.item66 {
+    grid-column: 4/5;
+    border-radius: 0 0 16px 0;
+}
+
+.itemss {
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+
+.imgstyle {
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all;
+    transition-duration: 2000ms;
+    z-index: -1;
+}
+
+.itemss:hover img {
+    transform: scale(1.5);
+    cursor: pointer;
+
+}
+
+
+
+/* .......................section2........................ */
+.part2 {
+    height: 350px;
+    background-color: var(--part2);
+    background-image: url(../images/dalbor2.jpg);
+    background-repeat: repeat-x;
+    background-size: 20px;
+    background-position: bottom;
+    text-align: center;
+    padding: 0px 25% 0px 25%;
+}
+
+.position {
+    text-align: center;
+    width: 160px;
+
+    padding-top: 15px;
+}
+
+.container {
+    margin: 0 7%;
+}
+
+.whitecards {
+    height: 250px;
+    background-color: #fdfdfc;
+    ;
+    display: flex;
+    gap: 40px;
+    padding-top: 16px;
+    justify-content: center;
+}
+
+.minicard {
+    width: 200px;
+    height: 250px;
+    background-color: #fdfdfc;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sweech :hover {
+    color: var(--part4);
+    cursor: pointer;
+}
+
+.circlepic {
+    width: 100px;
+    height: 40%;
+    border-radius: 50%;
+
+}
+
+.titlestyle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.spanclass {
+    font-size: 15px;
+    color: #3e3d3d;
+}
+
+.sweech {
+    margin-top: 10px;
+}
+
+/* ..............................section3...................... */
+.part3 {
+    height: 380px;
+    background-color: var(--part3);
+    background-image: url(../images/dalbor33.jpg);
+    background-repeat: repeat-x;
+    background-size: 20px;
+    background-position: bottom;
+    padding-top: 42px;
+    position: relative;
+}
+
+.about_cards {
+    display: flex;
+    gap: 25px;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.allcards {
+    width: 160px;
+    height: 300px;
+    background-color: rgb(247, 235, 238);
+    text-align: center;
+    border-radius: 4%;
+}
+
+.insidecards {
+    width: 160px;
+    height: 100px;
+    background-color: #f8bcbb;
+}
+
+.image1 {
+    width: 160px;
+    height: 100px;
+    background-color: #f8bcbb;
+    border-radius: 4%;
+}
+
+.image1:hover {
+    cursor: pointer;
+}
+
+.choco {
+    color: var(--part1);
+    padding: 5px;
+}
+
+.pbigcard {
+    font-size: 14px;
+    color: #3e3d3d;
+    padding: 3px;
+}
+
+.button {
+    color: var(--part2);
+    background-color: var(--part1);
+    width: 120px;
+    height: 23px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    color: var(--part4);
+    cursor: pointer;
+}
+
+#iconright {
+    position: absolute;
+    top: 190px;
+    right: 255px;
+
+    color: var(--part2);
+    border-radius: 100%;
+    font-size: 25px;
+}
+
+#iconleft {
+    position: absolute;
+    top: 190px;
+    left: 250px;
+    color: var(--part2);
+    border-radius: 100%;
+    font-size: 25px;
+
+}
+
+#iconleeft:hover {
+    background-color: var(--part4);
+}
+
+/* .......................section4........................ */
+.part4 {
+    height: 300px;
+    width: 100%;
+    background-color: var(--part2);
+    background-image: url(../images/dalbor4.jpg);
+    background-repeat: repeat-x;
+    background-size: 45px;
+    background-position: bottom;
+}
+
+.marabontext {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.mainsmallcards {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mainsmallcards:nth-child(2n+1) {
+    text-align: right;
+    float: right;
+
+}
+
+.box {
+    position: relative;
+}
+
+.smallcardsss {
+    width: 380px !important;
+    height: 80px;
+    background-color: var(--part2);
+    border-radius: 18px;
+    margin-top: 0;
+    display: flex;
+    gap: 3px;
+    direction: rtl;
+    position: absolute;
+    right: 0;
+}
+
+.smallcardsinside {
+    margin-left: 8px;
+    padding-top: 5px;
+    margin-right: 8px;
+
+}
+
+#iconstylesecc {
+    color: var(--part2);
+    background-color: var(--part1);
+    font-size: 40px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border-radius: 100%;
+    padding-top: 7px;
+    transform: scaleX(-1);
+
+}
+
+.hsection4 {
+    color: var(--part1);
+}
+
+h3:hover {
+    color: var(--part4);
+    cursor: pointer;
+
+}
+
+.pmarastyle {
+    font-size: 13px;
+    color: #7f7f7f;
+}
+
+.title {
+    color: #f9a5aa;
+}
+
+strong:hover {
+    color: var(--part4);
+    cursor: pointer;
+}
+
+.swech {
+    background-color: #f9a5aa;
+    width: 110px;
+    height: 23px;
+    color: var(--part2);
+    border: none;
+    border-radius: 4px;
+}
+
+.smallcardss {
+    width: 390px;
+    height: 80px;
+    background-color: var(--part2);
+    border-radius: 18px;
+    margin-top: 0;
+    display: flex;
+    gap: 3px;
+}
+
+#iconstylesec {
+    color: var(--part2);
+    background-color: var(--part1);
+    font-size: 40px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border-radius: 100%;
+    padding-top: 7px;
+
+}
+
+.picstyle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+
+.spanstyle {
+    color: var(--part2);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+/* ..........................footer................... */
+
+.footer {
+    height: 180px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-image: url(../images/footer\ patern.jpg);
+    position: relative;
+}
+
+.container1 {
+    height: 120px;
+    margin-right: 7%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.formstyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.hcomment {
+    color: var(--part2);
+    font-size: 16px;
+
+}
+
+.inputs {
+    margin-bottom: 10px;
+    resize: none;
+    background-color: #ffffffb9;
+    border: none;
+    width: 150px;
+    outline-color: var(--part3);
+}
+
+.botton12 {
+    background-color: var(--part1);
+    color: var(--part2);
+    width: 60px;
+    border: none;
+    position: absolute;
+    bottom: 14px;
+    /* right: 260px; */
+}
+
+ul>li {
+    color: var(--part2);
+    list-style: none;
+}
+
+.emcard {
+    color: rgb(163, 163, 163);
+}

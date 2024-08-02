@@ -11,6 +11,9 @@ function Header_slider() {
   const basePath =process.env.NODE_ENV === 'production'? process.env.NEXT_PUBLIC_FAVICON : '';
 
   const data = [
+    // {image:'',title:''},
+    {image: '/click_1.jpg',title:'زمستان 1402'},
+    {image: '/school_1.jpg',title:'پاییز1402'},
     {image: '/mft1-1.png', title: 'web1_mft - تابستان و پاییز 1402'},
     {image: '/mft1_html&css.jpg', title: 'web1_mft - تابستان و پاییز 1402'},
     {image: '/IMG_20230801_102252.jpg', title: 'ترم اول2 - تابستان 1402'},
