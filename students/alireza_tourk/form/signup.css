@@ -1,0 +1,101 @@
+:root{
+    --style_color: rgb(89, 87, 87);
+}
+*{
+   box-sizing: border-box; 
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(102, 245, 218) 0 10%,rgb(51, 231, 251) 30% 40% , rgb(96, 20, 38) 90% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside img{
+    width: 35vw;
+    height: 70vh;
+    border-radius: 5px 0 0 5px;
+}
+form{
+    background-color: rgb(243, 235, 220);
+    width: 35vw;
+    height: 70vh;
+    margin-top: -4px;
+    border-radius: 0 5px 5px 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+.name_f_l{
+    display: block;
+    margin-inline-start: 17px;
+    padding-top: 10px;
+    color: var(--style_color);
+}
+.style{
+    background-color: rgb(248, 174, 174);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 45%;
+    height: 30px;
+    margin-inline-start: 17px;
+    margin-bottom: 5px;
+}
+#email , #number , #Adress{
+  width: 94%;  
+}
+textarea {
+    resize: none;
+}
+select{
+    position: relative;
+    top: -15px;
+    color: rgb(96, 20, 38);
+}
+.ace1{
+    margin-inline-start: 17px;
+    color: rgb(96, 20, 38);
+    font-weight: 300;
+    margin-top: 10px;
+    
+}
+.ace{
+    margin: 10px 0 0 0;
+    margin-inline-end: 5px;
+}
+.color{
+    color: rgb(96, 20, 38);
+}
+.feedback{
+    background-color: rgb(248, 174, 174);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 94%; 
+    margin-inline-start: 17px;
+    margin-bottom: 5px;
+}
+button{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 15px;
+    padding: 10px 5px 32px 5px; 
+    margin: 20px auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-top-right-radius: 20px 50%;
+    border-bottom-right-radius: 20px 50%;
+    border-top-left-radius: 20px 50%;
+    border-bottom-left-radius: 20px 50%;
+    border: none;
+    background: linear-gradient(230deg, rgb(102, 245, 218) 0 10%,rgb(51, 231, 251) 30% 40% , rgb(96, 20, 38) 90% 100%);
+    box-shadow: 0 0 3px;
+}
+textarea::placeholder , input::placeholder{
+    color: #4d4b4b;
+    font-weight: 300;
+}

@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ==============================menu========================= */
+.menu {
+    margin: 0;
+    padding: 0 1.5%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 100vw;
+}
+
+.menu h5 a {
+    margin-right: 15px;
+    color: rgb(47, 47, 47);
+    text-decoration: none;
+}
+
+.menu h5 a:hover {
+    border-bottom: 1px solid;
+}
+
+.nine_dots {
+    margin: 0;
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.nine_dots:hover {
+    background-color: #f4f4f4;
+}
+
+.nine_dots div {
+    margin: .5px .5px .5px .5px;
+    padding: 0;
+    background-color: rgb(70, 70, 70);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+}
+
+.Google_apps {
+    background-color: rgb(47, 47, 47);
+    font-size: medium;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    position: relative;
+    top: px;
+    right: 50px;
+    text-decoration: none;
+    white-space: nowrap;
+    display: none;
+}
+
+#change_display {
+    text-decoration: none;
+}
+
+#change_display:hover .Google_apps {
+    display: block;
+    cursor: text;
+}
+
+.btn_menu {
+    background-color: #0b57d0;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.btn_menu h4 {
+    color: white;
+    margin: -2px 13px 0 13px;
+    padding: 0;
+    font-size: larger;
+}
+
+.btn_menu:hover {
+    box-shadow: 0 0 5px 1px rgb(45, 115, 255);
+}
+
+/* ==============================section========================= */
+.section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.section>img{
+    width: 270px;
+    height: 90px;
+    margin: 140px auto 30px auto;
+}
+.searchbar{
+    width: 580px;
+    height: 48px;
+    border: 1px solid rgb(170, 168, 168);
+    margin: 0 auto;
+    border-top-left-radius: 20px 50%;
+    border-bottom-left-radius: 20px 50%;
+    border-top-right-radius: 20px 50%;
+    border-bottom-right-radius: 20px 50%;
+    position: relative;
+}
+.searchbar:hover{
+    box-shadow: 0 0 5px rgb(190, 191, 192);
+}
+.search_searchbar{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8.5px;
+    left: 8.5px;
+}
+.searchbar input{
+    border: white;
+    width: 440px;
+    height: 46px;
+    position: absolute;
+    top: 0;
+    left: 47px;
+    outline: none;
+}
+.voice_searchbar{
+    width: 25px;
+    height: 30px;
+    position: absolute;
+    top: 6.5px;
+    right: 52px; 
+}
+.voice_searchbar:hover{
+    cursor: pointer;
+}
+.img_searchbar{
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    top: 11px;
+    right: 11px;    
+}
+.img_searchbar:hover{
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.links a{
+    text-decoration: none;
+}
+.links a h3{
+    background-color: #fafafa;
+    color: rgb(78, 78, 78);
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-weight: lighter;
+    border: 1px solid #fafafa;
+}
+.links a h3:hover{
+    border: 1px solid rgb(207, 206, 206);
+    box-shadow: 0 0 3px rgb(207, 206, 206);
+}
+/* ==============================footer========================= */
+.div_1_footer{
+    width: 100vw;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+}
+nav{
+    padding: 0 2%;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    color: rgb(55, 55, 55);
+    padding-inline-end: 20px;
+}

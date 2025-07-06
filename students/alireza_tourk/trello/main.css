@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+body{
+padding: 50px 0 50px 0;
+margin: 0;
+background-color: rgb(249, 248, 248);
+}
+form{
+    background-color: white;
+    box-shadow: 0 0 15px rgb(213, 212, 212);
+    width: max(400px , 400px);
+    height: 685px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    margin: auto;
+
+}
+.left_side{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 310px;
+    height: 315px;
+}
+
+.right_side{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 330px;
+    height: 260px;
+}
+.upp{
+    width: 150px;
+    height: 85px;
+    margin-top: 10px;
+}
+.log_in{
+    font-weight: bolder;
+    margin: 0 0 15px 0;
+    font-size: 1.2rem;
+}
+#email{
+    width: 320px;
+    height: 40px;
+    
+}
+#email:hover{
+   outline-color: blue;
+}
+.remember_me{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: left;
+    margin: 10px 0 10px 0;
+    gap: 5px;
+    width: 320px;
+}
+.remember_me label{
+    color: rgb(0, 0, 0);
+}
+#checkbox{
+    width: 15px;
+    height: 15px;
+    accent-color: rgb(8, 37, 255);
+}
+.check{
+    width: 24px; 
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.check:hover{
+    border: 2px solid rgb(8, 37, 255);
+}
+.buton{
+    width: 320px;
+    height: 40px;
+    margin: 5px 0 0 0;
+    background-color: rgb(8, 37, 255);
+    border: none;
+    color: whitesmoke;
+    border-radius: 3px;
+}
+.or_continue{
+    font-size: 1rem;
+    color: rgb(96, 92, 92);
+    font-weight: bolder;
+    margin-top: 25px;
+}
+.rigester_links{
+    border: 1px solid rgb(197, 195, 195);
+    width: 320px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.rigester_links img{
+    width: 30px;
+    height: 30px;
+}
+.rigester_links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.rigester_links:hover{
+    background-color: rgb(250, 248, 248);
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    align-items: center;
+    border-style: none none solid none;
+    border-width: 1px;
+    padding:  0 50px;
+    border-color:  rgb(197, 195, 195);
+}
+.links p{
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0 5px;
+    padding-bottom: 13px;
+}
+.links a{
+    text-decoration: none;
+    font-weight: lighter;
+}
+.naghl{
+    text-decoration: none;
+}
+.naghl:hover{
+    text-decoration: underline;
+}
+.figure{
+ display: flex;   
+ flex-direction: column;
+ align-items: center;
+ margin-top: 20px;
+}
+.figure img{
+width: 150px;
+filter: grayscale(80%);
+}
+.account{
+    font-size: 0.8rem;
+}

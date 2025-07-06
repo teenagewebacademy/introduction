@@ -1,0 +1,275 @@
+
+/* ===============================all======================== */ 
+@font-face {
+    font-family: "vazir";
+    
+    src: url(./doc/vazir-font-v27.2.2-Fontjo.com/Vazir-Black.ttf);
+    src: url(./doc/vazir-font-v27.2.2-Fontjo.com/Vazir-Bold.ttf);
+    src: url(./doc/vazir-font-v27.2.2-Fontjo.com/Vazir-Light.ttf);
+    src: url(./doc/vazir-font-v27.2.2-Fontjo.com/Vazir-Medium.ttf);
+    src: url(./doc/vazir-font-v27.2.2-Fontjo.com/Vazir-Regular.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    background-color: white;
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb{
+background-color: #c5c5c5;
+}
+*{
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: "vazir";
+}
+a{
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+}
+a:hover{
+    color: #06df70;
+}
+/* ===============================sefid======================== */ 
+/*.sefid{
+    height: 110px;
+}*/
+/* ===============================menu======================== */ 
+header{
+    z-index: 2;
+    position: sticky;
+    top: 0;
+}
+.container_menu{
+    display: flex;
+    align-self: center;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;  
+}
+
+.list_menu li a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+.list_menu li{
+    list-style: none;
+    display: inline-block;
+    margin-inline-end: 30px;
+    font-size: 20px;
+}
+.list_menu{
+  padding: 0;  
+  margin: 40px 0;
+}
+.snappTextLogo_menu{
+    margin-inline-end: 25px;
+    margin-inline-start: 11%;
+}
+.bi-chevron-down{
+    margin: 0 3px;
+}
+/* ===============================sec1======================== */ 
+.map{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(194, 194, 194);
+}
+/* ===============================flex======================== */
+.flex{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -120px;
+}
+/* ===============================aside======================== */
+.aside{
+    width: 25vw;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px gray;
+    border-radius: 8px;
+    padding: 0 10px;
+    position: sticky;
+    top: 110px;
+}
+.aside h1{
+    color: rgb(60, 60, 60);
+    font-size: large;
+    text-align: center;
+}
+.aside section{
+    color: rgb(86, 86, 86);
+    text-align: center;
+    font-size: 1.3rem;
+}
+.aside section a{
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.aside section p{
+margin: 0;
+}
+.aside h2{
+    color: #06df70;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* ===============================article======================== */
+/* ================input================== */
+.article{
+    padding: 20px 20px;
+    width: 45vw;
+    min-height: 1000px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px gray;
+    border-radius: 8px;
+}
+.input{
+    position: relative;
+    background-color: rgb(242, 242, 242);
+    width: 42vw;
+    height: 40px;
+    border-radius: 8px;
+}
+.input input{
+    background-color: rgb(242, 242, 242);
+    width: 37vw;
+    border: none;
+    height: 38px;
+    position: absolute;
+    right: 40px;
+}
+.bi-search{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+.bi-caret-down-fill{
+    position: absolute;
+    left: 10px;  
+    top: 12px;
+    display: none;
+}
+#invis:hover .bi-caret-down-fill{
+    display: block;
+}
+/* ================input end================== */
+.location{
+    margin: 20px 0 5px 0;
+    color: rgb(86, 86, 86);
+    font-size: 1.3rem;
+}
+.size{
+    font-size: 1.2rem;   
+}
+.code{
+    margin: 5px 0 0 0;
+    color: rgb(86, 86, 86);
+    font-size: 1.1rem;
+}
+/* ============================info======================== */
+.info{
+    padding: 0 15vw;
+}
+.info h2{
+    margin: 20px 0 5px 0;
+    font-size: large;
+    color: #06df70;
+}
+.info p{
+    margin: 5px 0 5px 0;
+    font-size: larger;
+    color: rgb(86, 86, 86);
+}
+.info a{
+    font-size: large;
+}
+/* ============================send_link======================== */
+.send_link{
+    padding: 0 15vw; 
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.send_link div h1{
+    font-size: 1.8rem;
+}
+.text_email{
+    position: relative;
+    width: 176px;
+    height: 40px;
+}
+.link_flex{
+    display: flex;
+    height: 40px;
+}
+.text_email input{
+    position: absolute;
+    right: 0;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    outline: none;
+}
+.dot{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 8px;
+    height: 8px;
+    background-color: #a0a0a0;
+    border-radius: 50%;
+}
+button{
+    background-color: #06df70;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+}
+button span{
+    font-size: larger;
+    color: white;
+    padding: 10px 14px;
+    display: inline-block;
+}
+/* ============================footer======================== */
+#footer{
+    border-top:1px solid #a0a0a0;
+}
+.footer{
+    text-align: center;
+    margin-top: 40px;
+}
+.footer a{
+    text-decoration: none;
+    color: #363636;
+    margin-inline-end: 15px;
+    font-size: larger;
+}
+.link_social_media{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 25px 0;
+}
+.link_social_media a{
+    margin: 0 7px 0 0;
+}
+.link_namad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}

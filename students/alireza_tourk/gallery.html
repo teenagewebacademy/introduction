@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <style>
+        .gallery{
+            display: grid;
+            gap: 8px;
+            width: 650px;
+            grid-template-columns: repeat(3,auto);
+            aspect-ratio: 1;
+            background-color: seashell;
+        }
+        .images{
+            width: 0;
+            height: 0;
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            cursor: pointer;
+            filter: grayscale(80%);
+            transition: 0.35s linear;
+            -moz-transition: 0.35s linear;
+            -webkit-transition: 0.35s linear;
+            -o-transition: 0.35s linear;
+            -ms-transition: 0.35s linear;
+
+        }
+        .images:hover{
+            filter: grayscale(0);
+            width: 225px;
+            height: 225px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img class="images" src="./img/gallery/1.png" alt="1">
+        <img class="images" src="./img/gallery/2.jpeg" alt="2">
+        <img class="images" src="./img/gallery/3.jpeg" alt="3">
+        <img class="images" src="./img/gallery/4.jpeg" alt="4">
+        <img class="images" src="./img/gallery/5.jpeg" alt="5">
+        <img class="images" src="./img/gallery/6.jpeg" alt="6">
+        <img class="images" src="./img/gallery/7.jpeg" alt="7">
+        <img class="images" src="./img/gallery/8.png" alt="8">
+        <img class="images" src="./img/gallery/9.jpeg" alt="9">
+    </div>
+</body>
+</html>
