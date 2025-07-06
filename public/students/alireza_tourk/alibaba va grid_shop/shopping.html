@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>shop grid</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        section {
+            display: grid;
+            grid-auto-columns: 500px 500px;
+            grid-template-rows: repeat(5, 200px);
+            gap: 50px;
+            justify-content: center;
+            position: relative;
+        }
+
+        section::before {
+            content: "";
+            position: absolute;
+            right: 320px;
+            top: 340px;
+            width: 2.5%;
+            height: 3%;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgb(255, 247, 0) 0% 10%);
+            box-shadow: 0 0 100px 90px rgb(255, 247, 0);
+        }
+
+        .container {
+            padding: 0 20%;
+        }
+
+        div:nth-child(1) {
+            grid-column: 2/3;
+            grid-row: 1/3;
+        }
+
+        div:nth-child(2) {
+            grid-column: 1/2;
+            grid-row: 1/3;
+        }
+
+        div:nth-child(3) {
+            grid-column: 2/3;
+            grid-row: 2/4;
+        }
+
+        div:nth-child(4) {
+            grid-column: 1/2;
+            grid-row: 3/5;
+        }
+
+        div:nth-child(5) {
+            grid-column: 2/3;
+            grid-row: 4/5;
+        }
+
+        .texts {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            width: 350px;
+            margin-top: 70px;
+        }
+
+        .texts h2 {
+            font-size: 2.2rem;
+            margin: 10px 0;
+        }
+
+        .texts p {
+            font-size: .8rem;
+            color: #9b9b9b;
+        }
+
+        .texts h2 s {
+            color: rgb(245, 71, 8);
+        }
+
+        .more {
+            color: aliceblue;
+            background-color: rgb(245, 71, 8);
+            border-top-right-radius: 10% 50%;
+            border-top-left-radius: 10% 50%;
+            border-bottom-right-radius: 10% 50%;
+            border-bottom-left-radius: 10% 50%;
+            padding: 8px 15px;
+            margin: 5px 0;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        /* ====================carts================== */
+        .contain {
+            width: 360px;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: end;
+        }
+
+        .contain2 {
+            position: relative;
+            top: -80px;
+
+        }
+
+        .background {
+            width: 270px;
+            height: 300px;
+            border-radius: 50% 50% 0 0;
+            background: linear-gradient(to top right, rgb(252, 147, 164), rgb(248, 167, 87));
+        }
+
+        .background2 {
+            width: 270px;
+            height: 250px;
+            border-radius: 50% 50% 0 0;
+            background: linear-gradient(to top right, rgb(246, 228, 169), rgb(248, 239, 4));
+        }
+
+        .background3 {
+            width: 270px;
+            height: 360px;
+            border-top-right-radius: 50% 40%;
+            border-top-left-radius: 50% 40%;
+            background: linear-gradient(to top, rgb(67, 190, 247), rgb(154, 224, 240));
+        }
+
+        .background4 {
+            width: 270px;
+            height: 190px;
+            border-top-right-radius: 50% 60%;
+            border-top-left-radius: 50% 60%;
+            background: linear-gradient(to top right, rgb(95, 55, 39), rgb(28, 99, 42));
+        }
+
+        .background img {
+            width: 250px;
+            height: 330px;
+            margin-top: -30px;
+            margin-left: -5px;
+        }
+
+        .background2 img {
+            height: 330px;
+            margin-top: -80px;
+            margin-left: -110px;
+        }
+
+        .background3 img {
+            margin-left: -150px;
+        }
+
+        .background4 img {
+            width: 210px;
+            margin-top: -75px;
+            margin-left: 30px;
+        }
+
+        h3 {
+            margin: 10px 0;
+            text-align: center;
+            color: rgb(4, 4, 106);
+            padding: 0 40px 0 0;
+        }
+
+        .read {
+            background: linear-gradient(to right, rgb(250, 187, 92) 0% 40%, white 40% 40%);
+            box-shadow: 0 0 5px 1px rgb(154, 217, 247);
+            border-top-right-radius: 20% 50%;
+            border-top-left-radius: 20% 50%;
+            border-bottom-right-radius: 20% 50%;
+            border-bottom-left-radius: 20% 50%;
+            white-space: nowrap;
+            padding: 8px 15px;
+            color: chocolate;
+            margin-right: 85px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="flex_texts">
+            <div class="texts">
+                <h2>New collections of <s>Asce</s></h2>
+                <P>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum recusandae fugiat atque. Nemo
+                    dolorum, fuga
+                    voluptates consectetur vitae suscipit dolorem voluptas doloremque consequatur quia ab voluptatum
+                </P>
+                <a class="more">more collections
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="contain">
+            <div class="background">
+                <img src="./img/shopping_1-removebg-preview.png" alt="shopping_1-removebg" loading="lazy">
+            </div>
+            <h3>Lorem ipsum dolor sit.</h3>
+            <a class="read">read more</a>
+        </div>
+        <div class="contain contain2">
+            <div class="background2">
+                <img src="./img/shopping_4-removebg-preview.png" alt="" loading="lazy">
+            </div>
+            <h3>Lorem ipsum dolor sit.</h3>
+            <a class="read">read more</a>
+        </div>
+        <div class="contain contain3">
+            <div class="background3">
+                <img src="./img/shopping_3-removebg-preview.png" alt="shopping_3-removebg" loading="lazy">
+            </div>
+            <h3>Lorem ipsum dolor sit.</h3>
+            <a class="read">read more</a>
+        </div>
+        <div class="contain">
+            <div class="background4">
+                <img src="./img/bag_rebg.png" alt="bag_rebg" loading="lazy">
+            </div>
+            <h3>Lorem ipsum dolor sit.</h3>
+            <a class="read">read more</a>
+        </div>
+    </section>
+</body>
+
+</html>

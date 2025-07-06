@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body {
+            background: linear-gradient(160deg, blue, red);
+            margin: 0;
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+        }
+
+        form {
+            width: 30vw;
+            background-color: antiquewhite;
+            min-height: 700px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        label {
+            font-size: 1.2rem;
+        }
+
+        input {
+            display: block;
+        }
+
+        .gender {
+            display: flex;
+            gap: 10px;
+        }
+
+        .robero {
+            display: inline;
+        }
+
+        button {
+            display: block;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        fieldset {
+            background-color: aqua;
+            border-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <label for="text">Esm Bede</label>
+        <input type="text" id="text">
+
+        <label for="number">Shomare Bede</label>
+        <input type="number" id="number">
+
+        <label for="email">Email Bede</label>
+        <input type="email" id="email">
+
+        <label for="password">Pass Bede</label>
+        <input type="password" id="password">
+
+        <label for="text">Esm Bede</label>
+        <input type="text" id="text">
+
+        <label for="text">file Bede</label>
+        <input type="file" id="text" multiple accept="image/*">
+
+        <label for="date">date Bede</label>
+        <input type="date" id="date">
+
+        <label for="time">time Bede</label>
+        <input type="time" id="time">
+
+        <label for="color">Esm Bede</label>
+        <input type="color" id="color">
+
+
+
+        <div class="gender">
+            <div class="radio">
+                <label for="male">male</label>
+                <input class="robero" type="radio" id="male" value="male" name="gender">
+            </div>
+            <div class="radio">
+                <label for="female">female</label>
+                <input class="robero" type="radio" id="female" value="female" name="gender">
+            </div>
+        </div>
+
+        <label for="range">tozih Bede</label>
+        <input type="range" id="range" value="10">
+
+        <label for="text">pishrat Bede</label>
+        <progress value="28" min="0" max="100"></progress>
+
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+        <fieldset>
+            <legend>maharat bede</legend>
+            <div>
+                <label for="">html</label>
+                <input type="checkbox" id="" checked>
+            </div>
+            <div>
+                <label for="">js</label>
+                <input type="checkbox" id="">
+            </div>
+            <div>
+                <label for="">css</label>
+                <input type="checkbox" id="">
+            </div>
+        </fieldset>
+        <label for="">adress bede</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <fieldset>
+            a
+        </fieldset>
+    </form>
+</body>
+
+</html>

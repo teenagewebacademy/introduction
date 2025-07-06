@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "inter";
+    src: url("./doc/Inter-Italic-VariableFont_opsz\,wght.ttf");
+    src: url("doc/Inter-VariableFont_opsz\,wght.ttf");
+}
+*{
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./glass_login/uwp4607600.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.box{
+    width: 700px;
+    height: 400px;
+    padding: 0;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    backdrop-filter: blur(2px);
+}
+.right_side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+    width: 100%;
+}
+.right_side input{
+    padding: 8px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.right_side button{
+    padding: 8px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    width: 50%;
+    border-radius: 100px;
+    background: linear-gradient( 90deg, rgb(0, 217, 255) , rgb(255, 53, 3));
+    color: white;
+    cursor: pointer;
+}
+.left_side img{
+    width: 600px;
+    height: 400px;
+    margin-left: -220px;
+}

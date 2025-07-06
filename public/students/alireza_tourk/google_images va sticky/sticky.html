@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>sticky</title>
+    <style>
+        div{
+            background-color: beige;
+            width: 200px;
+            height: 250px;
+            overflow: scroll;
+            overflow-x: hidden;
+            border-radius: 10px;
+            margin: 100px auto;
+        }
+        div::-webkit-scrollbar{
+            background-color: grey;
+            border-radius: 20px;
+            width: 5px;
+        }
+        div::-webkit-scrollbar-thumb{
+            background-color: black;
+            border-radius: 20px;
+        }
+        ul{
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+        ul h2{
+            background-color: aqua;
+            color: orangered;
+            margin: 0;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            border-radius: 10px;
+        }
+        li{
+            list-style: none;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+   <section>
+    <div>
+        <ul> <h2>Fruits</h2>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Orange</li>
+            <li>Mango</li>
+            <li>Grapes</li>
+        </ul>
+        <ul> <h2>Vehicles</h2>
+            <li>Car</li>
+            <li>Bicycle</li>
+            <li>Motorcycle</li>
+            <li>Airplane</li>
+            <li>Train</li>
+        </ul>
+        <ul> <h2>Professions</h2>
+            <li>Doctor</li>
+            <li>Engineer</li>
+            <li>Teacher</li>
+            <li>Chef</li>
+            <li>Artist</li>
+        </ul>
+        <ul> <h2>Countries</h2>
+            <li>United States</li>
+            <li>India</li>
+            <li>Germany</li>
+            <li>Japan</li>
+            <li>Brazil</li>
+        </ul>
+        <ul> <h2>Colors</h2>
+            <li>Red</li>
+            <li>Blue</li>
+            <li>Green</li>
+            <li>Yellow</li>
+            <li>Purple</li>
+        </ul>
+        <ul> <h2>Sports</h2>
+            <li>Soccer</li>
+            <li>Basketball</li>
+            <li>Tennis</li>
+            <li>Cricket</li>
+            <li>Swimming</li>
+        </ul>
+    </div>
+   </section> 
+</body>
+</html>

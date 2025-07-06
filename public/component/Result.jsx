@@ -18,22 +18,83 @@ function Result(props) {
 
     const data = [
         {
+            term: 'Web1( دوره طراحی سایت HTML & CSS - mft) - تابستان 1404 ',
+            students: [
+                { name: 'نگار افسون', age: '15', image: '', link: '', active: false },
+            ]
+        },
+        {
+            term: 'Web1( دوره طراحی سایت HTML & CSS - mft) - زمستان 1403 ',
+            students: [
+                { name: 'کیارش زندی', age: '13', image: '/kiarash_zandi.PNG', link: '', active: false },
+                { name: 'احمدرضا غلامی', age: '27', image: '/ahmadreza_gholami.PNG', link: '', active: false },
+                { name: 'نوید صفدری', age: '23', image: '/navid_safdari.PNG', link: '', active: false },
+                { name: 'مهدیس افسون', age: '17', image: '', link: '', active: false },
+                { name: 'نگار افسون', age: '1', image: '', link: '', active: false },
+            ]
+        },
+        {
+            term: 'Web3( javascript - mft ) - زمستان 1403',
+            students: [
+                { name: 'ندا عسگری رمق', age: '40', image: '/neda_asgariRamagh.PNG', link: '', active: false },
+                { name: 'هستی روزه پور', age: '16', image: '/hasti_roozehPour.PNG', link: '', active: false },
+                { name: 'دینا مرتضوی زاده', age: '12', image: '/dina_mortezavi.PNG', link: '', active: false },
+            ]
+        },
+        {
+            term: 'Web1( دوره طراحی سایت HTML & CSS - mft) - پاییز 1403 ',
+            students: [
+                { name: 'آیسودا اسفندیاری پور', age: '19', image: '/aysouda_esfandyari.PNG', link: '', active: false },
+                { name: 'علیرضا ترک', age: '22', image: '/alireza_tourk.PNG', link: './students/alireza_tourk/final/index.html', active: true ,
+                    moreLink_state: true,
+                    more_project: [
+                        { title: 'سایت علی بابا', link: './students/alireza_tourk/alibaba va grid_shop/alibaba.html' },
+                        { title: 'تمرین گرید - براساس ui ', link: './students/alireza_tourk/alibaba va grid_shop/shopping.html' },
+                        { title: 'مبحث فرم ', link: './students/alireza_tourk/form/form.html' },
+                        { title: 'فرم1', link: './students/alireza_tourk/form/login.html' },
+                        { title: 'فرم2', link: './students/alireza_tourk/form/login2.html' },
+                        { title: 'فرم3', link: './students/alireza_tourk/form/login3.html' },
+                        { title: 'فرم4', link: './students/alireza_tourk/form/login4.html' },
+                        { title: ' فرم ثبت نام ', link: './students/alireza_tourk/form/signup.html' },
+                        { title: 'منو sticky ', link: './students/alireza_tourk/google_images va sticky/sticky.html' },
+                        { title: 'سایت گوگل ', link: './students/alireza_tourk/google_images va sticky/google_first.html' },
+                        { title: ' preloader اینستاگرام', link: './students/alireza_tourk/instagram_images/insta.html' },
+                        { title: 'سایت اسنپ ', link: './students/alireza_tourk/snapp/snapp_site.html' },
+                        { title: 'سایت ترلو ', link: './students/alireza_tourk/trello/login_trello.html' },
+                        { title: 'گالری تصاویر ', link: './students/alireza_tourk/gallery.html' },
+                        { title: ' پروژه پایانی', link: './students/alireza_tourk/final/index.html' },
+                    ]
+                },
+                { name: 'کیارش زیارتی', age: '17', image: '', link: '', active: false },
+
+            ]
+        },
+        {
+            term: 'Web2( bootstrap & responsive - mft ) - پاییز 1403',
+            students: [
+                { name: 'ندا عسگری رمق', age: '40', image: '/neda_asgariRamagh.PNG', link: '', active: false },
+                { name: 'هستی روزه پور', age: '16', image: '/hasti_roozehPour.PNG', link: '', active: false },
+                { name: 'دینا مرتضوی زاده', age: '12', image: '/dina_mortezavi.PNG', link: '', active: false },
+                { name: 'مینا احمدی', age: '22', image: '', link: '', active: false },
+            ]
+        },
+        {
             term: 'Web1( دوره طراحی سایت HTML & CSS - mft) - تابستان 1403 ',
             students: [
                 { name: 'حامد کاظمی', age: '23', image: '', link: '', active: false },
-                { name: 'هستی روزه پور', age: '16', image: '', link: '', active: false },
-                { name: 'دینا مرتضوی زاده', age: '12', image: '', link: '', active: false },
+                { name: 'هستی روزه پور', age: '16', image: '/hasti_roozehPour.PNG', link: '', active: false },
+                { name: 'دینا مرتضوی زاده', age: '12', image: '/dina_mortezavi.PNG', link: '', active: false },
                 { name: 'مهدیس افسون', age: '17', image: '', link: '', active: false },
                 { name: 'امید', age: '', image: '', link: '', active: false },
-             ]
+            ]
         },
         {
             term: 'Web1( دوره طراحی سایت HTML & CSS - mft) - بهار 1403 ',
             students: [
-                { name: 'کامیاب ابراهیم زاده', age: '21', image: '', link: '', active: false },
+                { name: 'کامیاب ابراهیم زاده', age: '21', image: '/kamtab_ebrahimZadeh.PNG', link: '', active: false },
                 { name: 'مینا احمدی', age: '22', image: '', link: '/students/mina_ahmadi/barbie/barbie_index.html', active: true },
                 {
-                    name: 'ندا عسگری رمق', age: '40', image: '', link: './students/neda_asgariRamagh/nead_cakes/page&style/my_new_project.html', active: true,
+                    name: 'ندا عسگری رمق', age: '40', image: '/neda_asgariRamagh.PNG', link: './students/neda_asgariRamagh/nead_cakes/page&style/my_new_project.html', active: true,
                     moreLink_state: true,
                     more_project: [
                         { title: 'cake ', link: './students/neda_asgariRamagh/nead_cakes/page&style/my_new_project.html' },
